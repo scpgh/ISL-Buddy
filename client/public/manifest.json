@@ -1,0 +1,16 @@
+{
+  "short_name": "Mudra Learn",
+  "name": "Mudra Learn - Indian Sign Language Learning App",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#131f24",
+  "theme_color": "#58cc02",
+  "display": "standalone",
+  "orientation": "portrait"
+}

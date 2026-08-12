@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(12px);
+  }
+  70% {
+    transform: scale(1.02) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes floatMascot {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@layer utilities {
+  .animate-pop-in {
+    animation: popIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  }
+
+  .animate-float {
+    animation: floatMascot 4s ease-in-out infinite;
+  }
+
+  .duo-btn {
+    @apply relative font-black uppercase tracking-wider transition-all duration-150 active:translate-y-[3px] active:border-b-0 cursor-pointer select-none;
+  }
+  
+  .duo-btn-green {
+    @apply bg-[#58cc02] text-white border-b-4 border-[#46a302] hover:bg-[#61df02];
+  }
+  
+  .duo-btn-yellow {
+    @apply bg-[#ffc800] text-[#4b4b4b] border-b-4 border-[#e5b200] hover:bg-[#ffd11a];
+  }
+  
+  .duo-btn-red {
+    @apply bg-[#ff4b4b] text-white border-b-4 border-[#ea2b2b] hover:bg-[#ff5959];
+  }
+  
+  .duo-btn-gray {
+    @apply bg-[#f7f7f7] dark:bg-[#18252b] text-[#4b4b4b] dark:text-white border-2 border-[#e5e5e5] dark:border-[#37464f] border-b-4 hover:bg-[#e5e5e5] dark:hover:bg-[#202f36];
+  }
+
+  .speech-bubble {
+    position: relative;
+  }
+
+  .speech-bubble::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 10px solid #e5e5e5;
+  }
+}
+
+/* Custom Sleek Dark Scrollbar matching UI background */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #37464f;
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #52656d;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #37464f transparent;
+}
+
+body {
+  touch-action: manipulation;
+}

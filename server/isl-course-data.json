@@ -1,0 +1,606 @@
+{
+    "course_metadata": {
+        "title": "Indian Sign Language (ISL) for Children & Beginners",
+        "creator": "CADRRE",
+        "description": "A comprehensive, visual learning curriculum designed to teach Indian Sign Language (ISL) fundamentals, core vocabulary, daily concepts, and sentence structures to children, parents, and educators.",
+        "total_modules": 6,
+        "total_lessons": 20,
+        "language_pair": "English - Indian Sign Language (ISL)"
+    },
+    "modules": [
+        {
+            "module_id": 1,
+            "module_name": "Foundations of ISL",
+            "module_slug": "foundations-of-isl",
+            "description": "Learn the fundamental concepts of Indian Sign Language, including hand shapes, signing space, and basic finger spelling.",
+            "lessons": [
+                {
+                    "lesson_id": "1.1",
+                    "lesson_title": "Introduction to ISL",
+                    "video_url": "https://www.youtube.com/watch?v=kIHz7002YKA",
+                    "embed_url": "https://www.youtube.com/embed/kIHz7002YKA",
+                    "summary": "Introduces Indian Sign Language (ISL) as a natural visual-spatial language with its own distinct grammar. Outlines why sign language is key to cognitive, linguistic, and emotional development, particularly for Deaf and hard-of-hearing children, as well as its benefits in autism therapy.",
+                    "theory": "Indian Sign Language (ISL) is a fully-fledged, complex natural language. It is NOT a manual code of spoken English or Hindi; it has its own unique grammar, vocabulary, and syntax. Communication happens within the 'signing space' (the three-dimensional box extending from the top of the head to the waist, and from shoulder to shoulder). Maintaining steady eye contact with the signer, rather than focusing solely on their hands, is a crucial grammatical and cultural practice in the Deaf community.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Indian Sign Language",
+                        "Signing Space",
+                        "Eye Contact",
+                        "Visual Communication"
+                    ],
+                    "practice_instructions": [
+                        "Sit in a well-lit space, facing a mirror or a camera.",
+                        "Observe the physical limits of your 'signing space' (head-to-waist, shoulder-to-shoulder).",
+                        "Practice looking at the signer's face rather than their hands to build focus and visual tracking skills."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_1_1_signing_space",
+                        "element_name": "The ISL Signing Space Diagram",
+                        "description": "A vector illustration showing a person from the waist up. A semi-transparent highlighted 3D box outlines the official 'signing space' from the top of their head to their waist, and shoulder-to-shoulder, indicating where all hand gestures should occur.",
+                        "visual_prompt": "Minimalist flat vector icon representing a person signing inside a glowing bounding box of the chest and head area, representing the 3D signing space, white background, educational."
+                    }
+                },
+                {
+                    "lesson_id": "1.2",
+                    "lesson_title": "ISL Alphabets & Finger Spelling",
+                    "video_url": "https://www.youtube.com/watch?v=Cohcxb4EYUo",
+                    "embed_url": "https://www.youtube.com/embed/Cohcxb4EYUo",
+                    "summary": "Covers the fundamental English alphabets (A-Z) in Indian Sign Language. Teaches how to spell individual words letter-by-letter to bridge gaps when specific signs are unknown.",
+                    "theory": "Unlike American Sign Language (ASL) which is primarily one-handed, Indian Sign Language (ISL) uses both hands for the majority of the alphabet. Your dominant hand is the 'active hand' (the one that moves), while your non-dominant hand is the 'base hand' (acting as the canvas). Handshapes are categorized into static letter shapes and transitional movements between letters.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Alphabet A-Z",
+                        "Finger Spelling",
+                        "Dominant Hand",
+                        "Base Hand"
+                    ],
+                    "practice_instructions": [
+                        "Identify your dominant hand (usually the hand you write with) and use it as the main mover.",
+                        "Keep your hands at mid-chest level when spelling.",
+                        "Spell your own name slowly, focusing on handshape accuracy and clarity rather than speed."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_1_2_alphabet_chart",
+                        "element_name": "ISL Finger Spelling Handshapes",
+                        "description": "A detailed layout displaying two-handed hand positions for various key letters of the English alphabet in Indian Sign Language, clearly marking the active hand and static base hand.",
+                        "visual_prompt": "Step-by-step vector hand diagrams illustrating dual-handed fingerspelling for letters A, B, and C in Indian Sign Language, clean blue outlines, white background, instructional design."
+                    }
+                },
+                {
+                    "lesson_id": "1.3",
+                    "lesson_title": "Advanced Spelling & Fluidity",
+                    "video_url": "https://www.youtube.com/watch?v=tfGJAWoTbt0",
+                    "embed_url": "https://www.youtube.com/embed/tfGJAWoTbt0",
+                    "summary": "Builds fingerspelling speed and fluidity using everyday vocabulary lists like colors, basic nouns, and modifiers.",
+                    "theory": "Fingerspelling fluidness is built through muscle memory. Professional signers do not pause abruptly between letters; instead, they transition smoothly from one handshape to the next. The wrist should remain relatively stable at chest height, avoiding excessive bounce, so the reader can track the finger shapes easily.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Fluid Transitions",
+                        "Hand Anchor",
+                        "Steady Wrist"
+                    ],
+                    "practice_instructions": [
+                        "Fingerspell simple words like 'CAT', 'DOG', and 'RED'.",
+                        "Keep your wrist steady. Do not bounce your hands up and down for each letter.",
+                        "Practice holding the final letter of a word for an extra fraction of a second to signal the end of the word."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_1_3_spelling_motion",
+                        "element_name": "Spelling Transition Mechanics",
+                        "description": "A visual diagram showing a hand in transition from the letter 'C' to 'A' to 'T'. Arrows indicate the direction of movement, showing a stable wrist and moving fingers.",
+                        "visual_prompt": "Technical diagram demonstrating fingerspelling flow, showing sequential hand shapes with subtle motion arrows indicating smooth transitions, flat minimal style, vector illustration."
+                    }
+                },
+                {
+                    "lesson_id": "1.4",
+                    "lesson_title": "Linguistic Components of ISL",
+                    "video_url": "https://www.youtube.com/watch?v=ElWbxBtNOeY",
+                    "embed_url": "https://www.youtube.com/embed/ElWbxBtNOeY",
+                    "summary": "Breaks down the five structural parameters of every sign in ISL: Handshape, Location, Movement, Orientation, and Non-Manual Signals.",
+                    "theory": "Every word in ISL is made up of five distinct building blocks. 1) Handshape (e.g., open palm, closed fist); 2) Location (where in the signing space it occurs); 3) Movement (the trajectory of the hands); 4) Palm Orientation (facing in, out, up, or down); 5) Non-Manual Signals (facial expressions, mouth morphemes, head tilts). Altering even one of these parameters changes the entire meaning of the sign.",
+                    "difficulty_level": "Intermediate",
+                    "vocabulary": [
+                        "Handshape",
+                        "Location",
+                        "Movement",
+                        "Palm Orientation",
+                        "Non-Manual Signals (NMS)"
+                    ],
+                    "practice_instructions": [
+                        "Sign a basic concept like 'please' or 'thank you'.",
+                        "Purposely change just the palm orientation (e.g., from palm-facing-in to palm-facing-out) and notice how the sign becomes incorrect or changes meaning.",
+                        "Practice combining a simple hand gesture with matching facial expressions."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_1_4_five_parameters",
+                        "element_name": "The Five Parameters of ISL",
+                        "description": "An infographic diagram highlighting the 5 key building blocks of any sign: Handshape, Location, Movement, Orientation, and Facial Expressions, illustrated with a clean outline of a signer.",
+                        "visual_prompt": "Educational bento-grid style infographic displaying five hand icons and facial gesture markers corresponding to the 5 parameters of sign language, crisp outlines, corporate clean style."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 2,
+            "module_name": "Core Vocabulary",
+            "module_slug": "core-vocabulary",
+            "description": "Expand your vocabulary with daily action verbs, key adjectives, colors, and terms describing the natural world.",
+            "lessons": [
+                {
+                    "lesson_id": "2.1",
+                    "lesson_title": "Everyday Action Words (Verbs)",
+                    "video_url": "https://www.youtube.com/watch?v=3vlrKYFC8yc",
+                    "embed_url": "https://www.youtube.com/embed/3vlrKYFC8yc",
+                    "summary": "Covers essential daily verbs such as eating, drinking, sleeping, running, building, biting, buying, holding, and playing.",
+                    "theory": "Verbs in ISL are highly iconic, mimicking the physical mechanics of the action. Furthermore, many verbs are 'directional' (agreement verbs). For example, the sign for 'give' moves outward from the chest if 'I give to you', but moves inward toward the chest if 'you give to me'.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Eat",
+                        "Drink",
+                        "Sleep",
+                        "Run",
+                        "Build",
+                        "Buy",
+                        "Hold"
+                    ],
+                    "practice_instructions": [
+                        "For the sign 'EAT', mimic bringing food to your mouth with a cupped hand shape.",
+                        "For the sign 'DRINK', use a 'C' handshape as if holding a cup and tilting it towards your mouth.",
+                        "Practice directional verbs, shifting the motion to represent who is doing the action."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_2_1_verb_eat_drink",
+                        "element_name": "Action Signs - Eat and Drink",
+                        "description": "Two panels showing step-by-step hand gestures. Left panel: Hand bringing a loose fist handshape to the mouth (EAT). Right panel: Hand in 'C' shape tilted toward lips (DRINK).",
+                        "visual_prompt": "Line-art vector diagram of two hand gestures representing the actions 'Eat' and 'Drink' in Indian Sign Language, clean blue brush strokes, white background."
+                    }
+                },
+                {
+                    "lesson_id": "2.2",
+                    "lesson_title": "Colours in ISL",
+                    "video_url": "https://www.youtube.com/watch?v=tfGJAWoTbt0",
+                    "embed_url": "https://www.youtube.com/embed/tfGJAWoTbt0",
+                    "summary": "Teaches signs for primary and secondary colors including Red, Blue, Green, Yellow, Black, White, Pink, and Orange.",
+                    "theory": "Many color signs in ISL are linked to highly recognizable physical objects or features. For instance, 'RED' points to the red of the lips; 'BLACK' touches the hair; 'WHITE' pinches or points to white teeth or a white shirt. Connecting the sign to these references accelerates vocabulary retention.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Red",
+                        "Blue",
+                        "Green",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Pink",
+                        "Orange"
+                    ],
+                    "practice_instructions": [
+                        "For 'RED', extend your index finger and gently brush it down across your bottom lip.",
+                        "For 'BLACK', raise your index finger and touch your hair.",
+                        "Practice identifying colored objects in your room and signing their colors."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_2_2_colour_signs",
+                        "element_name": "Colour Associations in ISL",
+                        "description": "An illustration showing three human profiles: one pointing to the lips (Red), one touching the hair (Black), and one pointing to the teeth (White), with color splashes surrounding them.",
+                        "visual_prompt": "Minimalist flat color vector showing a hand pointing to the lips for 'red' and touching the hair for 'black', educational color-coded sign language graphic."
+                    }
+                },
+                {
+                    "lesson_id": "2.3",
+                    "lesson_title": "Modifiers & Adjectives",
+                    "video_url": "https://www.youtube.com/watch?v=tfGJAWoTbt0",
+                    "embed_url": "https://www.youtube.com/embed/tfGJAWoTbt0",
+                    "summary": "Instructs on how to describe objects using sizes, shapes, and qualifiers. Explains how word order shifts when applying modifiers.",
+                    "theory": "In ISL, adjectives are typically signed AFTER the noun they modify. For example, to sign 'big dog', you sign 'DOG' first, followed by 'BIG'. To represent size and shape, signers use physical classifiers (drawing the shape in the air) paired with facial markers (e.g., puffing cheeks to indicate 'huge', or squinting/pursing lips for 'tiny').",
+                    "difficulty_level": "Intermediate",
+                    "vocabulary": [
+                        "Big",
+                        "Small",
+                        "Tall",
+                        "Short",
+                        "Adjective Word Order"
+                    ],
+                    "practice_instructions": [
+                        "Practice signing 'BALL' (outline a circle), then sign 'BIG' (extend hands wide out to the sides).",
+                        "Puff your cheeks out and open your eyes wide when signing 'BIG' to amplify the meaning.",
+                        "Puck your lips and squint when signing 'SMALL' to convey miniature scale."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_2_3_modifiers_scale",
+                        "element_name": "Size & Scale Modifiers with Facial Expressions",
+                        "description": "Two facial profiles side-by-side. Left: Signer with puffed cheeks and wide-spaced hands (BIG). Right: Signer with squinted eyes and pinched fingers (SMALL).",
+                        "visual_prompt": "Technical sketch highlighting matching facial expressions and hand distances for scale modifiers 'Big' vs 'Small', clean educational style, blue outlines."
+                    }
+                },
+                {
+                    "lesson_id": "2.4",
+                    "lesson_title": "Words From Nature",
+                    "video_url": "https://www.youtube.com/watch?v=PXLtNInGgiA",
+                    "embed_url": "https://www.youtube.com/embed/PXLtNInGgiA",
+                    "summary": "Teaches vocabulary describing natural elements and scenery including sun, moon, tree, flower, rain, sky, and water bodies.",
+                    "theory": "Nature vocabulary frequently employs flowing, organic hand movements. For example, 'RAIN' involves fluttering your fingers downward like water droplets; 'FLOWER' begins with fingers pinched in a bud shape at the nose and blooming outward; 'TREE' places one elbow on top of the other hand, wiggling the upright hand's fingers like leaves.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Sun",
+                        "Moon",
+                        "Tree",
+                        "Flower",
+                        "Rain",
+                        "Sky",
+                        "Water"
+                    ],
+                    "practice_instructions": [
+                        "For 'TREE', rest your left hand flat (ground) and stand your right elbow on it, splaying your right fingers and wiggling them.",
+                        "For 'RAIN', raise both hands above your head, wiggle all fingers, and lower your hands slowly.",
+                        "Practice transitioning between nature signs smoothly to describe a landscape (e.g. 'SUN', 'TREE')."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_2_4_nature_tree",
+                        "element_name": "Signing 'Tree' and 'Rain'",
+                        "description": "Visual diagram illustrating the complex sign for 'Tree' (upright forearm resting on horizontal hand, fingers wiggling) and 'Rain' (hands high, fingers fluttering down).",
+                        "visual_prompt": "Step-by-step vector illustration showing how to sign 'Tree' and 'Rain' in ISL, soft organic green and blue color highlights, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 3,
+            "module_name": "Numbers & Daily Concepts",
+            "module_slug": "numbers-and-daily-concepts",
+            "description": "Learn counting rules, daily schedules, calendar concepts, and modes of transport.",
+            "lessons": [
+                {
+                    "lesson_id": "3.1",
+                    "lesson_title": "Numbers & Counting",
+                    "video_url": "https://www.youtube.com/watch?v=94NXAdqX35M",
+                    "embed_url": "https://www.youtube.com/embed/94NXAdqX35M",
+                    "summary": "Teaches numbers 1 to 100 in ISL. Highlights distinct hand orientations used when counting objects versus spelling codes or phone numbers.",
+                    "theory": "When counting physical quantities (1 to 5), your palm should face INWARD toward your chest. However, if you are signing digital numbers, PINs, house addresses, or phone numbers, the palm faces OUTWARD. Double-digit numbers (like 11, 22, 33) use a double-tap motion or specialized slide movements.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Numbers 1-100",
+                        "Palm Inward Counting",
+                        "Palm Outward Codes"
+                    ],
+                    "practice_instructions": [
+                        "Count 1 to 5 with palm facing your chest. Observe the fingers rising starting from the index finger.",
+                        "Now, sign the number '5' as part of an address with your palm facing away from you.",
+                        "Practice signing double-digit multiples of ten (10, 20, 30, 40) using the quick twisting/flicking motions."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_3_1_numbers_1_5",
+                        "element_name": "Counting (Palm-Inward) vs Codes (Palm-Outward)",
+                        "description": "Two hand models. Left showing the hand for counting '3' (palm facing inward). Right showing the hand for dialing/code '3' (palm facing outward).",
+                        "visual_prompt": "Instructional hand graphic showing the contrast between Palm-Inward and Palm-Outward orientations for numbers in sign language, clean technical flat style."
+                    }
+                },
+                {
+                    "lesson_id": "3.2",
+                    "lesson_title": "Vehicles & Transport",
+                    "video_url": "https://www.youtube.com/watch?v=H7rFY_CKuMo",
+                    "embed_url": "https://www.youtube.com/embed/H7rFY_CKuMo",
+                    "summary": "Covers primary modes of transport like car, motorcycle, bus, train, and bicycle in Indian Sign Language.",
+                    "theory": "Transport signs are iconic and focus on steering actions or wheels. For example, 'BICYCLE' involves rotating your fists in vertical circles (pedaling hands); 'MOTORCYCLE' mimics twisting a handlebar throttle; 'TRAIN' shows two indexes rolling past each other like steam engine wheels.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Car",
+                        "Motorcycle",
+                        "Bus",
+                        "Train",
+                        "Bicycle"
+                    ],
+                    "practice_instructions": [
+                        "For 'CAR', hold both hands as if grasping a steering wheel and rotate left and right.",
+                        "For 'BICYCLE', hold loose fists close to your chest and pedal them forward in circular motions.",
+                        "Practice telling someone how you travel (e.g. 'SCHOOL I GO TRAIN')."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_3_2_transit_steering",
+                        "element_name": "Steering and Pedaling Gestures",
+                        "description": "Panel illustrating 'Car' (holding a wheel) and 'Bicycle' (fists rotating forward in a circular motion) with motion arrows showing pedaling dynamics.",
+                        "visual_prompt": "Minimalist vector illustration of hands miming a steering wheel and bicycle pedals with sleek arrow indicators, educational design."
+                    }
+                },
+                {
+                    "lesson_id": "3.3",
+                    "lesson_title": "Days & Months",
+                    "video_url": "https://www.youtube.com/watch?v=4-s9dSmE-BQ",
+                    "embed_url": "https://www.youtube.com/embed/4-s9dSmE-BQ",
+                    "summary": "Covers vocabulary for the seven days of the week and twelve calendar months.",
+                    "theory": "ISL uses chronological mapping on an invisible timeline. Generally, signs for the 'future' move forward from the side of the head; signs for the 'past' move backward over the shoulder; and signs for 'present' (now, today) remain close to the chest/neutral space. Days of the week often use letters combined with a circular motion.",
+                    "difficulty_level": "Intermediate",
+                    "vocabulary": [
+                        "Monday-Sunday",
+                        "January-December",
+                        "Time Mapping",
+                        "Temporal Timeline"
+                    ],
+                    "practice_instructions": [
+                        "To sign 'YESTERDAY', move your hand backward over your dominant shoulder.",
+                        "To sign 'TOMORROW', move your hand forward in an arc from the side of your head.",
+                        "Practice signing the sequence: 'TODAY MONDAY, TOMORROW TUESDAY'."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_3_3_temporal_timeline",
+                        "element_name": "The ISL Temporal Timeline Diagram",
+                        "description": "An infographic profile view of a signer. A three-part arrow timeline runs past their ear: pointing backward for 'Past', centering at the torso for 'Present', and extending forward for 'Future'.",
+                        "visual_prompt": "Educational profile graphic showing temporal timeline arrows passing from behind a person to the front, representing past, present, and future in sign language, minimal flat style."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 4,
+            "module_name": "Social Communication",
+            "module_slug": "social-communication",
+            "description": "Learn to talk about your family, point to pronouns, express feelings, and ask questions.",
+            "lessons": [
+                {
+                    "lesson_id": "4.1",
+                    "lesson_title": "Family & Kinship",
+                    "video_url": "https://www.youtube.com/watch?v=lTMPXXh-4yo",
+                    "embed_url": "https://www.youtube.com/embed/lTMPXXh-4yo",
+                    "summary": "Introduces family relations such as Mother, Father, Brother, Sister, Grandmother, Grandfather, and Uncle.",
+                    "theory": "Kinship signs are often compound signs or use gender-coded quadrants in the signing space. For instance, 'GRANDFATHER' is signed by combining 'MAN' (stroking an imaginary mustache) + 'OLD' (bent posture or curved hand). 'MOTHER' and 'FATHER' are often signed with specific single/double letter indicators combined with a familial tap on the shoulder.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Mother",
+                        "Father",
+                        "Brother",
+                        "Sister",
+                        "Grandfather",
+                        "Grandmother"
+                    ],
+                    "practice_instructions": [
+                        "For 'FATHER', stroke your thumb and index across your upper lip (mimicking a mustache) and then make a tap.",
+                        "For 'GRANDFATHER', do the 'MUSTACHE' sign first, followed by bringing a clawed hand down slowly to show old age.",
+                        "Sign your own family structure (e.g. 'I HAVE BROTHER TWO')."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_4_1_kinship_mustache",
+                        "element_name": "Mustache Sign for Masculine Kinship",
+                        "description": "Visual instruction of the mustache-stroking hand shape which serves as the foundational gender signifier for male family members in ISL.",
+                        "visual_prompt": "Clean line-art diagram showing hand gently stroking an imaginary mustache line to indicate male gender marker in sign language, educational layout."
+                    }
+                },
+                {
+                    "lesson_id": "4.2",
+                    "lesson_title": "Pronouns & Question Words",
+                    "video_url": "https://www.youtube.com/watch?v=YRJK2d7BfNY",
+                    "embed_url": "https://www.youtube.com/embed/YRJK2d7BfNY",
+                    "summary": "Teaches personal pronouns (I, You, He, She, They, We) and WH-question words (Who, What, Why, When, Where, Which, Whose).",
+                    "theory": "Pronouns in ISL rely heavily on 'Indexing' (pointing to positions in space). If the person is present, you point directly at them. If they are absent, you establish their position in your signing space by pointing to a specific empty spot, and then reference that spot whenever you talk about them. For questions, the question word ALWAYS goes at the end of the sentence (e.g. 'YOUR BOOK WHERE?'), accompanied by furrowed eyebrows.",
+                    "difficulty_level": "Intermediate",
+                    "vocabulary": [
+                        "Indexing",
+                        "Spatial Reference",
+                        "Wh-Questions",
+                        "Syntax Word Order"
+                    ],
+                    "practice_instructions": [
+                        "Sign 'YOU' by pointing your index finger directly forward at chest level.",
+                        "Sign 'HE/SHE' by pointing off-center to the left or right.",
+                        "Practice a question: 'YOUR FATHER WHERE?' and remember to furrow your eyebrows at the very end when signing 'WHERE'."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_4_2_indexing_wh",
+                        "element_name": "Indexing and Furrowed Brows for Questions",
+                        "description": "Illustration of a signer pointing forward (Indexing) paired with a detail shot of furrowed eyebrows, explaining the mandatory grammatical face marker for questions.",
+                        "visual_prompt": "Vector diagram of face with highlighted furrowed eyebrows for questioning and index hand pointing forward, clean instructional design, white background."
+                    }
+                },
+                {
+                    "lesson_id": "4.3",
+                    "lesson_title": "Expressing Emotions",
+                    "video_url": "https://www.youtube.com/watch?v=Vd3gD35sTCQ",
+                    "embed_url": "https://www.youtube.com/embed/Vd3gD35sTCQ",
+                    "summary": "Teaches signs for core emotions including Happy, Sad, Angry, Scared, Excited, and Surprised.",
+                    "theory": "Facial expressions are not optional additions to show personality; they are core linguistic structures in ISL grammar. To sign 'HAPPY' with a flat, emotionless face is grammatically incorrect. Your facial expression must match and support the emotional intensity of the hand gesture.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Happy",
+                        "Sad",
+                        "Angry",
+                        "Scared",
+                        "Excited",
+                        "Grammatical Expressions"
+                    ],
+                    "practice_instructions": [
+                        "For 'HAPPY', brush your palms upward on your chest in quick, circular motions while smiling widely.",
+                        "For 'SAD', slowly bring a flat hand down over your face while casting your eyes downward and relaxing your mouth into a frown.",
+                        "Practice looking in the mirror and changing your expression instantly as you sign different feelings."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_4_3_emotion_faces",
+                        "element_name": "Matching Facial Expressions for Emotions",
+                        "description": "Four cartoon avatars showing distinct facial expressions for Happy (broad smile), Sad (downcast eyes, frown), Angry (furrowed brow, tense lips), and Surprised (wide eyes, open mouth).",
+                        "visual_prompt": "Set of 4 flat character avatars displaying highly expressive facial emotions for happy, sad, angry, and surprised in sign language instruction, minimal bright colors."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 5,
+            "module_name": "Daily Life & Surroundings",
+            "module_slug": "daily-life-and-surroundings",
+            "description": "Name objects in your house, list personal belongings, identify school items, and talk about public spaces.",
+            "lessons": [
+                {
+                    "lesson_id": "5.1",
+                    "lesson_title": "Objects in the House",
+                    "video_url": "https://www.youtube.com/watch?v=L0P4msuE3_Y",
+                    "embed_url": "https://www.youtube.com/embed/L0P4msuE3_Y",
+                    "summary": "Teaches words for objects inside a home (chair, table, fan, light, bed) and structural terms (gate, door, window, wall, ceiling, floor).",
+                    "theory": "Signs for household items are highly spatial and action-based. For example, 'WINDOW' mimics the hands acting as shutter panels opening and closing; 'FAN' is signed with index fingers spinning in a horizontal circle; 'WALL' is signed by placing palms flat and moving them outward to define boundaries.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Chair",
+                        "Table",
+                        "Fan",
+                        "Door",
+                        "Window",
+                        "Wall",
+                        "Ceiling"
+                    ],
+                    "practice_instructions": [
+                        "For 'WINDOW', place your hands flat facing inward and separate them outward to mimic opening shutters.",
+                        "For 'TABLE', hold both hands flat in front of you at waist level and move them outward and down to form the table surface and legs.",
+                        "Practice 'room labeling': walk around your room and sign the items you see."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_5_1_house_window",
+                        "element_name": "Signing 'Window' and 'Wall'",
+                        "description": "Two hand diagrams. Left: Flat hands opening outward (WINDOW). Right: Flat hands moving laterally from the center to describe a flat boundary (WALL).",
+                        "visual_prompt": "Line drawings of hands mimicking window panels opening and wall outlines, blue lines, clean educational design."
+                    }
+                },
+                {
+                    "lesson_id": "5.2",
+                    "lesson_title": "Common Personal Items",
+                    "video_url": "https://www.youtube.com/watch?v=W_83z0B2FIA",
+                    "embed_url": "https://www.youtube.com/embed/W_83z0B2FIA",
+                    "summary": "Covers personal belongings such as keys, umbrella, wallet, bag, money, comb, glasses, watch, and phone.",
+                    "theory": "Personal item signs are functional and replicate how humans interact with those objects. For instance, 'UMBRELLA' mimics holding a handle and sliding the shaft upward to open it; 'COMB' moves curved fingers through the hair; 'WATCH' points to your wrist.",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Key",
+                        "Umbrella",
+                        "Wallet",
+                        "Money",
+                        "Glasses",
+                        "Watch",
+                        "Phone"
+                    ],
+                    "practice_instructions": [
+                        "For 'UMBRELLA', hold a fist close to your chest and push your other fist straight up above it.",
+                        "For 'WATCH', tap the wrist of your non-dominant hand with your dominant index finger.",
+                        "Practice asking a question about a personal item: 'MY KEY WHERE?'"
+                    ],
+                    "image_spec": {
+                        "image_id": "img_5_2_personal_umbrella",
+                        "element_name": "Signing 'Umbrella' and 'Watch'",
+                        "description": "Visual panels. Panel 1: Vertical sliding fist motion illustrating the opening of an umbrella. Panel 2: Index finger pointing directly to the wrist watch placement.",
+                        "visual_prompt": "Step-by-step vector art demonstrating hand gestures for 'Umbrella' and 'Watch' in ISL, clean instructional style, flat white background."
+                    }
+                },
+                {
+                    "lesson_id": "5.3",
+                    "lesson_title": "Food, Ingredients & School",
+                    "video_url": "https://www.youtube.com/watch?v=pw-g-ctpuAw",
+                    "embed_url": "https://www.youtube.com/embed/pw-g-ctpuAw",
+                    "summary": "Teaches signs for common foods, vegetables, fruits, and school supplies like books, pencils, blackboards, and computers.",
+                    "theory": "Food and school vocabulary are categorized by active utilization. School signs mimic learning actions (e.g. 'BOOK' mimics clapping hands together palm-up and opening them; 'COMPUTER' mimics typing on a keyboard). Food signs represent eating habits (e.g., peeling a banana).",
+                    "difficulty_level": "Beginner",
+                    "vocabulary": [
+                        "Fruit",
+                        "Vegetables",
+                        "Book",
+                        "Pencil",
+                        "Blackboard",
+                        "Computer"
+                    ],
+                    "practice_instructions": [
+                        "For 'BOOK', bring both palms together, then peel them open from the top like a book.",
+                        "For 'COMPUTER', hold both hands out and wiggle your fingers as if typing on a keyboard.",
+                        "Form a basic phrase: 'I LIKE READ BOOK'."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_5_3_school_book",
+                        "element_name": "Signing 'Book' and 'Computer'",
+                        "description": "Step-by-step diagrams. Panel 1: Palms pressed flat together and opening upward like a book hinge. Panel 2: Hands spread, typing in mid-air.",
+                        "visual_prompt": "Flat vector illustration of hand positions for 'Book' and 'Computer' in Indian Sign Language, educational diagrams, clean layout."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 6,
+            "module_name": "Advanced Topics",
+            "module_slug": "advanced-topics",
+            "description": "Combine vocabulary into complete sentences and master specialized categories like geographical and technical signs.",
+            "lessons": [
+                {
+                    "lesson_id": "6.1",
+                    "lesson_title": "Simple Sentence Structures",
+                    "video_url": "https://www.youtube.com/watch?v=u_myYqBQ_E0",
+                    "embed_url": "https://www.youtube.com/embed/u_myYqBQ_E0",
+                    "summary": "Instructs on building complete sentences. Explains grammar rules such as Subject-Object-Verb (SOV) order and placing time markers first.",
+                    "theory": "ISL does not follow English Subject-Verb-Object (SVO) order. Instead, it uses Subject-Object-Verb (SOV) or Topic-Comment sentence structures. For example, 'I am reading a book' is signed as 'BOOK I READ'. Furthermore, any temporal or time-related signs (e.g., 'yesterday', 'tomorrow', 'morning') must ALWAYS be placed at the very beginning of the sentence to set the timeframe context.",
+                    "difficulty_level": "Advanced",
+                    "vocabulary": [
+                        "Sentence Syntax",
+                        "SOV Word Order",
+                        "Topic-Comment Structure",
+                        "Time Marker Placement"
+                    ],
+                    "practice_instructions": [
+                        "Instead of 'I go to school tomorrow', practice signing: 'TOMORROW SCHOOL I GO'.",
+                        "Ensure your verbs go at the end of your sentences.",
+                        "Maintain smooth, rhythmic transitions between signs to make the sentence feel natural."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_6_1_sentence_flow",
+                        "element_name": "ISL SOV Sentence Flow Diagram",
+                        "description": "A visual flow chart mapping out the sentence 'Tomorrow I will buy a car' in ISL: [TOMORROW] -> [CAR] -> [I] -> [BUY], indicating grammatical structure.",
+                        "visual_prompt": "Clean flow chart graphic showing words sequenced as [TIME] -> [OBJECT] -> [SUBJECT] -> [VERB] for sign language sentence syntax, vector infographic."
+                    }
+                },
+                {
+                    "lesson_id": "6.2",
+                    "lesson_title": "Geographical Signs",
+                    "video_url": "https://www.youtube.com/watch?v=bH9k8CHeftk",
+                    "embed_url": "https://www.youtube.com/embed/bH9k8CHeftk",
+                    "summary": "Teaches signs for major countries, Indian states, and primary Indian cities like Delhi, Mumbai, Kolkata, and Chennai.",
+                    "theory": "Geographical signs capture prominent cultural, physical, or historical characteristics. For instance, the sign for 'INDIA' points to the center of the forehead (referencing the traditional bindi); 'USA' involves linking fingers and moving them across like the stripes on the flag; 'MUMBAI' has a specific rhythmic pulse.",
+                    "difficulty_level": "Advanced",
+                    "vocabulary": [
+                        "India",
+                        "USA",
+                        "Delhi",
+                        "Mumbai",
+                        "Kolkata",
+                        "Chennai"
+                    ],
+                    "practice_instructions": [
+                        "For 'INDIA', point your dominant index finger to the center of your forehead, between your eyebrows.",
+                        "For 'USA', interlace your fingers in front of you and move them sideways in a gentle waving motion.",
+                        "Practice signing: 'I LIVE IN DELHI'."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_6_2_geography_india",
+                        "element_name": "Signing 'India' (Forehead Point)",
+                        "description": "A head diagram of a signer indicating the exact height and placement of pointing to the forehead to sign 'India' in ISL.",
+                        "visual_prompt": "Vector line art of face profile showing finger pointing to forehead for the sign 'India' in ISL, gold color highlights, educational style."
+                    }
+                },
+                {
+                    "lesson_id": "6.3",
+                    "lesson_title": "Specialized Subjects & Banking",
+                    "video_url": "https://www.youtube.com/watch?v=NmzSTHv9qc8",
+                    "embed_url": "https://www.youtube.com/embed/NmzSTHv9qc8",
+                    "summary": "Covers technical terminology for academic subjects (Mathematics, Science) and banking concepts (money, bank, card, account).",
+                    "theory": "Specialized or technical terms in ISL use highly descriptive compound signs. For instance, 'MATHEMATICS' combines counting motions with hand configurations for equations. 'BANK' is signed by combining 'MONEY' (rubbing thumb over fingers) with 'HOUSE' (shaping a roof over head).",
+                    "difficulty_level": "Advanced",
+                    "vocabulary": [
+                        "Mathematics",
+                        "Science",
+                        "Bank",
+                        "Money Card",
+                        "Technical Compounds"
+                    ],
+                    "practice_instructions": [
+                        "For 'BANK', first perform the sign for 'MONEY' (rubbing thumb against fingers), then immediately form a roof shape ('HOUSE') with both hands.",
+                        "Be extremely precise with advanced technical handshapes to avoid confusion with basic vocabulary.",
+                        "Practice signing: 'MY MONEY BANK IN'."
+                    ],
+                    "image_spec": {
+                        "image_id": "img_6_3_bank_compound",
+                        "element_name": "Compound Sign for 'Bank' (Money + House)",
+                        "description": "Step 1: Hand rubbing thumb and fingers (MONEY). Step 2: Hands joined at the fingertips forming an angled roof shape (HOUSE). Together, these form 'Bank'.",
+                        "visual_prompt": "Two-part step illustration showing 'Money' gesture transitioning into 'House' gesture to form the compound sign for 'Bank', flat clean corporate style."
+                    }
+                }
+            ]
+        }
+    ]
+}

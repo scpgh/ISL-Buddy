@@ -1,0 +1,11 @@
+{
+  "name": "mudra-learn-server",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node API Server for Mudra Learn",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js"
+  }
+}
