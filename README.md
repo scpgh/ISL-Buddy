@@ -68,6 +68,5 @@ Open `http://localhost:3000` in your browser to start learning!
 
 For full deployment instructions to **Render.com** (Backend) and **Vercel.com** (Frontend), refer to [deployment_guide.md](./deployment_guide.md).
 
----
 
 
