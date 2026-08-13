@@ -10,7 +10,7 @@
 
 ## ✨ Features & Key Highlights
 
-- 📹 **41 Interactive Video Modules**: Step-by-step HD video lessons starting from Course Overview through ISLRTC Modules 1.1 to 4.10.
+- 📹 **Interactive Video Modules**: Step-by-step HD video lessons starting from Course Overview through complete ISLRTC Modules.
 - 🤖 **ISL Buddy AI Assistant**: Groq LLM-powered AI instructor answering queries on handshapes, 3D chest space signing, SOV grammar rules, and deaf culture.
 - 🔥 **LeetCode-Style Streak Counter**: Live animated fire badge tracking consecutive learning days.
 - 🏆 **100% Real Learner Leaderboard**: Live ranking system reflecting real registered users, XP earned, and level achievements.

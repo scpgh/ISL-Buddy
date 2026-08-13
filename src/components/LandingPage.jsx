@@ -56,7 +56,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
               <span>Contact</span>
             </button>
 
-            {/* Sign In Button (Hidden on Mobile view as requested) */}
+            {/* Sign In Button (Hidden on Mobile view) */}
             <button
               onClick={onOpenAuth}
               className={`hidden sm:inline-block px-4 py-2 rounded-2xl text-xs font-black border-2 transition-all cursor-pointer uppercase tracking-wider ${
@@ -95,7 +95,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
           <p className={`text-sm sm:text-xl font-bold max-w-2xl mx-auto leading-relaxed pt-1 ${
             isDark ? 'text-[#afafaf]' : 'text-[#777777]'
           }`}>
-            Learn 40 interactive ISLRTC video modules, chat with your AI Tutor, track LeetCode-style daily streaks, and compete on the national leaderboard!
+            Learn interactive ISLRTC video modules, chat with your AI Tutor, track LeetCode-style daily streaks, and compete on the national leaderboard!
           </p>
         </div>
 
@@ -127,7 +127,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
           <div className={`border-2 rounded-[22px] sm:rounded-[24px] p-4 sm:p-5 text-center shadow-sm ${
             isDark ? 'bg-[#18252b] border-[#37464f]' : 'bg-white border-[#e5e5e5]'
           }`}>
-            <div className="text-2xl sm:text-3xl font-black text-[#58cc02] mb-0.5">40</div>
+            <div className="text-2xl sm:text-3xl font-black text-[#58cc02] mb-0.5">ISL</div>
             <div className={`text-[11px] sm:text-xs font-black uppercase tracking-wider ${isDark ? 'text-[#afafaf]' : 'text-[#777777]'}`}>
               ISLRTC Lessons
             </div>
@@ -183,7 +183,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
               <div className="w-12 h-12 rounded-2xl bg-[#58cc02]/20 border border-[#58cc02]/40 flex items-center justify-center text-[#58cc02]">
                 <Map className="w-6 h-6 stroke-[2.5]" />
               </div>
-              <h3 className={`font-black text-lg sm:text-xl ${isDark ? 'text-white' : 'text-[#4b4b4b]'}`}>40-Module Interactive Path</h3>
+              <h3 className={`font-black text-lg sm:text-xl ${isDark ? 'text-white' : 'text-[#4b4b4b]'}`}>Interactive Learning Path</h3>
               <p className={`text-xs font-bold leading-relaxed ${isDark ? 'text-[#afafaf]' : 'text-[#777777]'}`}>
                 Step-by-step HD video lessons, linguistic theory cards, 3D chest space drills, and instructor tips.
               </p>
@@ -264,7 +264,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
           <div className="space-y-2">
             <h4 className={`font-black text-sm uppercase tracking-wider mb-2 ${isDark ? 'text-white' : 'text-[#4b4b4b]'}`}>Platform Features</h4>
             <ul className={`space-y-1.5 text-xs font-bold ${isDark ? 'text-[#afafaf]' : 'text-[#777777]'}`}>
-              <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• 40 ISLRTC HD Lessons</button></li>
+              <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• ISLRTC HD Lessons</button></li>
               <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• ISL Buddy AI Assistant</button></li>
               <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• National XP Leaderboard</button></li>
               <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• SOS Emergency Display</button></li>

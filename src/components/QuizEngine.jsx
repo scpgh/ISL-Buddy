@@ -87,12 +87,12 @@ export default function QuizEngine({ phrase, userProgress, onUpdateProgress, onC
         {/* Progress Bar */}
         <div className="flex-1 max-w-lg mx-auto flex items-center gap-3">
           <span className="text-xs font-black text-[#58cc02] shrink-0">
-            {isHindi ? `पाठ ${lessonNumber} / 40` : `Lesson ${lessonNumber} / 40`}
+            {isHindi ? `पाठ ${lessonNumber}` : `Lesson ${lessonNumber}`}
           </span>
           <div className="w-full bg-[#37464f] rounded-full h-3 p-0.5">
             <div
               className="bg-[#58cc02] h-full rounded-full transition-all duration-500"
-              style={{ width: `${Math.min(100, (lessonNumber / 40) * 100)}%` }}
+              style={{ width: `${Math.min(100, (lessonNumber / 41) * 100)}%` }}
             ></div>
           </div>
         </div>
