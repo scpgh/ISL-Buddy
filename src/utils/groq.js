@@ -1,10 +1,15 @@
-const GROQ_API_KEY = typeof import.meta !== 'undefined' && import.meta.env ? (import.meta.env.VITE_GROQ_API_KEY || '') : '';
+const getGroqKey = () => {
+  if (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_GROQ_API_KEY) {
+    return import.meta.env.VITE_GROQ_API_KEY;
+  }
+  return '';
+};
 
 const SYSTEM_PROMPT_ENG = `
 You are ISL Buddy, an intelligent, helpful, and friendly AI chatbot assistant, specialized in Indian Sign Language (ISL) and Deaf Culture.
 
 YOUR PERSONALITY & RULES:
-1. Act like a natural, conversation-focused AI assistant. You can answer ANY question the user asks—whether it's about ISL signs, fingerspelling, grammar, sentence structures, deaf culture, or general questions!
+1. Act like a natural, conversation-focused AI assistant. You can answer ANY question the user asks—whether it's about ISL signs, fingerspelling, grammar, sentence structures, deaf culture, or general topics!
 2. When asked how to sign something, explain the handshape, 3D signing space, facial expression, and ISL Subject-Object-Verb (SOV) structure in a clear, friendly, conversational tone.
 3. Be helpful, concise, engaging, and use natural formatting with bullet points and emojis.
 `;
@@ -20,9 +25,11 @@ const SYSTEM_PROMPT_HIN = `
 
 export async function sendChatMessage(userPrompt, isHindi = false, conversationHistory = []) {
   const cleanPrompt = userPrompt ? userPrompt.trim() : '';
+  if (!cleanPrompt) return '';
 
   const systemPrompt = isHindi ? SYSTEM_PROMPT_HIN : SYSTEM_PROMPT_ENG;
-  const models = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'mixtral-8x7b-32768'];
+  const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'mixtral-8x7b-32768'];
+  const apiKey = getGroqKey();
 
   const apiMessages = [
     { role: 'system', content: systemPrompt },
@@ -33,20 +40,21 @@ export async function sendChatMessage(userPrompt, isHindi = false, conversationH
     { role: 'user', content: cleanPrompt }
   ];
 
-  if (GROQ_API_KEY) {
+  // Try direct Groq Cloud AI API if environment key is provided
+  if (apiKey) {
     for (const model of models) {
       try {
         const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${GROQ_API_KEY}`
+            'Authorization': `Bearer ${apiKey}`
           },
           body: JSON.stringify({
             model: model,
             messages: apiMessages,
             temperature: 0.7,
-            max_tokens: 600
+            max_tokens: 800
           })
         });
 
@@ -63,20 +71,25 @@ export async function sendChatMessage(userPrompt, isHindi = false, conversationH
     }
   }
 
-  try {
-    const res = await fetch('/api/ai/chat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt: cleanPrompt, isHindi })
-    });
-    if (res.ok) {
-      const data = await res.json();
-      if (data.reply) return data.reply;
+  // Fallback: Try secure backend AI endpoint (where GROQ_API_KEY is stored safely in server/.env)
+  const backendEndpoints = ['/api/ai/chat', 'http://localhost:5000/api/ai/chat'];
+  for (const endpoint of backendEndpoints) {
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt: cleanPrompt, isHindi })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.reply) return data.reply;
+      }
+    } catch (e) {
+      // continue to next endpoint
     }
-  } catch (e) {
-    // fallback
   }
 
+  // Fallback response if offline
   if (isHindi) {
     return `नमस्ते! 🤟 **ISL Buddy** यहाँ आपकी सहायता के लिए है!\n\n**"${cleanPrompt}"** का उत्तर:\n• **संकेत विधि**: मुख्य हाथ को छाती के सामने 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: निरंतर आंख से संपर्क बनाए रखें।\n\nआप मुझसे ISL या किसी भी अन्य विषय पर कोई भी प्रश्न पूछ सकते हैं! 😊`;
   }

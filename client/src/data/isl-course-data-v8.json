@@ -1,0 +1,224 @@
+{
+    "course_metadata": {
+        "title": "ISLRTC Basic Indian Sign Language Online Course",
+        "authority": "Indian Sign Language Research and Training Centre (ISLRTC), DEPwD, MSJE, Government of India",
+        "collaborators": "NCERT & CIET, Government of India",
+        "total_playlist_videos": 40,
+        "total_modules": 10,
+        "topics_covered": 30,
+        "gamification_style": "Duolingo Interactive Web App Database",
+        "playlist_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6",
+        "learning_hours": "40 Hours Self-Learning Curriculum"
+    },
+    "modules": [
+        {
+            "module_id": 1,
+            "module_name": "Module 1: Initiating Conversation in ISL",
+            "short_name": "initiating-conversation",
+            "description": "Learn basic manners, polite greetings, and salutations to initiate respectful communication in Indian Sign Language.",
+            "lessons": [
+                {
+                    "video_number": 1,
+                    "module_id": 1,
+                    "topic_code": "1.1",
+                    "lesson_title": "Lesson 1.1: Manners and Etiquette",
+                    "category": "Module 1: Initiating Conversation in ISL",
+                    "video_url": "https://www.youtube.com/watch?v=gXFdLnaDJ-I&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=1",
+                    "embed_url": "https://www.youtube.com/embed/gXFdLnaDJ-I?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=0",
+                    "theory": "Manners in ISL rely on pleasant, clear non-manual facial markers. Respectful terms like 'Please' and 'Thank You' are signed with gentle palm movements centered near the chest box. Establishing friendly eye contact is the absolute foundation of Deaf communication etiquette.",
+                    "practical_instructions": [
+                        "Step 1: Face your camera or mirror with a calm, smiling expression.",
+                        "Step 2: Sign 'Please' by placing your dominant palm on your chest and moving it in a polite circular direction.",
+                        "Step 3: Practice 'Excuse me' by gently brushing your active hand over your base hand to show respectful intent."
+                    ],
+                    "vocabulary": [
+                        "Please",
+                        "Thank you",
+                        "Excuse me",
+                        "Sorry",
+                        "Welcome"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the primary role of facial expressions when signing 'Thank You' or 'Please' in ISL?",
+                        "options": [
+                            "They are optional decorative gestures",
+                            "They convey sincerity and are grammatically essential in visual communication",
+                            "They must always remain completely deadpan and static",
+                            "They replace the hand movements entirely"
+                        ],
+                        "correct_answer": "They convey sincerity and are grammatically essential in visual communication",
+                        "pairs": {
+                            "Please": "Palm circle on chest",
+                            "Sorry": "Fist rubbing chest"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Please help me'.",
+                            "correct_sequence": [
+                                "PLEASE",
+                                "HELP",
+                                "ME"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m1_t1",
+                        "description": "Vector visual illustration card for Manners and Etiquette.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Manners and Etiquette in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 2,
+                    "module_id": 1,
+                    "topic_code": "1.2",
+                    "lesson_title": "Lesson 1.2: Greeting and Salutations in ISL",
+                    "category": "Module 1: Initiating Conversation in ISL",
+                    "video_url": "https://www.youtube.com/watch?v=xCcFkWDgkkQ&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=2",
+                    "embed_url": "https://www.youtube.com/embed/xCcFkWDgkkQ?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=1",
+                    "theory": "Greetings change depending on the time of day. 'Good Morning' is a compound sign combining the sign for 'Good' (thumbs-up near chest) and 'Morning' (depicting the rising sun in front of the shoulders). Proper greeting mechanics help set a comfortable pace for conversation.",
+                    "practical_instructions": [
+                        "Step 1: Perform the standard flat-palm 'Namaste' or wave greeting to establish communication.",
+                        "Step 2: Practice compounding 'Good' and 'Morning' smoothly without pause.",
+                        "Step 3: Ensure your palms face outward during salutations."
+                    ],
+                    "vocabulary": [
+                        "Hello",
+                        "Good morning",
+                        "Good afternoon",
+                        "Good night",
+                        "Goodbye"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is 'Good Morning' structured linguistically in Indian Sign Language?",
+                        "options": [
+                            "As a single continuous spelling of letters",
+                            "By combining the thumbs-up sign for 'Good' smoothly with the visual 'rising sun' sign for 'Morning'",
+                            "By clapping both hands together twice",
+                            "By waving with both hands above the shoulders"
+                        ],
+                        "correct_answer": "By combining the thumbs-up sign for 'Good' smoothly with the visual 'rising sun' sign for 'Morning'",
+                        "pairs": {
+                            "Hello": "Flat-palm wave",
+                            "Good Morning": "Thumbs up + rising sun"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Good morning my friend'.",
+                            "correct_sequence": [
+                                "MY",
+                                "FRIEND",
+                                "GOOD",
+                                "MORNING"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m1_t2",
+                        "description": "Vector visual illustration card for Greeting and Salutations in ISL.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Greeting and Salutations in ISL in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 3,
+                    "module_id": 1,
+                    "topic_code": "1.3",
+                    "lesson_title": "Lesson 1.3: Some Polite Useful Phrases",
+                    "category": "Module 1: Initiating Conversation in ISL",
+                    "video_url": "https://www.youtube.com/watch?v=neE5Fg4FVtA&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=3",
+                    "embed_url": "https://www.youtube.com/embed/neE5Fg4FVtA?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=2",
+                    "theory": "Polite phrases facilitate basic dialogue flow. In ISL, phrases like 'Nice to meet you' combine multiple signs: 'Nice' (dominant palm sweeping flat base hand) and 'Meet' (both index fingers coming together like two people standing face-to-face).",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Nice' by brushing your flat dominant hand over your flat non-dominant hand.",
+                        "Step 2: Practice the 'Meet' sign by bringing your index fingers together at chest level.",
+                        "Step 3: Nod your head slightly while signing 'I am fine' to reinforce the positive state."
+                    ],
+                    "vocabulary": [
+                        "Nice to meet you",
+                        "How are you",
+                        "I am fine",
+                        "Take care",
+                        "See you again"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Which handshape is used to represent 'meeting a person' in the phrase 'Nice to meet you'?",
+                        "options": [
+                            "Closed fists touching each other",
+                            "Upright index fingers of both hands moving toward each other",
+                            "Flat palms facing down",
+                            "The letters M-E-E-T spelled out rapidly"
+                        ],
+                        "correct_answer": "Upright index fingers of both hands moving toward each other",
+                        "pairs": {
+                            "I am fine": "Nod + Thumbs up near chest",
+                            "Meet": "Index fingers coming together"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Nice to meet you'.",
+                            "correct_sequence": [
+                                "NICE",
+                                "MEET",
+                                "YOU"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m1_t3",
+                        "description": "Vector visual illustration card for Some Polite Useful Phrases.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Some Polite Useful Phrases in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 4,
+                    "module_id": 1,
+                    "topic_code": "1.4",
+                    "lesson_title": "Quiz 1.4: Module 1: Initiating Conversation in ISL - Practice & Assessment",
+                    "category": "Module 1: Initiating Conversation in ISL Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=4",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=3",
+                    "theory": "This is the dedicated assessment unit for Module 1: Initiating Conversation in ISL. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 1: Initiating Conversation in ISL review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m1_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -48,3 +48,4 @@ client/.env
 ehthumbs.db
 Thumbs.db
 deployment_guide.md
+.vercel

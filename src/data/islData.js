@@ -1,4 +1,4 @@
-import courseDataV8 from '../../../server/isl-course-data-v8.json';
+import courseDataV8 from './isl-course-data-v8.json';
 
 const PLAYLIST_ID = "PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6";
 
