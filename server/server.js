@@ -6,11 +6,38 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// In-Memory IP Rate Limiter (Prevents DDoS, API abuse & brute force)
+// Ensure data directory exists for persistent multi-browser sync
+const DATA_DIR = path.join(__dirname, 'data');
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
+const USERS_FILE = path.join(DATA_DIR, 'users.json');
+const LEADERBOARD_FILE = path.join(DATA_DIR, 'leaderboard.json');
+
+function loadJsonData(filePath, fallback = {}) {
+  try {
+    if (fs.existsSync(filePath)) {
+      const content = fs.readFileSync(filePath, 'utf8');
+      return JSON.parse(content);
+    }
+  } catch (e) {}
+  return fallback;
+}
+
+function saveJsonData(filePath, data) {
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+  } catch (e) {
+    console.error(`Failed to save data to ${filePath}:`, e);
+  }
+}
+
+// In-Memory IP Rate Limiter
 const rateLimitMap = new Map();
-const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
-const MAX_AI_REQUESTS = 30; // Max 30 AI requests per IP per 15 minutes
-const MAX_GENERAL_REQUESTS = 100; // Max 100 API requests per IP per 15 minutes
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
+const MAX_AI_REQUESTS = 30;
+const MAX_GENERAL_REQUESTS = 200;
 
 function checkRateLimit(ip, isAiEndpoint = false) {
   const now = Date.now();
@@ -18,7 +45,6 @@ function checkRateLimit(ip, isAiEndpoint = false) {
   const userRecord = rateLimitMap.get(ip) || { count: 0, firstRequestTime: now };
 
   if (now - userRecord.firstRequestTime > RATE_LIMIT_WINDOW_MS) {
-    // Reset window after 15 minutes
     rateLimitMap.set(ip, { count: 1, firstRequestTime: now });
     return { allowed: true, remaining: limit - 1 };
   }
@@ -32,20 +58,15 @@ function checkRateLimit(ip, isAiEndpoint = false) {
   return { allowed: true, remaining: limit - userRecord.count };
 }
 
-// Input Sanitization Shield (Prevents SQL, NoSQL & XSS Injections)
+// Input Sanitization Shield
 function sanitizeInput(str) {
   if (typeof str !== 'string') return '';
-  
-  // Strip HTML script tags and dangerous event handlers (XSS protection)
   let clean = str
     .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
     .replace(/on\w+="[^"]*"/gi, '')
     .replace(/on\w+='[^']*'/gi, '');
 
-  // Strip common SQL Injection patterns (SELECT, DROP, INSERT, DELETE, UNION, --, /*)
   clean = clean.replace(/(\b(SELECT|INSERT|UPDATE|DELETE|DROP|CREATE|ALTER|TRUNCATE|UNION|EXEC|DECLARE)\b|--|\/\*|\*\/)/gi, '');
-
-  // Truncate to maximum 1000 characters to prevent buffer overflow/exhaustion
   return clean.trim().slice(0, 1000);
 }
 
@@ -64,9 +85,7 @@ function getGroqApiKey() {
         }
       }
     }
-  } catch (e) {
-    // fallback
-  }
+  } catch (e) {}
   return process.env.GROQ_API_KEY || '';
 }
 
@@ -81,7 +100,6 @@ Provide a detailed, helpful breakdown for the query:
 4. 💡 Practice Drill
 `;
 
-// Dynamic ISL Response Generator
 function generateDynamicISLGuide(prompt) {
   const clean = sanitizeInput(prompt);
   const words = clean.split(/\s+/);
@@ -132,13 +150,12 @@ To sign **"${clean}"** in Indian Sign Language:
 const server = http.createServer(async (req, res) => {
   const clientIp = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '127.0.0.1';
 
-  // Apply Security Hardening Headers (Helmet Equivalent)
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.setHeader('X-Content-Type-Options', 'nosniff');
-  res.setHeader('X-Frame-Options', 'DENY'); // Clickjacking protection
-  res.setHeader('X-XSS-Protection', '1; mode=block'); // Cross-Site Scripting protection
+  res.setHeader('X-Frame-Options', 'DENY');
+  res.setHeader('X-XSS-Protection', '1; mode=block');
   res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
   res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
 
@@ -150,36 +167,120 @@ const server = http.createServer(async (req, res) => {
 
   // Health Endpoint
   if (req.url === '/api/health' && req.method === 'GET') {
-    const rateCheck = checkRateLimit(clientIp, false);
-    if (!rateCheck.allowed) {
-      res.writeHead(429, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: 'Too Many Requests. Please try again later.' }));
-      return;
-    }
-
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       status: 'ok',
       service: 'ISL Buddy Server API',
       groqConfigured: Boolean(getGroqApiKey()),
-      securityShield: 'Active (Rate-Limited & Sanitized)'
+      securityShield: 'Active (Rate-Limited & Cloud-Synced)'
     }));
     return;
   }
 
-  // AI Chat Endpoint with Security Rate Limiting & Input Sanitization
+  // Global Leaderboard Endpoints
+  if (req.url === '/api/leaderboard' && req.method === 'GET') {
+    const list = loadJsonData(LEADERBOARD_FILE, []);
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify(list));
+    return;
+  }
+
+  if (req.url === '/api/leaderboard' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => { body += chunk; });
+    req.on('end', () => {
+      try {
+        const item = JSON.parse(body || '{}');
+        if (item && item.uid) {
+          let list = loadJsonData(LEADERBOARD_FILE, []);
+          const idx = list.findIndex(u => u.uid === item.uid);
+          if (idx !== -1) {
+            list[idx] = { ...list[idx], ...item };
+          } else {
+            list.push(item);
+          }
+          list.sort((a, b) => (b.xp || 0) - (a.xp || 0));
+          saveJsonData(LEADERBOARD_FILE, list);
+        }
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: true }));
+      } catch (e) {
+        res.writeHead(400, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Invalid JSON' }));
+      }
+    });
+    return;
+  }
+
+  // Cloud User Progress Sync Endpoints
+  if (req.url.startsWith('/api/progress/') && req.method === 'GET') {
+    const uid = req.url.replace('/api/progress/', '').trim();
+    if (!uid) {
+      res.writeHead(400, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'UID required' }));
+      return;
+    }
+    const allUsers = loadJsonData(USERS_FILE, {});
+    const progress = allUsers[uid] || null;
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ progress }));
+    return;
+  }
+
+  if (req.url.startsWith('/api/progress/') && req.method === 'POST') {
+    const uid = req.url.replace('/api/progress/', '').trim();
+    if (!uid) {
+      res.writeHead(400, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'UID required' }));
+      return;
+    }
+
+    let body = '';
+    req.on('data', chunk => { body += chunk; });
+    req.on('end', () => {
+      try {
+        const progress = JSON.parse(body || '{}');
+        if (progress) {
+          const allUsers = loadJsonData(USERS_FILE, {});
+          allUsers[uid] = progress;
+          saveJsonData(USERS_FILE, allUsers);
+
+          // Auto-sync user to central leaderboard
+          let list = loadJsonData(LEADERBOARD_FILE, []);
+          const name = progress.username || progress.user?.displayName || progress.user?.email?.split('@')[0] || 'Learner';
+          const xp = progress.xp || 0;
+          const idx = list.findIndex(u => u.uid === uid);
+          if (idx !== -1) {
+            list[idx] = { ...list[idx], uid, name, xp, isUser: true, avatar: "🤟" };
+          } else {
+            list.push({ uid, name, location: "India", xp, avatar: "🤟", isUser: true });
+          }
+          list.sort((a, b) => (b.xp || 0) - (a.xp || 0));
+          saveJsonData(LEADERBOARD_FILE, list);
+        }
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: true }));
+      } catch (e) {
+        res.writeHead(400, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Invalid JSON' }));
+      }
+    });
+    return;
+  }
+
+  // AI Chat Endpoint
   if (req.url === '/api/ai/chat' && req.method === 'POST') {
     const rateCheck = checkRateLimit(clientIp, true);
     if (!rateCheck.allowed) {
       res.writeHead(429, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: 'Rate limit exceeded: Max 30 AI requests per 15 minutes. Please wait before asking more questions.' }));
+      res.end(JSON.stringify({ error: 'Rate limit exceeded: Max 30 AI requests per 15 minutes.' }));
       return;
     }
 
     let body = '';
     req.on('data', (chunk) => { 
       body += chunk; 
-      if (body.length > 50000) { // 50KB Payload Limit (Anti-Buffer Exhaustion)
+      if (body.length > 50000) {
         req.destroy();
       }
     });

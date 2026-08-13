@@ -26,31 +26,37 @@ export const getStoredProgressForUser = (user) => {
   const key = getUserStorageKey(user.uid);
   try {
     const data = localStorage.getItem(key);
-    if (!data) {
-      const newState = {
+    let stateToUse = null;
+
+    if (data) {
+      stateToUse = JSON.parse(data);
+    } else {
+      stateToUse = {
         ...DEFAULT_NEW_USER_STATE,
         user,
         username: user.displayName || user.email?.split('@')[0] || 'Learner'
       };
-      saveProgressForUser(user.uid, newState);
-      return newState;
     }
-    const parsed = JSON.parse(data);
+
     const today = new Date().toISOString().split('T')[0];
-    const lastDate = parsed.lastStreakDate;
+    const lastDate = stateToUse.lastStreakDate;
     
     if (lastDate !== today) {
       const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
       if (lastDate === yesterday) {
-        parsed.todayXpEarned = 0;
+        stateToUse.todayXpEarned = 0;
       } else {
-        parsed.streakDays = 1;
-        parsed.todayXpEarned = 0;
+        stateToUse.streakDays = 1;
+        stateToUse.todayXpEarned = 0;
       }
-      parsed.lastStreakDate = today;
+      stateToUse.lastStreakDate = today;
     }
     
-    const finalState = { ...DEFAULT_NEW_USER_STATE, ...parsed, user };
+    const finalState = { ...DEFAULT_NEW_USER_STATE, ...stateToUse, user };
+    
+    // Asynchronously fetch latest progress from central cloud server
+    fetchCloudProgress(user.uid);
+    
     saveProgressForUser(user.uid, finalState);
     return finalState;
   } catch (err) {
@@ -81,6 +87,9 @@ export const saveProgressForUser = (uid, progress) => {
     localStorage.setItem(key, JSON.stringify(progress));
     localStorage.setItem('isl_buddy_current_user_id', uid);
     updateGlobalLeaderboard(progress);
+
+    // Sync progress to cloud server in background
+    syncCloudProgress(uid, progress);
   } catch (err) {
     console.error('Failed to save user progress:', err);
   }
@@ -148,5 +157,48 @@ export const updateGlobalLeaderboard = (progress) => {
 
   try {
     localStorage.setItem('isl_buddy_all_learners', JSON.stringify(currentList));
+    
+    // Sync leaderboard item to cloud server in background
+    fetch('/api/leaderboard', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ uid, name, xp, isUser: true, avatar: "🤟", location: "India" })
+    }).catch(() => {});
   } catch (e) {}
 };
+
+// Asynchronous Cloud Storage Sync Helpers
+async function syncCloudProgress(uid, progress) {
+  try {
+    const endpoints = [`/api/progress/${uid}`, `http://localhost:5000/api/progress/${uid}`];
+    for (const ep of endpoints) {
+      try {
+        const res = await fetch(ep, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(progress)
+        });
+        if (res.ok) break;
+      } catch (e) {}
+    }
+  } catch (err) {}
+}
+
+async function fetchCloudProgress(uid) {
+  try {
+    const endpoints = [`/api/progress/${uid}`, `http://localhost:5000/api/progress/${uid}`];
+    for (const ep of endpoints) {
+      try {
+        const res = await fetch(ep);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.progress) {
+            const key = getUserStorageKey(uid);
+            localStorage.setItem(key, JSON.stringify(data.progress));
+          }
+          break;
+        }
+      } catch (e) {}
+    }
+  } catch (err) {}
+}
