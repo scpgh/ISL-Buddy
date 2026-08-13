@@ -4,7 +4,7 @@
 [![UN SDG 10: Reduced Inequalities](https://img.shields.io/badge/UN%20SDG-10%20Reduced%20Inequalities-1cb0f6?style=for-the-badge)](https://sdgs.un.org/goals/goal10)
 [![ISLRTC Certified Curriculum](https://img.shields.io/badge/Curriculum-ISLRTC%20Govt%20of%20India-ffc800?style=for-the-badge)](http://www.islrtc.nic.in/)
 
-**ISL Buddy** is an interactive, gamified self-learning web platform designed according to the official Government of India **Indian Sign Language Research and Training Centre (ISLRTC)** curriculum. It empowers learners across India with HD video modules, an AI-powered ISL Assistant, real registered learner leaderboards, LeetCode-style streak tracking, and emergency SOS communication displays.
+**ISL Buddy** is an interactive, gamified learning web platform designed according to the official Government of India **Indian Sign Language Research and Training Centre (ISLRTC)** curriculum. It empowers learners across India with HD video modules, an AI-powered ISL Assistant, real registered learner leaderboards, LeetCode-style streak tracking, and emergency SOS communication displays.
 
 ---
 
