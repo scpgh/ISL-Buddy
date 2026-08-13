@@ -19,11 +19,11 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
           <div className="flex items-center gap-2 shrink-0">
             <img 
               src="/logo.png" 
-              alt="ISL Buddy" 
+              alt="SmartSign ISL" 
               className="w-8 h-8 sm:w-10 sm:h-10 object-contain drop-shadow-md"
             />
             <span className="font-black text-lg sm:text-2xl tracking-tight text-[#58cc02] leading-none">
-              ISL Buddy
+              SmartSign ISL
             </span>
           </div>
 
@@ -195,7 +195,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
               <div className="w-12 h-12 rounded-2xl bg-[#1cb0f6]/20 border border-[#1cb0f6]/40 flex items-center justify-center text-[#1cb0f6]">
                 <Bot className="w-6 h-6 stroke-[2.5]" />
               </div>
-              <h3 className={`font-black text-lg sm:text-xl ${isDark ? 'text-white' : 'text-[#4b4b4b]'}`}>ISL Buddy AI Assistant</h3>
+              <h3 className={`font-black text-lg sm:text-xl ${isDark ? 'text-white' : 'text-[#4b4b4b]'}`}>SmartSign AI Assistant</h3>
               <p className={`text-xs font-bold leading-relaxed ${isDark ? 'text-[#afafaf]' : 'text-[#777777]'}`}>
                 Ask any question about signs, fingerspelling, SOV grammar rules, or deaf culture and receive instant answers.
               </p>
@@ -244,8 +244,8 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
           {/* Col 1: Brand Info */}
           <div className="space-y-3 md:col-span-2">
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="ISL Buddy" className="w-8 h-8 object-contain" />
-              <span className="font-black text-xl text-[#58cc02]">ISL Buddy</span>
+              <img src="/logo.png" alt="SmartSign ISL" className="w-8 h-8 object-contain" />
+              <span className="font-black text-xl text-[#58cc02]">SmartSign ISL</span>
             </div>
             <p className={`text-xs font-bold max-w-sm leading-relaxed ${isDark ? 'text-[#afafaf]' : 'text-[#777777]'}`}>
               India's leading gamified Indian Sign Language (ISL) self-learning platform, empowering accessible communication aligned with UN SDG 4 & 10.
@@ -265,7 +265,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
             <h4 className={`font-black text-sm uppercase tracking-wider mb-2 ${isDark ? 'text-white' : 'text-[#4b4b4b]'}`}>Platform Features</h4>
             <ul className={`space-y-1.5 text-xs font-bold ${isDark ? 'text-[#afafaf]' : 'text-[#777777]'}`}>
               <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• ISLRTC HD Lessons</button></li>
-              <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• ISL Buddy AI Assistant</button></li>
+              <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• SmartSign AI Assistant</button></li>
               <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• National XP Leaderboard</button></li>
               <li><button onClick={onOpenAuth} className="hover:text-[#58cc02] cursor-pointer">• SOS Emergency Display</button></li>
             </ul>
@@ -300,7 +300,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
         <div className={`max-w-7xl mx-auto pt-6 border-t flex flex-col sm:flex-row items-center justify-between text-xs font-bold gap-2 ${
           isDark ? 'border-[#37464f] text-[#52656d]' : 'border-[#e5e5e5] text-[#afafaf]'
         }`}>
-          <span>ISL Buddy v3.0 • All Rights Reserved</span>
+          <span>SmartSign ISL v3.0 • All Rights Reserved</span>
           <span className="flex items-center gap-1">Made with <Heart className="w-3.5 h-3.5 text-[#ff4b4b] fill-[#ff4b4b]" /> for India</span>
         </div>
       </footer>

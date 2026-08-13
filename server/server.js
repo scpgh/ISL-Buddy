@@ -91,7 +91,7 @@ function getGroqApiKey() {
 
 const PORT = process.env.PORT || 5000;
 const SYSTEM_PROMPT = `
-You are ISL Buddy, an intelligent AI instructor specialized in Indian Sign Language (ISL) and Deaf Culture.
+You are SmartSign ISL, an intelligent AI instructor specialized in Indian Sign Language (ISL) and Deaf Culture.
 
 Provide a detailed, helpful breakdown for the query:
 1. ✋ Hand Placement & Gesture
@@ -129,7 +129,7 @@ function generateDynamicISLGuide(prompt) {
     sovRule = `Original: "${clean}" ➔ ISL Order: "${sub} ${obj} ${verb}".`;
   }
 
-  return `🤟 **ISL Buddy AI Guide**:
+  return `🤟 **SmartSign ISL AI Guide**:
 
 To sign **"${clean}"** in Indian Sign Language:
 
@@ -170,7 +170,7 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       status: 'ok',
-      service: 'ISL Buddy Server API',
+      service: 'SmartSign ISL Server API',
       groqConfigured: Boolean(getGroqApiKey()),
       securityShield: 'Active (Rate-Limited & Cloud-Synced)'
     }));
@@ -357,5 +357,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`🚀 ISL Buddy Secure API running on http://localhost:${PORT}`);
+  console.log(`🚀 SmartSign ISL Secure API running on http://localhost:${PORT}`);
 });

@@ -1,21 +1,24 @@
 import React from 'react';
-import { Map, Bot, User, Trophy, ShieldAlert, Sparkles, Flame } from 'lucide-react';
+import { Map, Bot, Trophy, User, ShieldAlert, Sparkles, Flame, BookOpen, Camera } from 'lucide-react';
 
 export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
   const isHindi = userProgress?.appLanguage === 'hindi';
+
   const streakCount = userProgress?.streakDays || 1;
 
   const navItems = [
-    { id: 'roadmap', label: isHindi ? 'सीखें' : 'LEARN', icon: Map },
-    { id: 'leaderboard', label: isHindi ? 'लीडरबोर्ड' : 'LEADERBOARDS', icon: Trophy },
-    { id: 'ai-tutor', label: isHindi ? 'AI शिक्षक' : 'AI TUTOR', icon: Bot },
-    { id: 'profile', label: isHindi ? 'प्रोफ़ाइल' : 'PROFILE', icon: User },
+    { id: 'roadmap', label: isHindi ? 'सीखने का मार्ग' : 'Learn Path', icon: Map },
+    { id: 'dictionary', label: isHindi ? 'ISL शब्दकोश' : 'ISL Dictionary', icon: BookOpen },
+    { id: 'camera', label: isHindi ? 'कैमरा अभ्यास' : 'Camera Practice', icon: Camera },
+    { id: 'deaf-assistant', label: isHindi ? 'AI शिक्षक' : 'AI Tutor', icon: Bot },
+    { id: 'leaderboard', label: isHindi ? 'लीडरबोर्ड' : 'Leaderboard', icon: Trophy },
+    { id: 'profile', label: isHindi ? 'प्रोफ़ाइल' : 'Profile', icon: User }
   ];
 
   return (
     <aside className="hidden md:flex flex-col w-60 lg:w-64 xl:w-72 h-screen sticky top-0 border-r-2 border-[#e5e5e5] dark:border-[#37464f] p-5 bg-white dark:bg-[#18252b] justify-between shrink-0 z-40 transition-colors">
       
-      {/* Top Logo & Brand with LeetCode Fire Streak Badge */}
+      {/* Brand Header & Streak Counter */}
       <div>
         <div className="flex items-center justify-between gap-2 mb-8">
           
@@ -25,11 +28,11 @@ export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
           >
             <img 
               src="/logo.png" 
-              alt="ISL Buddy" 
+              alt="SmartSign ISL" 
               className="w-10 h-10 object-contain group-hover:scale-105 transition-transform drop-shadow-md shrink-0"
             />
             <span className="font-black text-xl tracking-tight text-[#58cc02] leading-none truncate">
-              ISL Buddy
+              SmartSign ISL
             </span>
           </div>
 
@@ -91,7 +94,7 @@ export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
         </button>
 
         <div className="text-[10px] font-black text-[#afafaf] dark:text-[#52656d] text-center uppercase tracking-wider">
-          ISL Buddy • UN SDG 4 & 10
+          SmartSign ISL • UN SDG 4 & 10
         </div>
       </div>
 

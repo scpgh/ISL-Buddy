@@ -38,7 +38,7 @@ export default function ContactModal({ onClose, userProgress }) {
                 {isHindi ? 'संपर्क करें' : 'Contact Support'}
               </h2>
               <p className="text-xs font-bold text-[#afafaf] dark:text-[#52656d] mt-1">
-                {isHindi ? 'ISL Buddy टीम से सहायता लें' : 'We are here to help you master Indian Sign Language'}
+                {isHindi ? 'SmartSign ISL टीम से सहायता लें' : 'We are here to help you master Indian Sign Language'}
               </p>
             </div>
 
@@ -114,7 +114,7 @@ export default function ContactModal({ onClose, userProgress }) {
               {isHindi ? 'संदेश भेजा गया!' : 'Message Sent!'}
             </h3>
             <p className="text-xs font-bold text-[#afafaf] dark:text-[#52656d] mb-6">
-              Thank you for reaching out to ISL Buddy. Our team will respond to <strong className="text-[#58cc02]">{email}</strong> shortly.
+              Thank you for reaching out to SmartSign ISL. Our team will respond to <strong className="text-[#58cc02]">{email}</strong> shortly.
             </p>
 
             <button

@@ -5,8 +5,8 @@ import { askMudraAI } from '../utils/groq';
 export default function DeafAssistant({ userProgress }) {
   const isHindi = userProgress?.appLanguage === 'hindi';
 
-  const welcomeTextEng = "Namaste! 🤟 I am ISL Buddy, your friendly AI assistant.\n\nAsk me anything! I can teach you how to sign words, explain ISL SOV grammar, demonstrate fingerspelling, or answer any question you have!";
-  const welcomeTextHin = "नमस्ते! 🤟 मैं ISL Buddy हूँ, आपका मित्रवत AI सहायक।\n\nमुझसे कुछ भी पूछें! मैं आपको सांकेतिक भाषा सिखा सकता हूँ, ISL व्याकरण समझा सकता हूँ, या आपके किसी भी प्रश्न का उत्तर दे सकता हूँ!";
+  const welcomeTextEng = "Namaste! 🤟 I am SmartSign ISL, your friendly AI assistant.\n\nAsk me anything! I can teach you how to sign words, explain ISL SOV grammar, demonstrate fingerspelling, or answer any question you have!";
+  const welcomeTextHin = "नमस्ते! 🤟 मैं SmartSign ISL हूँ, आपका मित्रवत AI सहायक।\n\nमुझसे कुछ भी पूछें! मैं आपको सांकेतिक भाषा सिखा सकता हूँ, ISL व्याकरण समझा सकता हूँ, या आपके किसी भी प्रश्न का उत्तर दे सकता हूँ!";
 
   const [messages, setMessages] = useState([
     {
@@ -44,8 +44,8 @@ export default function DeafAssistant({ userProgress }) {
     } catch (err) {
       const clean = userText.trim();
       const fallbackReply = isHindi
-        ? `🤟 **ISL Buddy सहायक**:\n\n**"${clean}"** के संबंध में:\n• **संकेत विधि**: अपने मुख्य हाथ को छाती की ऊंचाई पर 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: सकारात्मक चेहरे के भाव और आंख से संपर्क बनाए रखें।`
-        : `🤟 **ISL Buddy Assistant**:\n\nRegarding **"${clean}"**:\n• **Hand Placement**: Hold active hand at chest level in your 3D signing space.\n• **ISL Grammar**: Remember ISL uses **Subject ➔ Object ➔ Verb (SOV)** structure.\n• **Expression**: Maintain clear, friendly non-manual facial markers.`;
+        ? `🤟 **SmartSign ISL सहायक**:\n\n**"${clean}"** के संबंध में:\n• **संकेत विधि**: अपने मुख्य हाथ को छाती की ऊंचाई पर 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: सकारात्मक चेहरे के भाव और आंख से संपर्क बनाए रखें।`
+        : `🤟 **SmartSign ISL Assistant**:\n\nRegarding **"${clean}"**:\n• **Hand Placement**: Hold active hand at chest level in your 3D signing space.\n• **ISL Grammar**: Remember ISL uses **Subject ➔ Object ➔ Verb (SOV)** structure.\n• **Expression**: Maintain clear, friendly non-manual facial markers.`;
 
       setMessages((prev) => [
         ...prev,
@@ -105,7 +105,7 @@ export default function DeafAssistant({ userProgress }) {
           <div>
             <div className="flex items-center gap-2">
               <h2 className="font-black text-base sm:text-lg text-[#4b4b4b] dark:text-white leading-tight">
-                ISL Buddy
+                SmartSign ISL
               </h2>
               <span className="text-[9px] font-black text-[#58cc02] bg-[#58cc02]/15 px-2 py-0.5 rounded-full uppercase">
                 {isHindi ? 'ऑनलाइन AI चैट सहायक' : 'ONLINE AI CHATBOT'}
@@ -136,10 +136,10 @@ export default function DeafAssistant({ userProgress }) {
           {messages.length <= 1 && (
             <div className="py-8 px-2 text-center flex flex-col items-center">
               <div className="w-16 h-16 rounded-full bg-[#58cc02]/15 flex items-center justify-center mb-3 shadow-sm">
-                <img src="/logo.png" alt="ISL Buddy" className="w-10 h-10 object-contain animate-float" />
+                <img src="/logo.png" alt="SmartSign ISL" className="w-10 h-10 object-contain animate-float" />
               </div>
               <h3 className="font-black text-xl sm:text-2xl text-[#4b4b4b] dark:text-white mb-1">
-                {isHindi ? 'आप ISL Buddy से क्या पूछना चाहते हैं?' : 'What can ISL Buddy help you with today?'}
+                {isHindi ? 'आप SmartSign ISL से क्या पूछना चाहते हैं?' : 'What can SmartSign ISL help you with today?'}
               </h3>
               <p className="text-xs font-bold text-[#afafaf] dark:text-[#52656d] max-w-md mb-8">
                 {isHindi ? 'मुझसे कोई भी प्रश्न पूछें—सांकेतिक भाषा, व्याकरण, उंगलियों से हिज्जे या सामान्य प्रश्न!' : 'Ask me any question—how to sign words, ISL grammar, fingerspelling, or general topics!'}
@@ -221,7 +221,7 @@ export default function DeafAssistant({ userProgress }) {
                 <Sparkles className="w-4 h-4 text-[#58cc02] animate-spin" />
               </div>
               <div className="p-4 rounded-[22px] bg-[#f7f7f7] dark:bg-[#131f24] text-xs font-black text-[#58cc02] flex items-center gap-2 animate-pulse">
-                <span>{isHindi ? 'ISL Buddy सोच रहा है...' : 'ISL Buddy is thinking...'}</span>
+                <span>{isHindi ? 'SmartSign ISL सोच रहा है...' : 'SmartSign ISL is thinking...'}</span>
               </div>
             </div>
           )}
@@ -234,7 +234,7 @@ export default function DeafAssistant({ userProgress }) {
           <div className="bg-[#f7f7f7] dark:bg-[#131f24] focus-within:bg-[#e5e5e5]/40 dark:focus-within:bg-[#202f36] rounded-[28px] p-2.5 flex items-center gap-3 shadow-lg border-0 transition-colors">
             <input
               type="text"
-              placeholder={isHindi ? "ISL Buddy से कुछ भी पूछें..." : "Ask ISL Buddy anything..."}
+              placeholder={isHindi ? "SmartSign ISL से कुछ भी पूछें..." : "Ask SmartSign ISL anything..."}
               value={inputPrompt}
               onChange={(e) => setInputPrompt(e.target.value)}
               className="flex-1 bg-transparent border-0 outline-none ring-0 focus:outline-none focus:ring-0 focus:border-0 px-4 text-xs sm:text-sm font-bold text-[#4b4b4b] dark:text-white placeholder-[#afafaf] dark:placeholder-[#52656d]"

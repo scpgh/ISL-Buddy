@@ -61,11 +61,11 @@ export default function AuthModal({ onClose, onSuccess }) {
 
         <div className="text-center mb-6">
           <div className="w-16 h-16 rounded-2xl bg-[#58cc02]/20 border-2 border-[#58cc02] flex items-center justify-center mx-auto mb-3 shadow-md">
-            <img src="/logo.png" alt="ISL Buddy" className="w-10 h-10 object-contain" />
+            <img src="/logo.png" alt="SmartSign ISL" className="w-10 h-10 object-contain" />
           </div>
 
           <h2 className="font-black text-2xl sm:text-3xl text-[#4b4b4b] dark:text-white tracking-tight">
-            {isSignUp ? 'Join ISL Buddy' : 'Welcome Back'}
+            {isSignUp ? 'Join SmartSign ISL' : 'Welcome Back'}
           </h2>
           <p className="text-xs font-bold text-[#afafaf] dark:text-[#52656d] mt-1">
             {isSignUp ? 'Sign up to track your isolated ISL progress & ranks' : 'Sign in to access your ISL learning account'}

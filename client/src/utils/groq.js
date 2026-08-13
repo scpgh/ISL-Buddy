@@ -6,7 +6,7 @@ const getGroqKey = () => {
 };
 
 const SYSTEM_PROMPT_ENG = `
-You are ISL Buddy, an intelligent, helpful, and friendly AI chatbot assistant, specialized in Indian Sign Language (ISL) and Deaf Culture.
+You are SmartSign ISL, an intelligent, helpful, and friendly AI chatbot assistant, specialized in Indian Sign Language (ISL) and Deaf Culture.
 
 YOUR PERSONALITY & RULES:
 1. Act like a natural, conversation-focused AI assistant. You can answer ANY question the user asks—whether it's about ISL signs, fingerspelling, grammar, sentence structures, deaf culture, or general topics!
@@ -15,7 +15,7 @@ YOUR PERSONALITY & RULES:
 `;
 
 const SYSTEM_PROMPT_HIN = `
-आप ISL Buddy हैं, एक बुद्धिमान, सहायक और मित्रवत AI चैटबॉट सहायक, जो भारतीय सांकेतिक भाषा (ISL) और बधिर संस्कृति में विशेषज्ञ है।
+आप SmartSign ISL हैं, एक बुद्धिमान, सहायक और मित्रवत AI चैटबॉट सहायक, जो भारतीय सांकेतिक भाषा (ISL) और बधिर संस्कृति में विशेषज्ञ है।
 
 आपकी नियम व शैली:
 1. एक स्वाभाविक, संवादात्मक AI सहायक के रूप में व्यवहार करें। उपयोगकर्ता द्वारा पूछे गए किसी भी प्रश्न का उत्तर दें!
@@ -71,7 +71,7 @@ export async function sendChatMessage(userPrompt, isHindi = false, conversationH
     }
   }
 
-  // Fallback: Try secure backend AI endpoint (where GROQ_API_KEY is stored safely in server/.env)
+  // Fallback: Try secure backend AI endpoint
   const backendEndpoints = ['/api/ai/chat', 'http://localhost:5000/api/ai/chat'];
   for (const endpoint of backendEndpoints) {
     try {
@@ -91,10 +91,10 @@ export async function sendChatMessage(userPrompt, isHindi = false, conversationH
 
   // Fallback response if offline
   if (isHindi) {
-    return `नमस्ते! 🤟 **ISL Buddy** यहाँ आपकी सहायता के लिए है!\n\n**"${cleanPrompt}"** का उत्तर:\n• **संकेत विधि**: मुख्य हाथ को छाती के सामने 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: निरंतर आंख से संपर्क बनाए रखें।\n\nआप मुझसे ISL या किसी भी अन्य विषय पर कोई भी प्रश्न पूछ सकते हैं! 😊`;
+    return `नमस्ते! 🤟 **SmartSign ISL** यहाँ आपकी सहायता के लिए है!\n\n**"${cleanPrompt}"** का उत्तर:\n• **संकेत विधि**: मुख्य हाथ को छाती के सामने 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: निरंतर आंख से संपर्क बनाए रखें।\n\nआप मुझसे ISL या किसी भी अन्य विषय पर कोई भी प्रश्न पूछ सकते हैं! 😊`;
   }
 
-  return `Hello! 🤟 **ISL Buddy** is here to help you!\n\nTo sign or answer **"${cleanPrompt}"**:\n• **Gesture Technique**: Position your active dominant hand cleanly at chest height in your 3D signing space.\n• **ISL SOV Syntax**: Remember that Indian Sign Language uses **Subject ➔ Object ➔ Verb** word order.\n• **Facial Expression**: Maintain direct, friendly eye contact with non-manual signals.\n\nFeel free to ask me any questions about ISL signs, grammar, fingerspelling, or general topics! 😊`;
+  return `Hello! 🤟 **SmartSign ISL** is here to help you!\n\nTo sign or answer **"${cleanPrompt}"**:\n• **Gesture Technique**: Position your active dominant hand cleanly at chest height in your 3D signing space.\n• **ISL SOV Syntax**: Remember that Indian Sign Language uses **Subject ➔ Object ➔ Verb** word order.\n• **Facial Expression**: Maintain direct, friendly eye contact with non-manual signals.\n\nFeel free to ask me any questions about ISL signs, grammar, fingerspelling, or general topics! 😊`;
 }
 
 export const askMudraAI = sendChatMessage;

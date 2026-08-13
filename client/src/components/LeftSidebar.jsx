@@ -25,11 +25,11 @@ export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
           >
             <img 
               src="/logo.png" 
-              alt="ISL Buddy" 
+              alt="SmartSign ISL" 
               className="w-10 h-10 object-contain group-hover:scale-105 transition-transform drop-shadow-md shrink-0"
             />
             <span className="font-black text-xl tracking-tight text-[#58cc02] leading-none truncate">
-              ISL Buddy
+              SmartSign ISL
             </span>
           </div>
 
@@ -91,7 +91,7 @@ export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
         </button>
 
         <div className="text-[10px] font-black text-[#afafaf] dark:text-[#52656d] text-center uppercase tracking-wider">
-          ISL Buddy • UN SDG 4 & 10
+          SmartSign ISL • UN SDG 4 & 10
         </div>
       </div>
 

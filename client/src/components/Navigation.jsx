@@ -13,7 +13,7 @@ export default function Navigation({ activeTab, setActiveTab, userProgress }) {
         >
           <img 
             src="/logo.png" 
-            alt="ISL Buddy" 
+            alt="SmartSign ISL" 
             className="w-8 h-8 sm:w-9 sm:h-9 object-contain group-hover:scale-105 transition-transform"
             onError={(e) => {
               e.target.style.display = 'none';
@@ -21,7 +21,7 @@ export default function Navigation({ activeTab, setActiveTab, userProgress }) {
           />
           <div className="flex flex-col">
             <span className="font-black text-lg sm:text-xl tracking-tight text-[#58cc02] leading-none">
-              ISL Buddy
+              SmartSign ISL
             </span>
             <span className="text-[10px] font-black text-[#ffc800] uppercase tracking-wider">
               ISL Master Course

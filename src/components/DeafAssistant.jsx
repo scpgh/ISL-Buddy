@@ -5,8 +5,8 @@ import { askMudraAI } from '../utils/groq';
 export default function DeafAssistant({ userProgress }) {
   const isHindi = userProgress?.appLanguage === 'hindi';
 
-  const welcomeTextEng = "Namaste! 🤟 I am ISL Buddy, your friendly AI assistant.\n\nAsk me anything! I can teach you how to sign words, explain ISL SOV grammar, demonstrate fingerspelling, or answer any question you have!";
-  const welcomeTextHin = "नमस्ते! 🤟 मैं ISL Buddy हूँ, आपका मित्रवत AI सहायक।\n\nमुझसे कुछ भी पूछें! मैं आपको सांकेतिक भाषा सिखा सकता हूँ, ISL व्याकरण समझा सकता हूँ, या आपके किसी भी प्रश्न का उत्तर दे सकता हूँ!";
+  const welcomeTextEng = "Namaste! 🤟 I am SmartSign ISL, your friendly AI assistant.\n\nAsk me anything! I can teach you how to sign words, explain ISL SOV grammar, demonstrate fingerspelling, or answer any question you have!";
+  const welcomeTextHin = "नमस्ते! 🤟 मैं SmartSign ISL हूँ, आपका मित्रवत AI सहायक।\n\nमुझसे कुछ भी पूछें! मैं आपको सांकेतिक भाषा सिखा सकता हूँ, ISL व्याकरण समझा सकता हूँ, या आपके किसी भी प्रश्न का उत्तर दे सकता हूँ!";
 
   const [messages, setMessages] = useState([
     {
@@ -44,8 +44,8 @@ export default function DeafAssistant({ userProgress }) {
     } catch (err) {
       const clean = userText.trim();
       const fallbackReply = isHindi
-        ? `🤟 **ISL Buddy सहायक**:\n\n**"${clean}"** के संबंध में:\n• **संकेत विधि**: अपने मुख्य हाथ को छाती की ऊंचाई पर 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: सकारात्मक चेहरे के भाव और आंख से संपर्क बनाए रखें।`
-        : `🤟 **ISL Buddy Assistant**:\n\nRegarding **"${clean}"**:\n• **Hand Placement**: Hold active hand at chest level in your 3D signing space.\n• **ISL Grammar**: Remember ISL uses **Subject ➔ Object ➔ Verb (SOV)** structure.\n• **Expression**: Maintain clear, friendly non-manual facial markers.`;
+        ? `🤟 **SmartSign ISL सहायक**:\n\n**"${clean}"** के संबंध में:\n• **संकेत विधि**: अपने मुख्य हाथ को छाती की ऊंचाई पर 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: सकारात्मक चेहरे के भाव और आंख से संपर्क बनाए रखें।`
+        : `🤟 **SmartSign ISL Assistant**:\n\nRegarding **"${clean}"**:\n• **Hand Placement**: Hold active hand at chest level in your 3D signing space.\n• **ISL Grammar**: Remember ISL uses **Subject ➔ Object ➔ Verb (SOV)** structure.\n• **Expression**: Maintain clear, friendly non-manual facial markers.`;
 
       setMessages((prev) => [
         ...prev,
@@ -56,15 +56,10 @@ export default function DeafAssistant({ userProgress }) {
     }
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    handleSendPrompt(inputPrompt);
-  };
-
   const handleCopyText = (id, text) => {
     navigator.clipboard.writeText(text);
     setCopiedId(id);
-    setTimeout(() => setCopiedId(null), 2000);
+    setTimeout(() => setCopiedId(null), 2500);
   };
 
   const handleClearChat = () => {
@@ -72,31 +67,67 @@ export default function DeafAssistant({ userProgress }) {
       {
         id: 'welcome',
         sender: 'ai',
-        text: isHindi ? 'चैट साफ़ की गई! 🤟 मुझसे कोई भी प्रश्न पूछें!' : 'Chat cleared! 🤟 Ask me any question!'
+        text: isHindi ? welcomeTextHin : welcomeTextEng
       }
     ]);
   };
 
-  const promptCardsEng = [
-    { title: "How to sign 'Thank You'", desc: "Learn essential daily polite gestures in ISL", prompt: "How do I sign 'Thank You' and 'Hello' in Indian Sign Language?" },
-    { title: "Explain ISL SOV Syntax", desc: "Understand Subject-Object-Verb sentence ordering", prompt: "Explain Indian Sign Language (ISL) Subject-Object-Verb (SOV) sentence structure with examples." },
-    { title: "Two-Handed Fingerspelling", desc: "Master active & base hand placements", prompt: "Give me step-by-step physical drills for ISL two-handed fingerspelling." },
-    { title: "Ask Question Words", desc: "Learn where WHO, WHAT, WHERE go in ISL", prompt: "How do question words like WHERE, WHAT, and WHO work in ISL sentences?" }
-  ];
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleSendPrompt(inputPrompt);
+  };
 
-  const promptCardsHin = [
-    { title: "'धन्यवाद' का संकेत कैसे करें", desc: "ISL में बुनियादी विनीत संकेत सीखें", prompt: "भारतीय सांकेतिक भाषा में 'धन्यवाद' और 'नमस्ते' का संकेत कैसे करें?" },
-    { title: "ISL SOV व्याकरण समझें", desc: "कर्ता-कर्म-क्रिया वाक्य संरचना जानें", prompt: "उदाहरणों के साथ भारतीय सांकेतिक भाषा (ISL) Subject-Object-Verb (SOV) वाक्य संरचना को समझाएं।" },
-    { title: "वर्णमाला हिज्जे (Fingerspelling)", desc: "दोनों हाथों से अक्षर बनाना सीखें", prompt: "ISL दो-हाथों वाली वर्णमाला हिज्जे के लिए चरणबद्ध अभ्यास निर्देश दें।" },
-    { title: "प्रश्नवाचक शब्द", desc: "जानें कहाँ, क्या, कौन शब्दों का उपयोग", prompt: "ISL वाक्यों में प्रश्नवाचक शब्द जैसे 'कहाँ', 'क्या', और 'कौन' का उपयोग कैसे किया जाता है?" }
-  ];
-
-  const promptCards = isHindi ? promptCardsHin : promptCardsEng;
+  // Sample quick prompt cards
+  const promptCards = isHindi
+    ? [
+        {
+          title: "सांकेतिक नियम सीखें",
+          prompt: "ISL में कर्ता-कर्म-क्रिया (SOV) व्याकरण कैसे काम करता है?",
+          desc: "व्याकरण नियम और वाक्य संरचना समझें"
+        },
+        {
+          title: "अभिवादन के संकेत",
+          prompt: "ISL में नमस्ते और धन्यवाद कैसे सांकेतिक करते हैं?",
+          desc: "दैनिक जीवन के मुख्य अभिवादन शब्द"
+        },
+        {
+          title: "उंगलियों से हिज्जे (Fingerspelling)",
+          prompt: "ISL में दो-हाथों से वर्णमाला हिज्जे करने का सही तरीका क्या है?",
+          desc: "नाम और अक्षरों को सांकेतिक करने की विधि"
+        },
+        {
+          title: "बधिर संस्कृति के नियम",
+          prompt: "बधिर समुदाय में बातचीत शुरू करते समय मुख्य शिष्टाचार क्या हैं?",
+          desc: "सम्मानजनक संचार व्यवहार"
+        }
+      ]
+    : [
+        {
+          title: "Learn Signing Rules",
+          prompt: "How does Subject-Object-Verb (SOV) grammar work in ISL?",
+          desc: "Understand word order & sentence syntax"
+        },
+        {
+          title: "Greetings & Polite Signs",
+          prompt: "How do I sign 'Hello' and 'Thank You' in ISL?",
+          desc: "Essential everyday conversational signs"
+        },
+        {
+          title: "Two-Handed Fingerspelling",
+          prompt: "What is the proper technique for two-handed ISL fingerspelling?",
+          desc: "Master spelling names and letters"
+        },
+        {
+          title: "Deaf Culture Etiquette",
+          prompt: "What are key etiquette rules when talking with Deaf individuals?",
+          desc: "Respectful visual communication tips"
+        }
+      ];
 
   return (
-    <div className="pb-28 pt-1 w-full animate-pop-in flex flex-col min-h-[calc(100vh-6rem)]">
+    <div className="flex flex-col h-[calc(100vh-100px)] max-w-5xl mx-auto">
       
-      {/* Top Header Bar */}
+      {/* Top Floating AI Assistant Header */}
       <div className="mb-4 bg-white dark:bg-[#18252b] rounded-[24px] p-4 flex items-center justify-between gap-3 shadow-xs shrink-0">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-2xl bg-[#58cc02]/20 flex items-center justify-center text-[#58cc02] shrink-0">
@@ -105,7 +136,7 @@ export default function DeafAssistant({ userProgress }) {
           <div>
             <div className="flex items-center gap-2">
               <h2 className="font-black text-base sm:text-lg text-[#4b4b4b] dark:text-white leading-tight">
-                ISL Buddy
+                SmartSign ISL
               </h2>
               <span className="text-[9px] font-black text-[#58cc02] bg-[#58cc02]/15 px-2 py-0.5 rounded-full uppercase">
                 {isHindi ? 'ऑनलाइन AI चैट सहायक' : 'ONLINE AI CHATBOT'}
@@ -136,10 +167,10 @@ export default function DeafAssistant({ userProgress }) {
           {messages.length <= 1 && (
             <div className="py-8 px-2 text-center flex flex-col items-center">
               <div className="w-16 h-16 rounded-full bg-[#58cc02]/15 flex items-center justify-center mb-3 shadow-sm">
-                <img src="/logo.png" alt="ISL Buddy" className="w-10 h-10 object-contain animate-float" />
+                <img src="/logo.png" alt="SmartSign ISL" className="w-10 h-10 object-contain animate-float" />
               </div>
               <h3 className="font-black text-xl sm:text-2xl text-[#4b4b4b] dark:text-white mb-1">
-                {isHindi ? 'आप ISL Buddy से क्या पूछना चाहते हैं?' : 'What can ISL Buddy help you with today?'}
+                {isHindi ? 'आप SmartSign ISL से क्या पूछना चाहते हैं?' : 'What can SmartSign ISL help you with today?'}
               </h3>
               <p className="text-xs font-bold text-[#afafaf] dark:text-[#52656d] max-w-md mb-8">
                 {isHindi ? 'मुझसे कोई भी प्रश्न पूछें—सांकेतिक भाषा, व्याकरण, उंगलियों से हिज्जे या सामान्य प्रश्न!' : 'Ask me any question—how to sign words, ISL grammar, fingerspelling, or general topics!'}
@@ -221,7 +252,7 @@ export default function DeafAssistant({ userProgress }) {
                 <Sparkles className="w-4 h-4 text-[#58cc02] animate-spin" />
               </div>
               <div className="p-4 rounded-[22px] bg-[#f7f7f7] dark:bg-[#131f24] text-xs font-black text-[#58cc02] flex items-center gap-2 animate-pulse">
-                <span>{isHindi ? 'ISL Buddy सोच रहा है...' : 'ISL Buddy is thinking...'}</span>
+                <span>{isHindi ? 'SmartSign ISL सोच रहा है...' : 'SmartSign ISL is thinking...'}</span>
               </div>
             </div>
           )}
@@ -234,7 +265,7 @@ export default function DeafAssistant({ userProgress }) {
           <div className="bg-[#f7f7f7] dark:bg-[#131f24] focus-within:bg-[#e5e5e5]/40 dark:focus-within:bg-[#202f36] rounded-[28px] p-2.5 flex items-center gap-3 shadow-lg border-0 transition-colors">
             <input
               type="text"
-              placeholder={isHindi ? "ISL Buddy से कुछ भी पूछें..." : "Ask ISL Buddy anything..."}
+              placeholder={isHindi ? "SmartSign ISL से कुछ भी पूछें..." : "Ask SmartSign ISL anything..."}
               value={inputPrompt}
               onChange={(e) => setInputPrompt(e.target.value)}
               className="flex-1 bg-transparent border-0 outline-none ring-0 focus:outline-none focus:ring-0 focus:border-0 px-4 text-xs sm:text-sm font-bold text-[#4b4b4b] dark:text-white placeholder-[#afafaf] dark:placeholder-[#52656d]"
