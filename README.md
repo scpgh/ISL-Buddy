@@ -70,5 +70,4 @@ For full deployment instructions to **Render.com** (Backend) and **Vercel.com** 
 
 ---
 
-##  License & Acknowledgments
-Curriculum designed in accordance with **ISLRTC (DEPwD, Ministry of Social Justice and Empowerment, Government of India)**. Created with ❤️ for an inclusive, accessible India.
+
