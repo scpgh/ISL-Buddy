@@ -1,4 +1,4 @@
-# 🤟 ISL Buddy — Gamified Indian Sign Language Self-Learning Platform
+#  ISL Buddy — Gamified Indian Sign Language Self-Learning Platform
 
 [![UN SDG 4: Quality Education](https://img.shields.io/badge/UN%20SDG-4%20Quality%20Education-58cc02?style=for-the-badge)](https://sdgs.un.org/goals/goal4)
 [![UN SDG 10: Reduced Inequalities](https://img.shields.io/badge/UN%20SDG-10%20Reduced%20Inequalities-1cb0f6?style=for-the-badge)](https://sdgs.un.org/goals/goal10)
@@ -8,20 +8,20 @@
 
 ---
 
-## ✨ Features & Key Highlights
+##  Features & Key Highlights
 
 - 📹 **Interactive Video Modules**: Step-by-step HD video lessons starting from Course Overview through complete ISLRTC Modules.
-- 🤖 **ISL Buddy AI Assistant**: Groq LLM-powered AI instructor answering queries on handshapes, 3D chest space signing, SOV grammar rules, and deaf culture.
-- 🔥 **LeetCode-Style Streak Counter**: Live animated fire badge tracking consecutive learning days.
-- 🏆 **100% Real Learner Leaderboard**: Live ranking system reflecting real registered users, XP earned, and level achievements.
-- 🛡️ **SOS Emergency Communication Cards**: High-visibility display cards for Medical (108), Police (100), and Deaf assistance with an authentic 2-tone emergency siren sound engine.
-- ✏️ **Profile & Display Name Customization**: Inline display name editing with real-time leaderboard synchronization.
-- 🌐 **Multi-Language Support**: Seamless toggling between **English** and **हिन्दी (Hindi)**.
-- 🌓 **Dark & Light Mode**: Curated high-contrast Duolingo-inspired UI with smooth transitions.
+-  **ISL Buddy AI Assistant**: Groq LLM-powered AI instructor answering queries on handshapes, 3D chest space signing, SOV grammar rules, and deaf culture.
+-  **LeetCode-Style Streak Counter**: Live animated fire badge tracking consecutive learning days.
+-  **100% Real Learner Leaderboard**: Live ranking system reflecting real registered users, XP earned, and level achievements.
+-  **SOS Emergency Communication Cards**: High-visibility display cards for Medical (108), Police (100), and Deaf assistance with an authentic 2-tone emergency siren sound engine.
+-  **Profile & Display Name Customization**: Inline display name editing with real-time leaderboard synchronization.
+-  **Multi-Language Support**: Seamless toggling between **English** and **हिन्दी (Hindi)**.
+-  **Dark & Light Mode**: Curated high-contrast Duolingo-inspired UI with smooth transitions.
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend**: React 18, Vite, Tailwind CSS, Lucide React Icons, Web Audio API
 - **Backend API**: Node.js, Micro-HTTP Server Engine, Groq AI API
@@ -30,7 +30,7 @@
 
 ---
 
-## 🚀 Quick Start & Local Setup
+##  Quick Start & Local Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -64,11 +64,11 @@ Open `http://localhost:3000` in your browser to start learning!
 
 ---
 
-## 🌐 Production Deployment
+##  Production Deployment
 
 For full deployment instructions to **Render.com** (Backend) and **Vercel.com** (Frontend), refer to [deployment_guide.md](./deployment_guide.md).
 
 ---
 
-## 📜 License & Acknowledgments
+##  License & Acknowledgments
 Curriculum designed in accordance with **ISLRTC (DEPwD, Ministry of Social Justice and Empowerment, Government of India)**. Created with ❤️ for an inclusive, accessible India.
