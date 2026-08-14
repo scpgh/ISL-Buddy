@@ -54,7 +54,7 @@ export const getStoredProgressForUser = (user) => {
     
     const finalState = { ...DEFAULT_NEW_USER_STATE, ...stateToUse, user };
     
-    // Asynchronously fetch latest progress from central cloud server
+    // Asynchronously fetch latest progress if local backend exists
     fetchCloudProgress(user.uid);
     
     saveProgressForUser(user.uid, finalState);
@@ -158,39 +158,43 @@ export const updateGlobalLeaderboard = (progress) => {
   try {
     localStorage.setItem('smartsign_all_learners', JSON.stringify(currentList));
     
-    // Sync leaderboard item to cloud server in background
-    fetch('/api/leaderboard', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ uid, name, xp, isUser: true, avatar: "🤟", location: "India" })
-    }).catch(() => {});
+    // Only attempt server leaderboard sync on localhost to prevent Vercel 404 logs
+    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+      fetch('/api/leaderboard', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ uid, name, xp, isUser: true, avatar: "🤟", location: "India" })
+      }).catch(() => {});
+    }
   } catch (e) {}
 };
 
 // Asynchronous Cloud Storage Sync Helpers
 async function syncCloudProgress(uid, progress) {
   try {
-    await fetch(`/api/progress/${uid}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(progress)
-    });
-  } catch (err) {
-    // Silently handle offline fallback
-  }
+    // Only attempt server progress sync on localhost to prevent Vercel 404 logs
+    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+      await fetch(`/api/progress/${uid}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(progress)
+      });
+    }
+  } catch (err) {}
 }
 
 async function fetchCloudProgress(uid) {
   try {
-    const res = await fetch(`/api/progress/${uid}`);
-    if (res.ok) {
-      const data = await res.json();
-      if (data && data.progress) {
-        const key = getUserStorageKey(uid);
-        localStorage.setItem(key, JSON.stringify(data.progress));
+    // Only attempt server progress fetch on localhost to prevent Vercel 404 logs
+    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+      const res = await fetch(`/api/progress/${uid}`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && data.progress) {
+          const key = getUserStorageKey(uid);
+          localStorage.setItem(key, JSON.stringify(data.progress));
+        }
       }
     }
-  } catch (err) {
-    // Silently handle offline fallback
-  }
+  } catch (err) {}
 }
