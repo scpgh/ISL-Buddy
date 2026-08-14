@@ -23,6 +23,51 @@ const SYSTEM_PROMPT_HIN = `
 3. उत्तर स्पष्ट, संवादात्मक, संक्षिप्त और आकर्षक रखें।
 `;
 
+// Dynamic offline response generator for custom user prompts
+function generateOfflineResponse(userPrompt, isHindi = false) {
+  const clean = userPrompt ? userPrompt.trim() : '';
+  const words = clean.split(/\s+/);
+  const mainWord = words[words.length - 1] || clean;
+  const lower = clean.toLowerCase();
+
+  let handshape = isHindi 
+    ? `मुख्य हाथ की उंगलियों को छाती के सामने 3D सांकेतिक स्थान में खोलें।`
+    : `Position your active dominant hand cleanly at chest height in your 3D signing space.`;
+  let sovSyntax = `Subject ➔ Object ➔ Verb (SOV)`;
+  let facialExpr = isHindi 
+    ? `शांत, मित्रवत चेहरे के भाव और निरंतर आंख से संपर्क बनाए रखें।`
+    : `Maintain direct, friendly eye contact with non-manual facial markers.`;
+
+  if (lower.includes('hello') || lower.includes('namaste')) {
+    handshape = isHindi 
+      ? `दोनों हथेलियों को सीने के सामने जोड़कर उंगलियों को ऊपर की ओर रखें।`
+      : `Join both palms softly at chest height with fingers pointing upward.`;
+    sovSyntax = isHindi ? `बातचीत की शुरुआत में उपयोग होने वाला अभिवादन संकेत।` : `Greeting marker used at the start of interaction.`;
+    facialExpr = isHindi ? `हल्की मुस्कान के साथ सिर को थोड़ा सा झुकाएं।` : `Gentle smile with a slight bow of the head.`;
+  } else if (lower.includes('thank')) {
+    handshape = isHindi 
+      ? `मुख्य हाथ की उंगलियों से थोड़ी को छुएं और सामने की ओर बढ़ाएं।`
+      : `Touch fingertips of dominant hand to chin and move softly outward towards the listener.`;
+    sovSyntax = isHindi ? `मदद या शिष्टाचार के तुरंत बाद इस्तेमाल होने वाला संकेत।` : `Politeness marker performed directly after an action.`;
+  } else if (lower.includes('where') || lower.includes('what') || lower.includes('who') || lower.includes('how') || lower.includes('why')) {
+    sovSyntax = isHindi ? `[विषय / स्थान] ➔ [प्रश्नवाचक शब्द वाक्य के अंत में]` : `[Subject / Location] ➔ [Question Word at the VERY END]`;
+    facialExpr = isHindi ? `प्रश्न पूछते समय भौंहों को थोड़ा सिकोड़ें और आगे झुकें।` : `Furrow eyebrows slightly and lean forward when signing question words.`;
+  } else if (words.length > 2) {
+    const sub = words[0];
+    const verb = words[words.length - 1];
+    const obj = words.slice(1, words.length - 1).join(" ");
+    sovSyntax = isHindi 
+      ? `मूल वाक्य: "${clean}" ➔ ISL क्रम: "${sub} ${obj} ${verb}"`
+      : `Original: "${clean}" ➔ ISL Order: "${sub} ${obj} ${verb}"`;
+  }
+
+  if (isHindi) {
+    return `नमस्ते! 🤟 **SmartSign ISL** गाइड:\n\n**"${clean}"** के लिए निर्देश:\n• ✋ **संकेत विधि**: ${handshape}\n• 🔄 **ISL व्याकरण**: ${sovSyntax}\n• 😊 **चेहरे के भाव**: ${facialExpr}\n• 💡 **अभ्यास टिप**: "${mainWord}" के लिए दो-हाथों वाली ISL वर्णमाला से हिज्जे (fingerspelling) का अभ्यास करें!`;
+  }
+
+  return `Hello! 🤟 **SmartSign ISL Guide**:\n\nTo sign **"${clean}"** in Indian Sign Language:\n• ✋ **Gesture Technique**: ${handshape}\n• 🔄 **ISL SOV Syntax**: ${sovSyntax}\n• 😊 **Facial Expression**: ${facialExpr}\n• 💡 **Practice Drill**: Practice fingerspelling "${mainWord}" using standard two-handed ISL manual alphabet for clarity!`;
+}
+
 export async function sendChatMessage(userPrompt, isHindi = false, conversationHistory = []) {
   const cleanPrompt = userPrompt ? userPrompt.trim() : '';
   if (!cleanPrompt) return '';
@@ -40,7 +85,7 @@ export async function sendChatMessage(userPrompt, isHindi = false, conversationH
     { role: 'user', content: cleanPrompt }
   ];
 
-  // Try direct Groq Cloud AI API if environment key is provided
+  // 1. Try direct Groq Cloud AI API if environment key is provided
   if (apiKey) {
     for (const model of models) {
       try {
@@ -71,7 +116,7 @@ export async function sendChatMessage(userPrompt, isHindi = false, conversationH
     }
   }
 
-  // Fallback: Try secure backend AI endpoint
+  // 2. Try secure backend AI endpoint
   const backendEndpoints = ['/api/ai/chat', 'http://localhost:5000/api/ai/chat'];
   for (const endpoint of backendEndpoints) {
     try {
@@ -89,12 +134,8 @@ export async function sendChatMessage(userPrompt, isHindi = false, conversationH
     }
   }
 
-  // Fallback response if offline
-  if (isHindi) {
-    return `नमस्ते! 🤟 **SmartSign ISL** यहाँ आपकी सहायता के लिए है!\n\n**"${cleanPrompt}"** का उत्तर:\n• **संकेत विधि**: मुख्य हाथ को छाती के सामने 3D सांकेतिक स्थान में रखें।\n• **ISL व्याकरण**: भारतीय सांकेतिक भाषा में हमेशा **कर्ता ➔ कर्म ➔ क्रिया (SOV)** क्रम का पालन होता है।\n• **भाव**: निरंतर आंख से संपर्क बनाए रखें।\n\nआप मुझसे ISL या किसी भी अन्य विषय पर कोई भी प्रश्न पूछ सकते हैं! 😊`;
-  }
-
-  return `Hello! 🤟 **SmartSign ISL** is here to help you!\n\nTo sign or answer **"${cleanPrompt}"**:\n• **Gesture Technique**: Position your active dominant hand cleanly at chest height in your 3D signing space.\n• **ISL SOV Syntax**: Remember that Indian Sign Language uses **Subject ➔ Object ➔ Verb** word order.\n• **Facial Expression**: Maintain direct, friendly eye contact with non-manual signals.\n\nFeel free to ask me any questions about ISL signs, grammar, fingerspelling, or general topics! 😊`;
+  // 3. Dynamic offline intelligent response tailored to the prompt
+  return generateOfflineResponse(cleanPrompt, isHindi);
 }
 
 export const askMudraAI = sendChatMessage;

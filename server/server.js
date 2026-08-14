@@ -36,8 +36,8 @@ function saveJsonData(filePath, data) {
 // In-Memory IP Rate Limiter
 const rateLimitMap = new Map();
 const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
-const MAX_AI_REQUESTS = 30;
-const MAX_GENERAL_REQUESTS = 200;
+const MAX_AI_REQUESTS = 50;
+const MAX_GENERAL_REQUESTS = 300;
 
 function checkRateLimit(ip, isAiEndpoint = false) {
   const now = Date.now();
@@ -149,6 +149,13 @@ To sign **"${clean}"** in Indian Sign Language:
 
 const server = http.createServer(async (req, res) => {
   const clientIp = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '127.0.0.1';
+  
+  // Parse pathname to prevent trailing slash / query param mismatch
+  const parsedUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
+  let pathname = parsedUrl.pathname;
+  if (pathname.length > 1 && pathname.endsWith('/')) {
+    pathname = pathname.slice(0, -1);
+  }
 
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -166,7 +173,7 @@ const server = http.createServer(async (req, res) => {
   }
 
   // Health Endpoint
-  if (req.url === '/api/health' && req.method === 'GET') {
+  if (pathname === '/api/health' && req.method === 'GET') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       status: 'ok',
@@ -178,14 +185,14 @@ const server = http.createServer(async (req, res) => {
   }
 
   // Global Leaderboard Endpoints
-  if (req.url === '/api/leaderboard' && req.method === 'GET') {
+  if (pathname === '/api/leaderboard' && req.method === 'GET') {
     const list = loadJsonData(LEADERBOARD_FILE, []);
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify(list));
     return;
   }
 
-  if (req.url === '/api/leaderboard' && req.method === 'POST') {
+  if (pathname === '/api/leaderboard' && req.method === 'POST') {
     let body = '';
     req.on('data', chunk => { body += chunk; });
     req.on('end', () => {
@@ -213,9 +220,10 @@ const server = http.createServer(async (req, res) => {
   }
 
   // Cloud User Progress Sync Endpoints
-  if (req.url.startsWith('/api/progress/') && req.method === 'GET') {
-    const uid = req.url.replace('/api/progress/', '').trim();
-    if (!uid) {
+  if (pathname.startsWith('/api/progress') && req.method === 'GET') {
+    const parts = pathname.split('/');
+    const uid = parts[parts.length - 1];
+    if (!uid || uid === 'progress') {
       res.writeHead(400, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'UID required' }));
       return;
@@ -227,9 +235,10 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
-  if (req.url.startsWith('/api/progress/') && req.method === 'POST') {
-    const uid = req.url.replace('/api/progress/', '').trim();
-    if (!uid) {
+  if (pathname.startsWith('/api/progress') && req.method === 'POST') {
+    const parts = pathname.split('/');
+    const uid = parts[parts.length - 1];
+    if (!uid || uid === 'progress') {
       res.writeHead(400, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'UID required' }));
       return;
@@ -245,7 +254,6 @@ const server = http.createServer(async (req, res) => {
           allUsers[uid] = progress;
           saveJsonData(USERS_FILE, allUsers);
 
-          // Auto-sync user to central leaderboard
           let list = loadJsonData(LEADERBOARD_FILE, []);
           const name = progress.username || progress.user?.displayName || progress.user?.email?.split('@')[0] || 'Learner';
           const xp = progress.xp || 0;
@@ -269,11 +277,11 @@ const server = http.createServer(async (req, res) => {
   }
 
   // AI Chat Endpoint
-  if (req.url === '/api/ai/chat' && req.method === 'POST') {
+  if (pathname === '/api/ai/chat' && req.method === 'POST') {
     const rateCheck = checkRateLimit(clientIp, true);
     if (!rateCheck.allowed) {
       res.writeHead(429, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: 'Rate limit exceeded: Max 30 AI requests per 15 minutes.' }));
+      res.end(JSON.stringify({ error: 'Rate limit exceeded: Max 50 AI requests per 15 minutes.' }));
       return;
     }
 
@@ -301,7 +309,7 @@ const server = http.createServer(async (req, res) => {
         let aiResponse = null;
 
         if (apiKey) {
-          const models = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'mixtral-8x7b-32768'];
+          const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'mixtral-8x7b-32768'];
 
           for (const model of models) {
             try {
@@ -318,7 +326,7 @@ const server = http.createServer(async (req, res) => {
                     { role: 'user', content: cleanPrompt }
                   ],
                   temperature: 0.7,
-                  max_tokens: 500
+                  max_tokens: 800
                 })
               });
 
@@ -353,7 +361,7 @@ const server = http.createServer(async (req, res) => {
   }
 
   res.writeHead(404, { 'Content-Type': 'application/json' });
-  res.end(JSON.stringify({ error: 'Endpoint Not Found' }));
+  res.end(JSON.stringify({ error: `Endpoint Not Found: ${pathname}` }));
 });
 
 server.listen(PORT, () => {
