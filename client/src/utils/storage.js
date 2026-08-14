@@ -18,7 +18,7 @@ const DEFAULT_NEW_USER_STATE = {
 };
 
 export const getUserStorageKey = (uid) => {
-  return uid ? `isl_buddy_user_progress_${uid}` : 'isl_buddy_active_session';
+  return uid ? `smartsign_user_progress_${uid}` : 'smartsign_active_session';
 };
 
 export const getStoredProgressForUser = (user) => {
@@ -65,9 +65,9 @@ export const getStoredProgressForUser = (user) => {
 };
 
 export const getStoredProgress = () => {
-  const currentUid = localStorage.getItem('isl_buddy_current_user_id');
+  const currentUid = localStorage.getItem('smartsign_current_user_id');
   if (currentUid) {
-    const rawUser = localStorage.getItem(`isl_buddy_user_progress_${currentUid}`);
+    const rawUser = localStorage.getItem(`smartsign_user_progress_${currentUid}`);
     if (rawUser) {
       try {
         const parsed = JSON.parse(rawUser);
@@ -85,7 +85,7 @@ export const saveProgressForUser = (uid, progress) => {
   const key = getUserStorageKey(uid);
   try {
     localStorage.setItem(key, JSON.stringify(progress));
-    localStorage.setItem('isl_buddy_current_user_id', uid);
+    localStorage.setItem('smartsign_current_user_id', uid);
     updateGlobalLeaderboard(progress);
 
     // Sync progress to cloud server in background
@@ -114,7 +114,7 @@ export const setAppLanguage = (lang) => {
 // Registered Real Learners Directory (ONLY Real Logged-in Users)
 export const getGlobalLeaderboard = () => {
   try {
-    const raw = localStorage.getItem('isl_buddy_all_learners');
+    const raw = localStorage.getItem('smartsign_all_learners');
     if (!raw) return [];
     const learners = JSON.parse(raw);
     return Array.isArray(learners) ? learners : [];
@@ -156,7 +156,7 @@ export const updateGlobalLeaderboard = (progress) => {
   currentList.sort((a, b) => b.xp - a.xp);
 
   try {
-    localStorage.setItem('isl_buddy_all_learners', JSON.stringify(currentList));
+    localStorage.setItem('smartsign_all_learners', JSON.stringify(currentList));
     
     // Sync leaderboard item to cloud server in background
     fetch('/api/leaderboard', {
@@ -170,35 +170,27 @@ export const updateGlobalLeaderboard = (progress) => {
 // Asynchronous Cloud Storage Sync Helpers
 async function syncCloudProgress(uid, progress) {
   try {
-    const endpoints = [`/api/progress/${uid}`, `http://localhost:5000/api/progress/${uid}`];
-    for (const ep of endpoints) {
-      try {
-        const res = await fetch(ep, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(progress)
-        });
-        if (res.ok) break;
-      } catch (e) {}
-    }
-  } catch (err) {}
+    await fetch(`/api/progress/${uid}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(progress)
+    });
+  } catch (err) {
+    // Silently handle offline fallback
+  }
 }
 
 async function fetchCloudProgress(uid) {
   try {
-    const endpoints = [`/api/progress/${uid}`, `http://localhost:5000/api/progress/${uid}`];
-    for (const ep of endpoints) {
-      try {
-        const res = await fetch(ep);
-        if (res.ok) {
-          const data = await res.json();
-          if (data && data.progress) {
-            const key = getUserStorageKey(uid);
-            localStorage.setItem(key, JSON.stringify(data.progress));
-          }
-          break;
-        }
-      } catch (e) {}
+    const res = await fetch(`/api/progress/${uid}`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data && data.progress) {
+        const key = getUserStorageKey(uid);
+        localStorage.setItem(key, JSON.stringify(data.progress));
+      }
     }
-  } catch (err) {}
+  } catch (err) {
+    // Silently handle offline fallback
+  }
 }
