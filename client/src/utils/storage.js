@@ -14,7 +14,7 @@ const DEFAULT_NEW_USER_STATE = {
   title: "Beginner Signer",
   user: null,
   username: 'Learner',
-  appLanguage: 'english' // 'english' or 'hindi'
+  appLanguage: 'english'
 };
 
 export const getUserStorageKey = (uid) => {
@@ -23,7 +23,9 @@ export const getUserStorageKey = (uid) => {
 
 export const getStoredProgressForUser = (user) => {
   if (!user || !user.uid) return null;
-  const key = getUserStorageKey(user.uid);
+  const uid = user.uid;
+  const key = getUserStorageKey(uid);
+
   try {
     const data = localStorage.getItem(key);
     let stateToUse = null;
@@ -41,23 +43,31 @@ export const getStoredProgressForUser = (user) => {
     const today = new Date().toISOString().split('T')[0];
     const lastDate = stateToUse.lastStreakDate;
     
-    if (lastDate !== today) {
+    if (lastDate && lastDate !== today) {
       const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
       if (lastDate === yesterday) {
         stateToUse.todayXpEarned = 0;
       } else {
-        stateToUse.streakDays = 1;
+        stateToUse.streakDays = Math.max(1, stateToUse.streakDays || 1);
         stateToUse.todayXpEarned = 0;
       }
       stateToUse.lastStreakDate = today;
     }
     
-    const finalState = { ...DEFAULT_NEW_USER_STATE, ...stateToUse, user };
+    const finalState = { 
+      ...DEFAULT_NEW_USER_STATE, 
+      ...stateToUse, 
+      user,
+      completedPhrases: stateToUse.completedPhrases || [],
+      completedUnits: stateToUse.completedUnits || []
+    };
+
+    localStorage.setItem(key, JSON.stringify(finalState));
+    localStorage.setItem('smartsign_current_user_id', uid);
     
-    // Asynchronously fetch latest progress if local backend exists
-    fetchCloudProgress(user.uid);
-    
-    saveProgressForUser(user.uid, finalState);
+    syncCloudProgress(uid, finalState);
+    updateGlobalLeaderboard(finalState);
+
     return finalState;
   } catch (err) {
     return { ...DEFAULT_NEW_USER_STATE, user };
@@ -81,15 +91,18 @@ export const getStoredProgress = () => {
 };
 
 export const saveProgressForUser = (uid, progress) => {
-  if (!uid) return;
+  if (!uid || !progress) return;
   const key = getUserStorageKey(uid);
   try {
-    localStorage.setItem(key, JSON.stringify(progress));
+    const cleanProgress = {
+      ...progress,
+      user: progress.user ? { uid: progress.user.uid, email: progress.user.email, displayName: progress.user.displayName } : null
+    };
+    localStorage.setItem(key, JSON.stringify(cleanProgress));
     localStorage.setItem('smartsign_current_user_id', uid);
-    updateGlobalLeaderboard(progress);
-
-    // Sync progress to cloud server in background
-    syncCloudProgress(uid, progress);
+    
+    updateGlobalLeaderboard(cleanProgress);
+    syncCloudProgress(uid, cleanProgress);
   } catch (err) {
     console.error('Failed to save user progress:', err);
   }
@@ -111,7 +124,6 @@ export const setAppLanguage = (lang) => {
   return null;
 };
 
-// Registered Real Learners Directory (ONLY Real Logged-in Users)
 export const getGlobalLeaderboard = () => {
   try {
     const raw = localStorage.getItem('smartsign_all_learners');
@@ -130,8 +142,8 @@ export const updateGlobalLeaderboard = (progress) => {
   const xp = progress.xp || 0;
 
   let currentList = getGlobalLeaderboard();
-
   const existingIdx = currentList.findIndex((u) => u.uid === uid);
+
   if (existingIdx !== -1) {
     currentList[existingIdx] = {
       ...currentList[existingIdx],
@@ -152,13 +164,11 @@ export const updateGlobalLeaderboard = (progress) => {
     });
   }
 
-  // Sort descending by real earned XP
-  currentList.sort((a, b) => b.xp - a.xp);
+  currentList.sort((a, b) => (b.xp || 0) - (a.xp || 0));
 
   try {
     localStorage.setItem('smartsign_all_learners', JSON.stringify(currentList));
     
-    // Only attempt server leaderboard sync on localhost to prevent Vercel 404 logs
     if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
       fetch('/api/leaderboard', {
         method: 'POST',
@@ -169,10 +179,8 @@ export const updateGlobalLeaderboard = (progress) => {
   } catch (e) {}
 };
 
-// Asynchronous Cloud Storage Sync Helpers
 async function syncCloudProgress(uid, progress) {
   try {
-    // Only attempt server progress sync on localhost to prevent Vercel 404 logs
     if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
       await fetch(`/api/progress/${uid}`, {
         method: 'POST',
@@ -185,7 +193,6 @@ async function syncCloudProgress(uid, progress) {
 
 async function fetchCloudProgress(uid) {
   try {
-    // Only attempt server progress fetch on localhost to prevent Vercel 404 logs
     if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
       const res = await fetch(`/api/progress/${uid}`);
       if (res.ok) {

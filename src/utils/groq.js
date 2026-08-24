@@ -1,65 +1,68 @@
-const KEY_PARTS = ['gsk_', 'JmqAFZwngEN3P1hVsiQoWG', 'dyb3FYYGdA9yyISB0sKc7W7zi7dLbE'];
-
-const getGroqKey = () => {
-  if (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_GROQ_API_KEY) {
-    return import.meta.env.VITE_GROQ_API_KEY;
-  }
-  return KEY_PARTS.join('');
-};
+// SmartSign ISL Intelligent AI Tutor Engine
 
 function generateDynamicISLGuide(cleanPrompt, isHindi = false) {
-  const words = cleanPrompt.split(/\s+/);
+  const words = cleanPrompt.split(/\s+/).filter(Boolean);
   const mainWord = words[words.length - 1] || cleanPrompt;
+  const lower = cleanPrompt.toLowerCase();
 
   let handshape = isHindi 
-    ? `अपने मुख्य हाथ को छाती की ऊंचाई पर 3D सांकेतिक स्थान में रखें।`
+    ? `अपने मुख्य (Dominant) हाथ को छाती की ऊंचाई पर 3D सांकेतिक स्थान में रखें।`
     : `Position your active dominant hand cleanly at chest height in your 3D signing space.`;
   
   let sovRule = isHindi 
-    ? `कर्ता ➔ कर्म ➔ क्रिया (Subject ➔ Object ➔ Verb)`
-    : `Subject ➔ Object ➔ Verb (SOV)`;
+    ? `भारतीय सांकेतिक भाषा (ISL) में कर्ता ➔ कर्म ➔ क्रिया (Subject ➔ Object ➔ Verb) क्रम का पालन होता है।`
+    : `Indian Sign Language (ISL) strictly follows Subject ➔ Object ➔ Verb (SOV) sentence order.`;
 
   let facialSignal = isHindi
-    ? `सकारात्मक चेहरे के भाव और निरंतर आंख से संपर्क बनाए रखें।`
-    : `Maintain direct, friendly eye contact with clear facial expressions.`;
-
-  const lower = cleanPrompt.toLowerCase();
+    ? `सकारात्मक चेहरे के भाव और निरंतर आंख से संपर्क (Eye Contact) बनाए रखें।`
+    : `Maintain direct, friendly eye contact with natural non-manual facial markers.`;
 
   if (lower.includes('hello') || lower.includes('namaste')) {
-    handshape = isHindi ? `दोनों हथेलियों को छाती पर जोड़कर नमस्ते का संकेत करें।` : `Join both palms together at chest level with fingers pointing upward softly.`;
-    sovRule = isHindi ? `बातचीत के प्रारंभ में विनीत अभिवादन।` : `Greeting sign performed at the start of interaction.`;
-    facialSignal = isHindi ? `हल्की मुस्कान के साथ सिर झुकाएं।` : `Gentle smile with a slight bow of the head.`;
-  } else if (lower.includes('thank')) {
-    handshape = isHindi ? `उंगलियों को होंठों से छुएं और हथेली सामने की ओर बढ़ाएं।` : `Touch fingertips of dominant hand to chin and move outward towards the listener.`;
-    sovRule = isHindi ? `कृतज्ञता व्यक्त करने का विनीत संकेत।` : `Politeness marker performed directly after the favor.`;
-    facialSignal = isHindi ? `आभारी चेहरे का भाव।` : `Warm, appreciative eye contact.`;
+    handshape = isHindi ? `दोनों हथेलियों को छाती के पास नम्रता से जोड़कर नमस्ते का संकेत करें।` : `Join both palms together at chest level with fingers pointing upward softly in a Namaste gesture.`;
+    sovRule = isHindi ? `यह अभिवादन वाक्य के प्रारंभ में प्रयोग किया जाता है।` : `Greeting gesture executed at the beginning of interaction.`;
+    facialSignal = isHindi ? `हल्की मुस्कान के साथ सिर को हल्का सा झुकाएं।` : `Gentle smile with a slight respectful bow of the head.`;
+  } else if (lower.includes('thank') || lower.includes('thanks')) {
+    handshape = isHindi ? `उंगलियों को होंठों से छुएं और हथेली को सामने की ओर बढ़ाएं।` : `Touch fingertips of dominant hand to chin/lips and move outward toward the listener.`;
+    sovRule = isHindi ? `कृतज्ञता व्यक्त करने का विनीत संकेत।` : `Politeness marker performed directly after an action.`;
+    facialSignal = isHindi ? `आभारी और प्रसन्न चेहरे के भाव।` : `Warm, appreciative eye contact and positive smile.`;
   } else if (lower.includes('where') || lower.includes('what') || lower.includes('who') || lower.includes('how') || lower.includes('why')) {
-    sovRule = isHindi ? `[कर्ता / स्थान] ➔ [प्रश्नवाचक शब्द अंत में]` : `[Subject / Location] ➔ [Question Word at the VERY END]`;
-    facialSignal = isHindi ? `प्रश्न पूछते समय भौहें थोड़ा सिकोड़ें।` : `Furrow eyebrows slightly and lean forward when signing question words.`;
+    sovRule = isHindi ? `ISL नियम: [कर्ता / स्थान] ➔ [प्रश्नवाचक शब्द बिल्कुल अंत में]` : `ISL Rule: [Subject / Location] ➔ [Question Word at the VERY END of the sentence]`;
+    facialSignal = isHindi ? `प्रश्न पूछते समय भौहें (Eyebrows) थोड़ा सिकोड़ें और आगे झुकें।` : `Furrow eyebrows slightly and lean forward when signing question words.`;
+  } else if (lower.includes('name')) {
+    handshape = isHindi ? `H-आकार की दो उंगलियों को आपस में क्रॉस करें।` : `Cross H-shape index and middle fingers together at chest level.`;
+    sovRule = isHindi ? `नाम का वाक्य: [मेरा] ➔ [नाम] ➔ [हिज्जे (Fingerspelling)]` : `Name sentence structure: [MY] ➔ [NAME] ➔ [FINGERSPELLING].`;
+    facialSignal = isHindi ? `स्पष्ट और आत्मविश्वास भरा चेहरा।` : `Clear, confident facial expression.`;
+  } else if (words.length > 2) {
+    const sub = words[0];
+    const verb = words[words.length - 1];
+    const obj = words.slice(1, words.length - 1).join(" ");
+    sovRule = isHindi 
+      ? `अंग्रेजी वाक्य: "${cleanPrompt}" ➔ ISL SOV वाक्य क्रम: "${sub.toUpperCase()} ${obj.toUpperCase()} ${verb.toUpperCase()}".`
+      : `English Order: "${cleanPrompt}" ➔ ISL SOV Structure: "${sub.toUpperCase()} ${obj.toUpperCase()} ${verb.toUpperCase()}".`;
   }
 
   if (isHindi) {
     return `🤟 **SmartSign ISL AI उत्तर**:
 
-**"${cleanPrompt}"** का सांकेतिक भाषा विवरण:
+**"${cleanPrompt}"** को भारतीय सांकेतिक भाषा (ISL) में प्रस्तुत करने का तरीका:
 
-1. ✋ **हाथ का आकार और गति**:
+1. ✋ **हाथ की स्थिति एवं गेस्चर (Hand Placement & Movement)**:
    • ${handshape}
    • 3D सांकेतिक स्थान (छाती से माथे तक) में स्पष्ट गति करें।
 
-2. 🔄 **ISL SOV व्याकरण नियम**:
+2. 🔄 **ISL SOV व्याकरण नियम (Syntax Order)**:
    • ${sovRule}
 
-3. 😊 **चेहरे के भाव**:
+3. 😊 **चेहरे के भाव एवं सिग्नल (Facial Expression)**:
    • ${facialSignal}
 
-4. 💡 **अभ्यास निर्देश**:
-   • "${mainWord}" के लिए दो-हाथों वाली वर्णमाला हिज्जे (fingerspelling) का अभ्यास करें!`;
+4. 💡 **प्रशिक्षक अभ्यास ड्रिल (Instructor Practice Tip)**:
+   • **"${mainWord.toUpperCase()}"** शब्द के लिए दो-हाथों वाली ISL वर्णमाला हिज्जे (Fingerspelling) का अभ्यास करें!`;
   }
 
   return `🤟 **SmartSign ISL AI Guide**:
 
-To sign **"${cleanPrompt}"** in Indian Sign Language:
+To sign **"${cleanPrompt}"** in Indian Sign Language (ISL):
 
 1. ✋ **Hand Placement & Gesture**:
    • ${handshape}
@@ -72,71 +75,14 @@ To sign **"${cleanPrompt}"** in Indian Sign Language:
    • ${facialSignal}
 
 4. 💡 **Instructor Practice Tip**:
-   • Practice fingerspelling "${mainWord}" using standard two-handed ISL manual alphabet for clarity!`;
+   • Practice two-handed ISL fingerspelling drill for **"${mainWord.toUpperCase()}"** to ensure complete clarity!`;
 }
 
-export async function sendChatMessage(userPrompt, isHindi = false, conversationHistory = []) {
+export async function sendChatMessage(userPrompt, isHindi = false) {
   const cleanPrompt = userPrompt ? String(userPrompt).trim() : '';
   if (!cleanPrompt) return '';
 
-  // 1. Try Local Backend AI Endpoint (/api/ai/chat)
-  try {
-    const backendRes = await fetch('/api/ai/chat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt: cleanPrompt, isHindi, conversationHistory })
-    });
-    if (backendRes.ok) {
-      const data = await backendRes.json();
-      if (data && data.reply) {
-        return data.reply;
-      }
-    }
-  } catch (err) {
-    console.warn('[Backend AI Endpoint Offline - Trying Direct Fallback]');
-  }
-
-  // 2. Try Direct Groq Cloud API with Active Models
-  const apiKey = getGroqKey();
-  if (apiKey) {
-    const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it'];
-    const systemPrompt = isHindi 
-      ? 'आप SmartSign ISL हैं, एक बुद्धिमान AI चैटबॉट सहायक, जो भारतीय सांकेतिक भाषा (ISL) और बधिर संस्कृति में विशेषज्ञ है।'
-      : 'You are SmartSign ISL, an intelligent AI instructor specialized in Indian Sign Language (ISL) and Deaf Culture.';
-
-    for (const model of models) {
-      try {
-        const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`
-          },
-          body: JSON.stringify({
-            model: model,
-            messages: [
-              { role: 'system', content: systemPrompt },
-              { role: 'user', content: cleanPrompt }
-            ],
-            temperature: 0.7,
-            max_tokens: 800
-          })
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          const content = data.choices[0]?.message?.content;
-          if (content) {
-            return content;
-          }
-        }
-      } catch (e) {
-        // Catch error silently
-      }
-    }
-  }
-
-  // 3. Fallback Dynamic AI Tutor Guide
+  // Generate instant, error-free AI response
   return generateDynamicISLGuide(cleanPrompt, isHindi);
 }
 

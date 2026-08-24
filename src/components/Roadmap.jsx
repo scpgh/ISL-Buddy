@@ -3,8 +3,8 @@ import { Check, Lock, Star, ChevronLeft, ChevronRight, Dumbbell, Gift, Trophy } 
 import { ISL_UNITS, ISL_PHRASES } from '../data/islData';
 
 export default function Roadmap({ userProgress, onStartLesson }) {
-  const completedPhrases = userProgress.completedPhrases || ['lesson-node-1'];
-  const isHindi = userProgress.appLanguage === 'hindi';
+  const completedPhrases = userProgress?.completedPhrases || ['lesson-node-1'];
+  const isHindi = userProgress?.appLanguage === 'hindi';
 
   // Group phrases by unit
   const unitsWithPhrases = ISL_UNITS.map((unit) => {
@@ -29,6 +29,17 @@ export default function Roadmap({ userProgress, onStartLesson }) {
   const unitCompletedCount = unitPhrases.filter((p) => completedPhrases.includes(p.id)).length;
   const unitTotalCount = unitPhrases.length;
 
+  // Check if a unit is locked (must complete all previous unit phrases)
+  const isUnitLocked = (unitIndex) => {
+    if (unitIndex <= 0) return false;
+    for (let i = 0; i < unitIndex; i++) {
+      const phrases = unitsWithPhrases[i].phrases;
+      const allDone = phrases.every((p) => completedPhrases.includes(p.id));
+      if (!allDone) return true;
+    }
+    return false;
+  };
+
   // Distinct triangular / zigzag offsets (Center ➔ Right ➔ Center ➔ Left)
   const triangularOffsets = [0, 75, 0, -75];
 
@@ -40,13 +51,13 @@ export default function Roadmap({ userProgress, onStartLesson }) {
         <button
           onClick={() => setSelectedUnitIndex((prev) => Math.max(0, prev - 1))}
           disabled={selectedUnitIndex === 0}
-          className="p-2 rounded-2xl bg-white/20 hover:bg-white/30 disabled:opacity-30 disabled:hover:bg-white/20 text-white transition-colors shrink-0"
+          className="p-2 rounded-2xl bg-white/20 hover:bg-white/30 disabled:opacity-30 disabled:hover:bg-white/20 text-white transition-colors shrink-0 cursor-pointer"
           title="Previous Unit"
         >
           <ChevronLeft className="w-5 h-5 stroke-[3]" />
         </button>
 
-        {/* Full Module Title Container (No Truncation) */}
+        {/* Full Module Title Container */}
         <div className="text-center flex-1 min-w-0 px-1">
           <span className="text-[10px] font-black uppercase tracking-wider bg-black/20 px-3 py-0.5 rounded-full inline-block mb-1">
             SECTION 1 • UNIT {selectedUnitIndex + 1} OF {unitsWithPhrases.length}
@@ -60,9 +71,16 @@ export default function Roadmap({ userProgress, onStartLesson }) {
         </div>
 
         <button
-          onClick={() => setSelectedUnitIndex((prev) => Math.min(unitsWithPhrases.length - 1, prev + 1))}
+          onClick={() => {
+            const nextIdx = selectedUnitIndex + 1;
+            if (isUnitLocked(nextIdx)) {
+              alert(isHindi ? `कृपया मॉड्यूल ${nextIdx + 1} को अनलॉक करने के लिए पिछला मॉड्यूल पूरा करें!` : `Please complete Module ${selectedUnitIndex + 1} first to unlock Module ${nextIdx + 1}!`);
+              return;
+            }
+            setSelectedUnitIndex(nextIdx);
+          }}
           disabled={selectedUnitIndex === unitsWithPhrases.length - 1}
-          className="p-2 rounded-2xl bg-white/20 hover:bg-white/30 disabled:opacity-30 disabled:hover:bg-white/20 text-white transition-colors shrink-0"
+          className="p-2 rounded-2xl bg-white/20 hover:bg-white/30 disabled:opacity-30 disabled:hover:bg-white/20 text-white transition-colors shrink-0 cursor-pointer"
           title="Next Unit"
         >
           <ChevronRight className="w-5 h-5 stroke-[3]" />
@@ -80,7 +98,6 @@ export default function Roadmap({ userProgress, onStartLesson }) {
           const isActive = phraseGlobalIndex === currentGlobalActiveIndex;
           const isLocked = phraseGlobalIndex > currentGlobalActiveIndex;
 
-          // Triangular Zigzag offset
           const offsetPx = triangularOffsets[pIdx % triangularOffsets.length];
           const nodeType = pIdx % 4;
           const lessonNumber = phraseGlobalIndex + 1;
@@ -105,13 +122,19 @@ export default function Roadmap({ userProgress, onStartLesson }) {
 
                 {/* Node Button */}
                 <button
-                  onClick={() => onStartLesson(phrase)}
-                  className={`w-18 h-18 sm:w-20 sm:h-20 rounded-full flex items-center justify-center relative transition-all duration-200 active:scale-95 cursor-pointer shadow-lg ${
+                  onClick={() => {
+                    if (isLocked) {
+                      alert(isHindi ? `पाठ ${lessonNumber} लॉक है! इसे अनलॉक करने के लिए कृपया पिछला पाठ पूरा करें।` : `Lesson ${lessonNumber} is locked! Please complete Lesson ${currentGlobalActiveIndex + 1} first to unlock.`);
+                      return;
+                    }
+                    onStartLesson(phrase);
+                  }}
+                  className={`w-18 h-18 sm:w-20 sm:h-20 rounded-full flex items-center justify-center relative transition-all duration-200 shadow-lg ${
                     isCompleted
-                      ? 'bg-[#ffc800] border-b-6 border-[#e5b200] text-[#4b4b4b]'
+                      ? 'bg-[#ffc800] border-b-6 border-[#e5b200] text-[#4b4b4b] cursor-pointer active:scale-95'
                       : isActive
-                      ? 'bg-[#58cc02] border-b-6 border-[#46a302] text-white ring-8 ring-[#58cc02]/30 animate-bounce'
-                      : 'bg-[#e5e5e5] dark:bg-[#202f36] border-b-6 border-[#cecece] dark:border-[#131f24] text-[#afafaf] dark:text-[#52656d]'
+                      ? 'bg-[#58cc02] border-b-6 border-[#46a302] text-white ring-8 ring-[#58cc02]/30 animate-bounce cursor-pointer active:scale-95'
+                      : 'bg-[#e5e5e5] dark:bg-[#202f36] border-b-6 border-[#cecece] dark:border-[#131f24] text-[#afafaf] dark:text-[#52656d] cursor-not-allowed opacity-75'
                   }`}
                 >
                   {isCompleted ? (
