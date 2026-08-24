@@ -137,6 +137,9 @@ courseDataV8.modules.forEach((m) => {
       if (l.topic_code === "1.1" || num === 1) {
         embedUrl = `https://www.youtube.com/embed/n42ohSmbAFI?list=${PLAYLIST_ID}`;
         watchUrl = `https://www.youtube.com/watch?v=n42ohSmbAFI&list=${PLAYLIST_ID}&index=2`;
+      } else if (l.topic_code === "1.2" || num === 2) {
+        embedUrl = `https://www.youtube.com/embed/LiPWrTmc3TA`;
+        watchUrl = `https://www.youtube.com/shorts/LiPWrTmc3TA`;
       } else if (l.topic_code === "1.4" || num === 4) {
         embedUrl = `https://www.youtube.com/embed/s-4jpblFYQk?list=${PLAYLIST_ID}`;
         watchUrl = `https://www.youtube.com/watch?v=s-4jpblFYQk&list=${PLAYLIST_ID}&index=5`;

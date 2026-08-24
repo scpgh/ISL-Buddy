@@ -3,6 +3,22 @@ import { Search, Play, Sparkles, CheckCircle2, ChevronRight, X, ExternalLink, Fi
 
 export const ACTION_SIGNS_DATA = [
   {
+    id: 0,
+    videoIndex: 0,
+    title: "Hello / Namaste",
+    titleHindi: "नमस्ते / हैलो (Hello)",
+    category: "Communication",
+    categoryHindi: "संवाद और बातचीत",
+    embedUrl: "https://www.youtube.com/embed/LiPWrTmc3TA",
+    watchUrl: "https://www.youtube.com/shorts/LiPWrTmc3TA",
+    description: "Raise dominant hand to chest or forehead level with flat open palm, or join both palms in Namaste gesture.",
+    descriptionHindi: "सीधी हथेली से हाथ हिलाएं या नम्रता से दोनों हाथ जोड़कर नमस्ते का संकेत करें।",
+    gestureTip: "Maintain friendly eye contact and a warm smiling expression while making the greeting sign.",
+    sovContext: "Used at the very beginning of ISL dialogue to greet respectfully.",
+    handShape: "Flat Open Palm / Joined Namaste",
+    movement: "Gentle side-to-side wave or chest press"
+  },
+  {
     id: 1,
     videoIndex: 1,
     title: "Eat",
