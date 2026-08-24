@@ -1,0 +1,625 @@
+{
+  "sharedStrings": [
+    "Title",
+    "url",
+    "embed",
+    "https://youtube.com/shorts/LiPWrTmc3TA?si=dkl7-CuciZmi9SLP",
+    "hello",
+    "https://youtube.com/shorts/1oQ_G15gcXw?si=jaclacmsbOwZApPK",
+    "Nice to meet you",
+    "https://youtube.com/shorts/PFsE-_Af6RY?si=zGY1ddBSnkPwy2cB",
+    "see you later",
+    "I am fine",
+    "https://youtube.com/shorts/Mm7cNf0CUjE?si=Jw77DnN5O2C98xRG",
+    "how are you?",
+    "https://youtube.com/shorts/ll7PGaH_sxM?si=1g7r3B5L7C6rEoC9",
+    "please",
+    "https://youtube.com/shorts/kdtPvF06MKY?si=UcjlVneNP1k8uhdO",
+    "good bye",
+    "https://youtube.com/shorts/NE00N_TrLdM?si=uRI1Smv-2VETXgLl",
+    "https://youtube.com/shorts/EOz2hgv3E9I?si=pSWiv-X6Wz5FKhiv",
+    "good day",
+    "https://youtube.com/shorts/c_R3Ykqd9B4?si=UOilgKBeD29bt276",
+    "good evening",
+    "good afternoon",
+    "https://youtube.com/shorts/wcmaX9bHCCM?si=DsNKHc8w4f1n3Bm_",
+    "https://youtube.com/shorts/yiiDMg2kBhQ?si=bIBVgk6FFXTOX4ZM",
+    "good morning",
+    "thank you",
+    "https://youtube.com/shorts/6u9MmfUMsSM?si=hUP879qkLVquou8M",
+    "https://youtube.com/shorts/uIE3I3Ps3tA?si=KEotpVjG5bX_qsIc",
+    "https://youtube.com/shorts/uIE3I3Ps3tA?si=wHazAIGoPzR_BVec",
+    "water",
+    "food",
+    "https://youtube.com/shorts/tRKV-0R5HvY?si=x5p_qTRhMHqI99_g",
+    "https://youtube.com/shorts/-X8olJ26FJg?si=7YEOGf7G17GyhBH9",
+    "eat",
+    "toilet",
+    "https://youtube.com/shorts/1QSOOO4DY84?si=1L1feP5kBStJRzb1",
+    "https://youtube.com/shorts/yw9cXrPKSrI?si=xSBuyBsfW3SXux9q",
+    "help me",
+    "https://youtube.com/shorts/OxdBMdHFFR8?si=yoBDBOrd0kIB5kLE",
+    "im hungry",
+    "stop",
+    "https://youtube.com/shorts/GlwDspr6hjE?si=Ul1nSiYnXtddPy66",
+    "https://youtube.com/shorts/XpFq2dXjW3A?si=iZFTnLwqg7GsV4LG",
+    "call a doctor",
+    "I need help",
+    "https://youtube.com/shorts/tAXD7vPYV4E?si=31SinU1cNM8qUnsi",
+    "sad",
+    "https://youtube.com/shorts/trw3_nVXKf4?si=bTqftz_H1sBWIg-F",
+    "welcome",
+    "https://youtube.com/shorts/g9egZJa36o0?si=kMlXBlUUxBtJ0AiZ",
+    "sorry",
+    "https://youtube.com/shorts/EMZqnryIV_o?si=DOhrC2D2Q3NpZYxU",
+    "excuse me",
+    "yes",
+    "https://youtube.com/shorts/Yy2fdzxf3mw?si=5Tdn34YN5EKynUJT",
+    "https://youtube.com/shorts/66pzv28KIZU?si=tEWsImSzstwO9zy4",
+    "no",
+    "https://youtube.com/shorts/rFeLX2tYags?si=oBgS7MsRoHfsa5kc",
+    "My name is saanvi",
+    "https://youtube.com/shorts/qyFLX20D3L8?si=RiwJ_0xJqB66YJNO",
+    "https://youtube.com/shorts/UiZ_cKm-Obs?si=XfpiLaIaQNv9Cni8",
+    "im a student",
+    "im from india",
+    "https://youtube.com/shorts/bBzAAw5iQn8?si=l3KLhFcZQo6JSsbw",
+    "happy",
+    "https://youtube.com/shorts/eucWQUbRv8Y?si=-1C2IOMrVuxs_dSi",
+    "I don't understand",
+    "https://youtube.com/shorts/3oxwv7luE-E?si=sYhvBr3iLdnkpju1",
+    "mother",
+    "https://youtube.com/shorts/rPtwfn7lbg0?si=bjQ6KAOy0zouvhGo",
+    "father",
+    "https://youtube.com/shorts/_zw68ve0nQ0?si=idLolYr2We2MbC6t",
+    "What is your name?"
+  ],
+  "relMap": {},
+  "rows": [
+    {
+      "rowNum": "1",
+      "cellList": [
+        {
+          "ref": "A1",
+          "val": "Title",
+          "link": ""
+        },
+        {
+          "ref": "B1",
+          "val": "url",
+          "link": ""
+        },
+        {
+          "ref": "C1",
+          "val": "embed",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "2",
+      "cellList": [
+        {
+          "ref": "A2",
+          "val": "hello",
+          "link": ""
+        },
+        {
+          "ref": "B2",
+          "val": "https://youtube.com/shorts/LiPWrTmc3TA?si=dkl7-CuciZmi9SLP",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "3",
+      "cellList": [
+        {
+          "ref": "A3",
+          "val": "Nice to meet you",
+          "link": ""
+        },
+        {
+          "ref": "B3",
+          "val": "https://youtube.com/shorts/1oQ_G15gcXw?si=jaclacmsbOwZApPK",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "4",
+      "cellList": [
+        {
+          "ref": "A4",
+          "val": "see you later",
+          "link": ""
+        },
+        {
+          "ref": "B4",
+          "val": "https://youtube.com/shorts/PFsE-_Af6RY?si=zGY1ddBSnkPwy2cB",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "5",
+      "cellList": [
+        {
+          "ref": "A5",
+          "val": "I am fine",
+          "link": ""
+        },
+        {
+          "ref": "B5",
+          "val": "https://youtube.com/shorts/Mm7cNf0CUjE?si=Jw77DnN5O2C98xRG",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "6",
+      "cellList": [
+        {
+          "ref": "A6",
+          "val": "how are you?",
+          "link": ""
+        },
+        {
+          "ref": "B6",
+          "val": "https://youtube.com/shorts/ll7PGaH_sxM?si=1g7r3B5L7C6rEoC9",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "7",
+      "cellList": [
+        {
+          "ref": "A7",
+          "val": "please",
+          "link": ""
+        },
+        {
+          "ref": "B7",
+          "val": "https://youtube.com/shorts/kdtPvF06MKY?si=UcjlVneNP1k8uhdO",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "8",
+      "cellList": [
+        {
+          "ref": "A8",
+          "val": "good bye",
+          "link": ""
+        },
+        {
+          "ref": "B8",
+          "val": "https://youtube.com/shorts/NE00N_TrLdM?si=uRI1Smv-2VETXgLl",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "9",
+      "cellList": [
+        {
+          "ref": "A9",
+          "val": "good day",
+          "link": ""
+        },
+        {
+          "ref": "B9",
+          "val": "https://youtube.com/shorts/EOz2hgv3E9I?si=pSWiv-X6Wz5FKhiv",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "10",
+      "cellList": [
+        {
+          "ref": "A10",
+          "val": "good evening",
+          "link": ""
+        },
+        {
+          "ref": "B10",
+          "val": "https://youtube.com/shorts/c_R3Ykqd9B4?si=UOilgKBeD29bt276",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "11",
+      "cellList": [
+        {
+          "ref": "A11",
+          "val": "good afternoon",
+          "link": ""
+        },
+        {
+          "ref": "B11",
+          "val": "https://youtube.com/shorts/wcmaX9bHCCM?si=DsNKHc8w4f1n3Bm_",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "12",
+      "cellList": [
+        {
+          "ref": "A12",
+          "val": "good morning",
+          "link": ""
+        },
+        {
+          "ref": "B12",
+          "val": "https://youtube.com/shorts/yiiDMg2kBhQ?si=bIBVgk6FFXTOX4ZM",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "13",
+      "cellList": [
+        {
+          "ref": "A13",
+          "val": "thank you",
+          "link": ""
+        },
+        {
+          "ref": "B13",
+          "val": "https://youtube.com/shorts/6u9MmfUMsSM?si=hUP879qkLVquou8M",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "14",
+      "cellList": [
+        {
+          "ref": "A14",
+          "val": "welcome",
+          "link": ""
+        },
+        {
+          "ref": "B14",
+          "val": "https://youtube.com/shorts/uIE3I3Ps3tA?si=KEotpVjG5bX_qsIc",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "15",
+      "cellList": [
+        {
+          "ref": "A15",
+          "val": "water",
+          "link": ""
+        },
+        {
+          "ref": "B15",
+          "val": "https://youtube.com/shorts/uIE3I3Ps3tA?si=wHazAIGoPzR_BVec",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "16",
+      "cellList": [
+        {
+          "ref": "A16",
+          "val": "food",
+          "link": ""
+        },
+        {
+          "ref": "B16",
+          "val": "https://youtube.com/shorts/tRKV-0R5HvY?si=x5p_qTRhMHqI99_g",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "17",
+      "cellList": [
+        {
+          "ref": "A17",
+          "val": "eat",
+          "link": ""
+        },
+        {
+          "ref": "B17",
+          "val": "https://youtube.com/shorts/-X8olJ26FJg?si=7YEOGf7G17GyhBH9",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "18",
+      "cellList": [
+        {
+          "ref": "A18",
+          "val": "toilet",
+          "link": ""
+        },
+        {
+          "ref": "B18",
+          "val": "https://youtube.com/shorts/1QSOOO4DY84?si=1L1feP5kBStJRzb1",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "19",
+      "cellList": [
+        {
+          "ref": "A19",
+          "val": "help me",
+          "link": ""
+        },
+        {
+          "ref": "B19",
+          "val": "https://youtube.com/shorts/yw9cXrPKSrI?si=xSBuyBsfW3SXux9q",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "20",
+      "cellList": [
+        {
+          "ref": "A20",
+          "val": "im hungry",
+          "link": ""
+        },
+        {
+          "ref": "B20",
+          "val": "https://youtube.com/shorts/OxdBMdHFFR8?si=yoBDBOrd0kIB5kLE",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "21",
+      "cellList": [
+        {
+          "ref": "A21",
+          "val": "stop",
+          "link": ""
+        },
+        {
+          "ref": "B21",
+          "val": "https://youtube.com/shorts/GlwDspr6hjE?si=Ul1nSiYnXtddPy66",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "22",
+      "cellList": [
+        {
+          "ref": "A22",
+          "val": "call a doctor",
+          "link": ""
+        },
+        {
+          "ref": "B22",
+          "val": "https://youtube.com/shorts/XpFq2dXjW3A?si=iZFTnLwqg7GsV4LG",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "23",
+      "cellList": [
+        {
+          "ref": "A23",
+          "val": "I need help",
+          "link": ""
+        },
+        {
+          "ref": "B23",
+          "val": "https://youtube.com/shorts/tAXD7vPYV4E?si=31SinU1cNM8qUnsi",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "24",
+      "cellList": [
+        {
+          "ref": "A24",
+          "val": "sad",
+          "link": ""
+        },
+        {
+          "ref": "B24",
+          "val": "https://youtube.com/shorts/trw3_nVXKf4?si=bTqftz_H1sBWIg-F",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "25",
+      "cellList": [
+        {
+          "ref": "A25",
+          "val": "sorry",
+          "link": ""
+        },
+        {
+          "ref": "B25",
+          "val": "https://youtube.com/shorts/g9egZJa36o0?si=kMlXBlUUxBtJ0AiZ",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "26",
+      "cellList": [
+        {
+          "ref": "A26",
+          "val": "excuse me",
+          "link": ""
+        },
+        {
+          "ref": "B26",
+          "val": "https://youtube.com/shorts/EMZqnryIV_o?si=DOhrC2D2Q3NpZYxU",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "27",
+      "cellList": [
+        {
+          "ref": "A27",
+          "val": "yes",
+          "link": ""
+        },
+        {
+          "ref": "B27",
+          "val": "https://youtube.com/shorts/Yy2fdzxf3mw?si=5Tdn34YN5EKynUJT",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "28",
+      "cellList": [
+        {
+          "ref": "A28",
+          "val": "happy",
+          "link": ""
+        },
+        {
+          "ref": "B28",
+          "val": "https://youtube.com/shorts/eucWQUbRv8Y?si=-1C2IOMrVuxs_dSi",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "29",
+      "cellList": [
+        {
+          "ref": "A29",
+          "val": "no",
+          "link": ""
+        },
+        {
+          "ref": "B29",
+          "val": "https://youtube.com/shorts/66pzv28KIZU?si=tEWsImSzstwO9zy4",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "30",
+      "cellList": [
+        {
+          "ref": "A30",
+          "val": "father",
+          "link": ""
+        },
+        {
+          "ref": "B30",
+          "val": "https://youtube.com/shorts/_zw68ve0nQ0?si=idLolYr2We2MbC6t",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "31",
+      "cellList": [
+        {
+          "ref": "A31",
+          "val": "mother",
+          "link": ""
+        },
+        {
+          "ref": "B31",
+          "val": "https://youtube.com/shorts/rPtwfn7lbg0?si=bjQ6KAOy0zouvhGo",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "32",
+      "cellList": [
+        {
+          "ref": "A32",
+          "val": "My name is saanvi",
+          "link": ""
+        },
+        {
+          "ref": "B32",
+          "val": "https://youtube.com/shorts/rFeLX2tYags?si=oBgS7MsRoHfsa5kc",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "33",
+      "cellList": [
+        {
+          "ref": "A33",
+          "val": "What is your name?",
+          "link": ""
+        },
+        {
+          "ref": "B33",
+          "val": "https://youtube.com/shorts/qyFLX20D3L8?si=RiwJ_0xJqB66YJNO",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "34",
+      "cellList": [
+        {
+          "ref": "A34",
+          "val": "im a student",
+          "link": ""
+        },
+        {
+          "ref": "B34",
+          "val": "https://youtube.com/shorts/UiZ_cKm-Obs?si=XfpiLaIaQNv9Cni8",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "35",
+      "cellList": [
+        {
+          "ref": "A35",
+          "val": "im from india",
+          "link": ""
+        },
+        {
+          "ref": "B35",
+          "val": "https://youtube.com/shorts/bBzAAw5iQn8?si=l3KLhFcZQo6JSsbw",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "rowNum": "36",
+      "cellList": [
+        {
+          "ref": "A36",
+          "val": "I don't understand",
+          "link": ""
+        },
+        {
+          "ref": "B36",
+          "val": "https://youtube.com/shorts/3oxwv7luE-E?si=sYhvBr3iLdnkpju1",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}
