@@ -6,9 +6,8 @@ const dst1 = path.join(__dirname, 'client', 'src', 'data', 'isl-course-data-v8.j
 const dst2 = path.join(__dirname, 'src', 'data', 'isl-course-data-v8.json');
 
 fs.copyFileSync(src, dst1);
-console.log('Successfully copied to client/src/data/isl-course-data-v8.json!');
+fs.copyFileSync(src, dst2);
 
-if (fs.existsSync(path.dirname(dst2))) {
-  fs.copyFileSync(src, dst2);
-  console.log('Successfully copied to src/data/isl-course-data-v8.json!');
-}
+console.log('SUCCESS: Copied full 10-module dataset!');
+console.log('dst1 size:', fs.statSync(dst1).size);
+console.log('dst2 size:', fs.statSync(dst2).size);

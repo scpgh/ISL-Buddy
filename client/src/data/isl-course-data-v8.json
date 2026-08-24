@@ -219,6 +219,1896 @@
                     }
                 }
             ]
+        },
+        {
+            "module_id": 2,
+            "module_name": "Module 2: Basics of Communication & Self-Introduction",
+            "short_name": "basics-of-communication",
+            "description": "Master two-handed fingerspelling alphabets, name-signing conventions, and expressing emotional states.",
+            "lessons": [
+                {
+                    "video_number": 5,
+                    "module_id": 2,
+                    "topic_code": "2.1",
+                    "lesson_title": "Lesson 2.1: Understanding the ISL Manual Alphabet",
+                    "category": "Module 2: Basics of Communication & Self-Introduction",
+                    "video_url": "https://www.youtube.com/watch?v=0emXzSDO61U&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=5",
+                    "embed_url": "https://www.youtube.com/embed/0emXzSDO61U?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=4",
+                    "theory": "Fingerspelling in ISL is primarily two-handed. Your dominant active hand points, traces, or taps letters onto your non-dominant base hand. The base hand should be held flat and steady around chest level to act as a clear canvas.",
+                    "practical_instructions": [
+                        "Step 1: Identify your dominant hand. Keep your non-dominant hand completely relaxed and stationary as the base.",
+                        "Step 2: Practice forming consonants like 'B' (two hands side-by-side) and 'C' (curved fingers of dominant hand).",
+                        "Step 3: Stabilize your wrists to prevent vertical bouncing while moving from letter to letter."
+                    ],
+                    "vocabulary": [
+                        "Alphabets A-Z",
+                        "Active hand",
+                        "Base hand",
+                        "Spell name"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the mechanical difference between ASL and ISL fingerspelling?",
+                        "options": [
+                            "ASL uses two hands while ISL uses only one",
+                            "ISL uses a two-handed system where the active hand taps the base hand; ASL is primarily one-handed",
+                            "ISL does not have any vowels",
+                            "ISL requires hands to be held above the head"
+                        ],
+                        "correct_answer": "ISL uses a two-handed system where the active hand taps the base hand; ASL is primarily one-handed",
+                        "pairs": {
+                            "Vowels": "Pointing to fingertips",
+                            "Consonants": "Two-handed shapes"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Spell my name'.",
+                            "correct_sequence": [
+                                "MY",
+                                "NAME",
+                                "SPELL"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m2_t1",
+                        "description": "Vector visual illustration card for Understanding the ISL Manual Alphabet.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Understanding the ISL Manual Alphabet in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 6,
+                    "module_id": 2,
+                    "topic_code": "2.2",
+                    "lesson_title": "Lesson 2.2: Introducing Oneself (Name, Work, Place, etc.)",
+                    "category": "Module 2: Basics of Communication & Self-Introduction",
+                    "video_url": "https://www.youtube.com/watch?v=zzEOkRpHh1g&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=6",
+                    "embed_url": "https://www.youtube.com/embed/zzEOkRpHh1g?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=5",
+                    "theory": "Self-introductions establish personal identity in the Deaf community. To introduce yourself, point to your chest for 'My', sign 'Name' (two fingers tap the temple or chest), fingerspell your name, and then sign your home location or current profession.",
+                    "practical_instructions": [
+                        "Step 1: Point to your chest with a flat hand for 'I' or 'My'.",
+                        "Step 2: Sign 'Name' and fingerspell your own name slowly and steadily.",
+                        "Step 3: Point to the ground or sign 'Live' to indicate your city or home location."
+                    ],
+                    "vocabulary": [
+                        "My name",
+                        "Work",
+                        "Place",
+                        "Live",
+                        "I am a student"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Where do you point to establish the pronoun 'My' or 'I' during a self-introduction in ISL?",
+                        "options": [
+                            "Toward the sky",
+                            "Directly toward your own chest",
+                            "Toward the opposite person",
+                            "Pointing to the floor"
+                        ],
+                        "correct_answer": "Directly toward your own chest",
+                        "pairs": {
+                            "I": "Point to chest",
+                            "Live": "Two flat hands moving down on body"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'My name is Priya'.",
+                            "correct_sequence": [
+                                "MY",
+                                "NAME",
+                                "P-R-I-Y-A"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m2_t2",
+                        "description": "Vector visual illustration card for Introducing Oneself (Name, Work, Place, etc.).",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Introducing Oneself (Name, Work, Place, etc.) in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 7,
+                    "module_id": 2,
+                    "topic_code": "2.3",
+                    "lesson_title": "Lesson 2.3: Expressing Likes and Dislikes, Feelings and Emotions",
+                    "category": "Module 2: Basics of Communication & Self-Introduction",
+                    "video_url": "https://www.youtube.com/watch?v=N88aAdNtZu4&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=7",
+                    "embed_url": "https://www.youtube.com/embed/N88aAdNtZu4?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=6",
+                    "theory": "Feelings and emotional states are heavily driven by non-manual markers (NMMs). Happy signs are accompanied by smiles and light chest lifts, while angry or sad signs are marked by furrowed eyebrows and slumped posture.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Like' by placing your flat palm on your chest and drawing it out with a pleasant facial expression.",
+                        "Step 2: Sign 'Dislike' by turning your hand away from your chest with a slight head shake.",
+                        "Step 3: Mirror each emotional state fully with your eyes, cheeks, and shoulders."
+                    ],
+                    "vocabulary": [
+                        "Happy",
+                        "Sad",
+                        "Angry",
+                        "Like",
+                        "Dislike"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is grammatically incorrect when signing feelings like 'Sad' or 'Angry' in ISL?",
+                        "options": [
+                            "Signing with your dominant hand",
+                            "Signing with a deadpan, completely expressionless face",
+                            "Using circular hand gestures",
+                            "Nodding your head"
+                        ],
+                        "correct_answer": "Signing with a deadpan, completely expressionless face",
+                        "pairs": {
+                            "Happy": "Smiling chest sweep",
+                            "Angry": "Clenched fists near body"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I like sign language'.",
+                            "correct_sequence": [
+                                "SIGN",
+                                "LANGUAGE",
+                                "I",
+                                "LIKE"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m2_t3",
+                        "description": "Vector visual illustration card for Expressing Likes and Dislikes, Feelings and Emotions.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Expressing Likes and Dislikes, Feelings and Emotions in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 8,
+                    "module_id": 2,
+                    "topic_code": "2.4",
+                    "lesson_title": "Quiz 2.4: Module 2: Basics of Communication & Self-Introduction - Practice & Assessment",
+                    "category": "Module 2: Basics of Communication & Self-Introduction Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=8",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=7",
+                    "theory": "This is the dedicated assessment unit for Module 2: Basics of Communication & Self-Introduction. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 2: Basics of Communication & Self-Introduction review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m2_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 3,
+            "module_name": "Module 3: Daily Life & Surroundings",
+            "short_name": "daily-life-surroundings",
+            "description": "Learn to sign relationships, domestic family terms, common food items, and daily routine schedules.",
+            "lessons": [
+                {
+                    "video_number": 9,
+                    "module_id": 3,
+                    "topic_code": "3.1",
+                    "lesson_title": "Lesson 3.1: People and Relations",
+                    "category": "Module 3: Daily Life & Surroundings",
+                    "video_url": "https://www.youtube.com/watch?v=pBTPi7fG0Gs&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=9",
+                    "embed_url": "https://www.youtube.com/embed/pBTPi7fG0Gs?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=8",
+                    "theory": "Family signs are categorized using facial coordinates. Male signs (Father, Brother) are typically signed near the upper forehead or cheek (traditional mustache zone), whereas female signs (Mother, Sister) are signed near the earlobe/nose (traditional earring/nose-pin zone).",
+                    "practical_instructions": [
+                        "Step 1: Touch the side of your forehead or temple with two extended fingers of your dominant hand to sign 'Father'.",
+                        "Step 2: Touch your earlobe with your index finger to sign 'Mother'.",
+                        "Step 3: Clasp your two hands together in a mutual handshake motion to sign 'Friend'."
+                    ],
+                    "vocabulary": [
+                        "Mother",
+                        "Father",
+                        "Brother",
+                        "Sister",
+                        "Friend",
+                        "Family"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How does ISL traditionally differentiate between male and female relation signs?",
+                        "options": [
+                            "By fingerspelling the gender letters first",
+                            "By using the forehead area for males and the cheek/earlobe area for females",
+                            "By signing with the left hand for males and right hand for females",
+                            "By clapping once for female relatives"
+                        ],
+                        "correct_answer": "By using the forehead area for males and the cheek/earlobe area for females",
+                        "pairs": {
+                            "Father": "Forehead touch",
+                            "Mother": "Earlobe touch"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'This is my brother'.",
+                            "correct_sequence": [
+                                "MY",
+                                "BROTHER",
+                                "THIS"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m3_t1",
+                        "description": "Vector visual illustration card for People and Relations.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for People and Relations in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 10,
+                    "module_id": 3,
+                    "topic_code": "3.2",
+                    "lesson_title": "Lesson 3.2: Food Items",
+                    "category": "Module 3: Daily Life & Surroundings",
+                    "video_url": "https://www.youtube.com/watch?v=YbgBTFTslc8&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=10",
+                    "embed_url": "https://www.youtube.com/embed/YbgBTFTslc8?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=9",
+                    "theory": "Food and eating terminology replicates functional, daily-life tasks. The basic sign for 'Food' or 'Eat' mimics bringing a small handful of food up to your lips, accompanied by chewing facial expressions.",
+                    "practical_instructions": [
+                        "Step 1: Form a loose fist with your dominant hand (representing a small morsel of food).",
+                        "Step 2: Bring the hand close to your mouth in repeated eating motions.",
+                        "Step 3: Practice the sign for 'Water' by bringing a curved index finger ('W' or crooked shape) to touch your chin."
+                    ],
+                    "vocabulary": [
+                        "Food",
+                        "Eat",
+                        "Water",
+                        "Rice",
+                        "Milk",
+                        "Tea"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What physical movement represents the sign for 'Water' in ISL?",
+                        "options": [
+                            "Clapping hands twice",
+                            "Bringing a crooked index finger to touch the side of the chin",
+                            "Waving fingers near the throat",
+                            "Tracing a water droplet on the table"
+                        ],
+                        "correct_answer": "Bringing a crooked index finger to touch the side of the chin",
+                        "pairs": {
+                            "Eat": "Hand to mouth",
+                            "Milk": "Squeezing motion in air"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I want water'.",
+                            "correct_sequence": [
+                                "WATER",
+                                "I",
+                                "WANT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m3_t2",
+                        "description": "Vector visual illustration card for Food Items.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Food Items in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 11,
+                    "module_id": 3,
+                    "topic_code": "3.3",
+                    "lesson_title": "Lesson 3.3: Daily Routine and Everyday Items",
+                    "category": "Module 3: Daily Life & Surroundings",
+                    "video_url": "https://www.youtube.com/watch?v=RdAUR8z2mmM&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=11",
+                    "embed_url": "https://www.youtube.com/embed/RdAUR8z2mmM?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=10",
+                    "theory": "Routine items mimic the physical shape or handle of the item. 'Brush teeth' uses an index finger brushing side-to-side in front of your mouth; 'Take bath' mimics pouring water over your shoulders using loose fists.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Wake up' by opening your closed fingers quickly near your eyes (mimicking eyes opening).",
+                        "Step 2: Move your dominant index finger side-to-side horizontally to sign 'Brush'.",
+                        "Step 3: Bring your flat hands down your chest in a vertical sweeping motion to sign 'Clothes'."
+                    ],
+                    "vocabulary": [
+                        "Wake up",
+                        "Brush teeth",
+                        "Bath",
+                        "Cloth",
+                        "Sleep"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is the action 'Sleep' visually signed in Indian Sign Language?",
+                        "options": [
+                            "By pointing to the bedroom door",
+                            "By leaning your head sideways onto your flat palms near your ear",
+                            "By spinning your hands in front of your eyes",
+                            "By crossing your arms on your chest"
+                        ],
+                        "correct_answer": "By leaning your head sideways onto your flat palms near your ear",
+                        "pairs": {
+                            "Wake up": "Fingers opening near eyes",
+                            "Bath": "Pouring water motion over shoulders"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Time to sleep'.",
+                            "correct_sequence": [
+                                "SLEEP",
+                                "TIME"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m3_t3",
+                        "description": "Vector visual illustration card for Daily Routine and Everyday Items.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Daily Routine and Everyday Items in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 12,
+                    "module_id": 3,
+                    "topic_code": "3.4",
+                    "lesson_title": "Quiz 3.4: Module 3: Daily Life & Surroundings - Practice & Assessment",
+                    "category": "Module 3: Daily Life & Surroundings Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=12",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=11",
+                    "theory": "This is the dedicated assessment unit for Module 3: Daily Life & Surroundings. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 3: Daily Life & Surroundings review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m3_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 4,
+            "module_name": "Module 4: Describing Objects, Numbers & Time",
+            "short_name": "describing-objects",
+            "description": "Learn to use spatial classifiers for sizing, counting up to double digits, and temporal day/calendar structures.",
+            "lessons": [
+                {
+                    "video_number": 13,
+                    "module_id": 4,
+                    "topic_code": "4.1",
+                    "lesson_title": "Lesson 4.1: Describing Objects (Size, Shape, Color, etc.)",
+                    "category": "Module 4: Describing Objects, Numbers & Time",
+                    "video_url": "https://www.youtube.com/watch?v=sh0SflLmdXw&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=13",
+                    "embed_url": "https://www.youtube.com/embed/sh0SflLmdXw?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=12",
+                    "theory": "Object description relies on Classifiers (size/shape specifiers). To show something is large, puff your cheeks while framing the boundaries with your hands. To show something is tiny, squint your eyes while holding your index finger and thumb close together.",
+                    "practical_instructions": [
+                        "Step 1: Form a large sphere in the air with both palms facing each other to show a 'Big' object.",
+                        "Step 2: Use your index finger and thumb held closely together with squinted eyes to show 'Small'.",
+                        "Step 3: Move your hand vertically upward to show a 'Tall' building or person."
+                    ],
+                    "vocabulary": [
+                        "Big",
+                        "Small",
+                        "Tall",
+                        "Short",
+                        "Round",
+                        "Heavy"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Which facial marker accompanies the hand sign for a 'Big' or 'Heavy' object in ISL?",
+                        "options": [
+                            "Frowning heavily",
+                            "Puffing out your cheeks and widening your eyes",
+                            "Shaking your head from side to side",
+                            "Squinting your eyes tightly"
+                        ],
+                        "correct_answer": "Puffing out your cheeks and widening your eyes",
+                        "pairs": {
+                            "Big": "Hands wide + puffed cheeks",
+                            "Small": "Index and thumb close + squint"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'The ball is big'.",
+                            "correct_sequence": [
+                                "BALL",
+                                "BIG"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m4_t1",
+                        "description": "Vector visual illustration card for Describing Objects (Size, Shape, Color, etc.).",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Describing Objects (Size, Shape, Color, etc.) in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 14,
+                    "module_id": 4,
+                    "topic_code": "4.2",
+                    "lesson_title": "Lesson 4.2: Number Concept and Money",
+                    "category": "Module 4: Describing Objects, Numbers & Time",
+                    "video_url": "https://www.youtube.com/watch?v=1fGEDf7FSXY&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=14",
+                    "embed_url": "https://www.youtube.com/embed/1fGEDf7FSXY?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=13",
+                    "theory": "Numbers in ISL follow palm-direction constraints. Numbers 1 to 5 are signed with palms facing inward toward your body; numbers 6 to 10 tap different fingers or use two-handed counters. Money amounts pair currency signs (Rupee symbol tap) with number counters.",
+                    "practical_instructions": [
+                        "Step 1: Extend 1, 2, 3 fingers facing inward toward your chest to count up to 3.",
+                        "Step 2: Tap your thumb and index finger together near your waist to sign 'Rupee'.",
+                        "Step 3: Combine 'Five' + 'Rupee' to sign '5 Rupees'."
+                    ],
+                    "vocabulary": [
+                        "Numbers 1-10",
+                        "Rupee",
+                        "Money",
+                        "Cost",
+                        "Cheap",
+                        "Expensive"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Which way should your palm face when signing basic numbers 1 to 5 in ISL?",
+                        "options": [
+                            "Facing outward toward the viewer",
+                            "Facing inward toward your own chest",
+                            "Facing down toward the floor",
+                            "Facing up toward the ceiling"
+                        ],
+                        "correct_answer": "Facing inward toward your own chest",
+                        "pairs": {
+                            "Rupee": "Thumb-index tap",
+                            "Five": "Five fingers facing chest"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Cost is 10 Rupees'.",
+                            "correct_sequence": [
+                                "RUPEE",
+                                "TEN",
+                                "COST"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m4_t2",
+                        "description": "Vector visual illustration card for Number Concept and Money.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Number Concept and Money in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 15,
+                    "module_id": 4,
+                    "topic_code": "4.3",
+                    "lesson_title": "Lesson 4.3: Time and Calendar Items",
+                    "category": "Module 4: Describing Objects, Numbers & Time",
+                    "video_url": "https://www.youtube.com/watch?v=WFN2GHqoYi0&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=15",
+                    "embed_url": "https://www.youtube.com/embed/WFN2GHqoYi0?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=14",
+                    "theory": "ISL represents time using a physical timeline coordinate. Your body represents the 'Present'. The space directly in front of your chest represents the 'Future' (signs move forward), and the space behind your shoulder represents the 'Past' (signs move backward).",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Today' by placing two flat palms facing upward and moving them slightly down in front of your chest.",
+                        "Step 2: Sign 'Tomorrow' by moving your index finger forward away from your cheek.",
+                        "Step 3: Sign 'Yesterday' by moving your index finger backward over your shoulder."
+                    ],
+                    "vocabulary": [
+                        "Today",
+                        "Tomorrow",
+                        "Yesterday",
+                        "Day",
+                        "Week",
+                        "Month"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How are tense and chronological time (Past/Future) structurally represented in ISL space?",
+                        "options": [
+                            "By fingerspelling the verb tenses",
+                            "Using a physical timeline: signs move forward for future, and backward over the shoulder for past",
+                            "By signing with the left hand for past events",
+                            "Time is only written, not signed"
+                        ],
+                        "correct_answer": "Using a physical timeline: signs move forward for future, and backward over the shoulder for past",
+                        "pairs": {
+                            "Tomorrow": "Hand moving forward",
+                            "Yesterday": "Hand moving backward over shoulder"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I will go tomorrow'.",
+                            "correct_sequence": [
+                                "TOMORROW",
+                                "I",
+                                "GO"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m4_t3",
+                        "description": "Vector visual illustration card for Time and Calendar Items.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Time and Calendar Items in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 16,
+                    "module_id": 4,
+                    "topic_code": "4.4",
+                    "lesson_title": "Quiz 4.4: Module 4: Describing Objects, Numbers & Time - Practice & Assessment",
+                    "category": "Module 4: Describing Objects, Numbers & Time Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=16",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=15",
+                    "theory": "This is the dedicated assessment unit for Module 4: Describing Objects, Numbers & Time. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 4: Describing Objects, Numbers & Time review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m4_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 5,
+            "module_name": "Module 5: Sentence Structure & Grammar",
+            "short_name": "sentence-structure",
+            "description": "Master Subject-Object-Verb syntactic grammar, framing direct questions, and using negative terminal markers.",
+            "lessons": [
+                {
+                    "video_number": 17,
+                    "module_id": 5,
+                    "topic_code": "5.1",
+                    "lesson_title": "Lesson 5.1: Making Simple Sentences/Statements",
+                    "category": "Module 5: Sentence Structure & Grammar",
+                    "video_url": "https://www.youtube.com/watch?v=6YNbOhE6rEM&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=17",
+                    "embed_url": "https://www.youtube.com/embed/6YNbOhE6rEM?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=16",
+                    "theory": "ISL sentence structure is fundamentally different from English. While English uses Subject-Verb-Object (SVO), ISL strictly follows a Subject-Object-Verb (SOV) or Topic-Comment structure. For example, 'I eat an apple' is signed as 'APPLE I EAT'.",
+                    "practical_instructions": [
+                        "Step 1: Choose a topic noun (e.g., 'RICE'). Sign it first.",
+                        "Step 2: Sign the pronoun (e.g., 'I').",
+                        "Step 3: Perform the action verb at the very end of the sequence (e.g., 'EAT')."
+                    ],
+                    "vocabulary": [
+                        "Subject",
+                        "Object",
+                        "Verb",
+                        "Sentence building",
+                        "Topic-Comment"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Which of the following represents the correct syntactic word order for a simple statement in ISL?",
+                        "options": [
+                            "Subject-Verb-Object (SVO)",
+                            "Subject-Object-Verb (SOV) / Topic-Comment",
+                            "Verb-Subject-Object (VSO)",
+                            "Random word order"
+                        ],
+                        "correct_answer": "Subject-Object-Verb (SOV) / Topic-Comment",
+                        "pairs": {
+                            "English structure": "I drink water",
+                            "ISL structure": "WATER I DRINK"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs to translate: 'I read a book'.",
+                            "correct_sequence": [
+                                "BOOK",
+                                "I",
+                                "READ"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m5_t1",
+                        "description": "Vector visual illustration card for Making Simple Sentences/Statements.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Making Simple Sentences/Statements in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 18,
+                    "module_id": 5,
+                    "topic_code": "5.2",
+                    "lesson_title": "Lesson 5.2: Making Simple Questions",
+                    "category": "Module 5: Sentence Structure & Grammar",
+                    "video_url": "https://www.youtube.com/watch?v=s812LFXz31E&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=18",
+                    "embed_url": "https://www.youtube.com/embed/s812LFXz31E?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=17",
+                    "theory": "Question formation in ISL requires specific facial grammar markers (Non-Manual Signals). For Wh-questions (Who, What, Why, Where), the question word is placed at the end of the sentence (e.g., 'YOUR NAME WHAT?'), accompanied by furrowed eyebrows and a slight head tilt.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Your' (flat hand pointing to opposite person).",
+                        "Step 2: Sign 'Name' (fingers tapping chest or temple).",
+                        "Step 3: Furrow your eyebrows, tilt your head, and sign 'What' (shaking dominant hand side-to-side) at the very end."
+                    ],
+                    "vocabulary": [
+                        "What",
+                        "Who",
+                        "Why",
+                        "Where",
+                        "Question syntax"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the mandatory grammatical rule for framing a Wh-question in ISL?",
+                        "options": [
+                            "The question word must be fingerspelled first",
+                            "The question word goes at the end of the sentence, accompanied by furrowed eyebrows",
+                            "You must clap your hands before signing the question",
+                            "Wh-questions are signed identically to standard statements"
+                        ],
+                        "correct_answer": "The question word goes at the end of the sentence, accompanied by furrowed eyebrows",
+                        "pairs": {
+                            "Where": "Shaking palms facing up",
+                            "What": "Index finger shake side-to-side"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Where is your house?'.",
+                            "correct_sequence": [
+                                "YOUR",
+                                "HOUSE",
+                                "WHERE"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m5_t2",
+                        "description": "Vector visual illustration card for Making Simple Questions.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Making Simple Questions in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 19,
+                    "module_id": 5,
+                    "topic_code": "5.3",
+                    "lesson_title": "Lesson 5.3: Simple Negative Sentences",
+                    "category": "Module 5: Sentence Structure & Grammar",
+                    "video_url": "https://www.youtube.com/watch?v=jOB1gKI9iJ8&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=19",
+                    "embed_url": "https://www.youtube.com/embed/jOB1gKI9iJ8?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=18",
+                    "theory": "Negation in ISL is established using terminal negative markers. The signs for 'No', 'Not', or 'Don't want' are placed at the end of the sentence, accompanied by a clean side-to-side headshake. A positive statement signed while shaking your head is grammatically conflicting.",
+                    "practical_instructions": [
+                        "Step 1: Sign the topic first (e.g., 'MILK').",
+                        "Step 2: Sign the pronoun (e.g., 'I').",
+                        "Step 3: Perform the negation marker 'NOT' or 'DON'T WANT' at the end while shaking your head from side to side."
+                    ],
+                    "vocabulary": [
+                        "No",
+                        "Not",
+                        "Don't want",
+                        "Never",
+                        "Negation marker"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Where are negation markers ('Not', 'No', 'Don't want') placed in an ISL sentence?",
+                        "options": [
+                            "At the absolute beginning of the sentence",
+                            "At the end of the sentence, accompanied by a head shake",
+                            "Directly in the middle between the subject and object",
+                            "They can be omitted entirely"
+                        ],
+                        "correct_answer": "At the end of the sentence, accompanied by a head shake",
+                        "pairs": {
+                            "Don't want": "Pushing hand away from body",
+                            "Not": "Side-to-side index shake near mouth"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs to translate: 'I do not want tea'.",
+                            "correct_sequence": [
+                                "TEA",
+                                "I",
+                                "DON'T_WANT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m5_t3",
+                        "description": "Vector visual illustration card for Simple Negative Sentences.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Simple Negative Sentences in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 20,
+                    "module_id": 5,
+                    "topic_code": "5.4",
+                    "lesson_title": "Quiz 5.4: Module 5: Sentence Structure & Grammar - Practice & Assessment",
+                    "category": "Module 5: Sentence Structure & Grammar Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=20",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=19",
+                    "theory": "This is the dedicated assessment unit for Module 5: Sentence Structure & Grammar. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 5: Sentence Structure & Grammar review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m5_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 6,
+            "module_name": "Module 6: Nature, Environment & School",
+            "short_name": "nature-and-school",
+            "description": "Learn vocabulary for plants, wildlife, birds, classroom tools, and academic terminology.",
+            "lessons": [
+                {
+                    "video_number": 21,
+                    "module_id": 6,
+                    "topic_code": "6.1",
+                    "lesson_title": "Lesson 6.1: Fruits and Vegetables",
+                    "category": "Module 6: Nature, Environment & School",
+                    "video_url": "https://www.youtube.com/watch?v=reUHBMx7hok&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=21",
+                    "embed_url": "https://www.youtube.com/embed/reUHBMx7hok?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=20",
+                    "theory": "Fruits and vegetables are signed based on physical characteristics or preparation styles. For example, 'Banana' mimics the action of peeling a banana; 'Apple' represents twisting a round fruit near your cheek.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Banana' by holding your non-dominant index finger up (representing the banana core) and peeling it with your dominant fingers.",
+                        "Step 2: Sign 'Apple' by biting the air slightly while twisting a curved fist near your cheek.",
+                        "Step 3: Move your fingers in a circular cluster to represent a bunch of 'Grapes'."
+                    ],
+                    "vocabulary": [
+                        "Apple",
+                        "Banana",
+                        "Orange",
+                        "Grapes",
+                        "Potato",
+                        "Tomato"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is the fruit sign for 'Banana' formed in Indian Sign Language?",
+                        "options": [
+                            "By spelling B-A-N-A-N-A",
+                            "By mimicking the peeling action of a banana peel",
+                            "By drawing a yellow crescent in the air",
+                            "By pointing to a yellow object"
+                        ],
+                        "correct_answer": "By mimicking the peeling action of a banana peel",
+                        "pairs": {
+                            "Apple": "Twisting fist near cheek",
+                            "Grapes": "Hanging finger cluster motion"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I eat banana'.",
+                            "correct_sequence": [
+                                "BANANA",
+                                "I",
+                                "EAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m6_t1",
+                        "description": "Vector visual illustration card for Fruits and Vegetables.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Fruits and Vegetables in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 22,
+                    "module_id": 6,
+                    "topic_code": "6.2",
+                    "lesson_title": "Lesson 6.2: Bird and Animals",
+                    "category": "Module 6: Nature, Environment & School",
+                    "video_url": "https://www.youtube.com/watch?v=TUs4C5VTUxI&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=22",
+                    "embed_url": "https://www.youtube.com/embed/TUs4C5VTUxI?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=21",
+                    "theory": "Animal and bird signs leverage iconic facial shapes or distinctive physical traits. Bird signs focus on wing beats or beak movements near the mouth; large animal signs depict horns, trunks, or walk styles.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Cow' by placing your fists at your temple and extending your index fingers upward to represent horns.",
+                        "Step 2: Sign 'Bird' by pinching your index finger and thumb near your mouth like a beak chirping.",
+                        "Step 3: Sign 'Elephant' by moving your curved arm away from your nose like a long swinging trunk."
+                    ],
+                    "vocabulary": [
+                        "Cow",
+                        "Dog",
+                        "Cat",
+                        "Bird",
+                        "Elephant",
+                        "Monkey"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What physical feature is mimicked to represent the sign for 'Elephant' in ISL?",
+                        "options": [
+                            "Large floppy ears using flat hands near the head",
+                            "A long swinging trunk using a curved arm from the nose",
+                            "Pointy white tusks near the mouth",
+                            "Stomping feet on the floor"
+                        ],
+                        "correct_answer": "A long swinging trunk using a curved arm from the nose",
+                        "pairs": {
+                            "Cow": "Horns at temple",
+                            "Bird": "Chirping beak at mouth"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I see a bird'.",
+                            "correct_sequence": [
+                                "BIRD",
+                                "I",
+                                "SEE"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m6_t2",
+                        "description": "Vector visual illustration card for Bird and Animals.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Bird and Animals in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 23,
+                    "module_id": 6,
+                    "topic_code": "6.3",
+                    "lesson_title": "Lesson 6.3: School Related Terms",
+                    "category": "Module 6: Nature, Environment & School",
+                    "video_url": "https://www.youtube.com/watch?v=-asOc3_nEzE&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=23",
+                    "embed_url": "https://www.youtube.com/embed/-asOc3_nEzE?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=22",
+                    "theory": "School terminology relies on functional learning tasks. 'Book' represents opening two flat hands together; 'Teacher' represents a person who explains or points to a board; 'Computer' mimics rapid key typing.",
+                    "practical_instructions": [
+                        "Step 1: Place your flat palms together and open them sideways like a 'Book'.",
+                        "Step 2: Mimic typing on an imaginary keyboard to sign 'Computer'.",
+                        "Step 3: Sign 'Teacher' by performing the 'write' action on your hand, followed by the standard 'Person' marker."
+                    ],
+                    "vocabulary": [
+                        "School",
+                        "Book",
+                        "Teacher",
+                        "Student",
+                        "Pen",
+                        "Computer"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is the classroom concept of a 'Book' signed in ISL?",
+                        "options": [
+                            "By spelling B-O-O-K",
+                            "By placing flat palms together and opening them like a hinge",
+                            "By drawing a square in the air",
+                            "By pointing to your eyeglasses"
+                        ],
+                        "correct_answer": "By placing flat palms together and opening them like a hinge",
+                        "pairs": {
+                            "Book": "Opening flat palms",
+                            "Computer": "Typing motions in air"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'My school is big'.",
+                            "correct_sequence": [
+                                "MY",
+                                "SCHOOL",
+                                "BIG"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m6_t3",
+                        "description": "Vector visual illustration card for School Related Terms.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for School Related Terms in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 24,
+                    "module_id": 6,
+                    "topic_code": "6.4",
+                    "lesson_title": "Quiz 6.4: Module 6: Nature, Environment & School - Practice & Assessment",
+                    "category": "Module 6: Nature, Environment & School Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=24",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=23",
+                    "theory": "This is the dedicated assessment unit for Module 6: Nature, Environment & School. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 6: Nature, Environment & School review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m6_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 7,
+            "module_name": "Module 7: Travel, Careers & Health",
+            "short_name": "travel-and-health",
+            "description": "Learn health diagnostics, disease vocabulary, professional occupations, and means of transit.",
+            "lessons": [
+                {
+                    "video_number": 25,
+                    "module_id": 7,
+                    "topic_code": "7.1",
+                    "lesson_title": "Lesson 7.1: Health and Name of Diseases",
+                    "category": "Module 7: Travel, Careers & Health",
+                    "video_url": "https://www.youtube.com/watch?v=Po4zhf_xY9o&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=25",
+                    "embed_url": "https://www.youtube.com/embed/Po4zhf_xY9o?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=24",
+                    "theory": "Health terminology describes the location of physical pain or discomfort. Diagnostics like 'Fever' are signed by touching your forehead with the back of your hand to feel the temperature; 'Cough' is signed with a fist near the throat.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Fever' by pressing the back of your dominant fingers to your forehead with a concerned look.",
+                        "Step 2: Sign 'Headache' by tapping your temples repeatedly with a squinted expression.",
+                        "Step 3: Mimic taking a pill or drop to represent 'Medicine'."
+                    ],
+                    "vocabulary": [
+                        "Doctor",
+                        "Medicine",
+                        "Fever",
+                        "Cough",
+                        "Headache",
+                        "Pain"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is a localized ailment like 'Headache' expressed grammatically in ISL?",
+                        "options": [
+                            "By pointing to the knee",
+                            "By fingerspelling H-E-A-D and signing 'Pain' at the temple",
+                            "By clapping your hands once",
+                            "By sleeping on the floor"
+                        ],
+                        "correct_answer": "By fingerspelling H-E-A-D and signing 'Pain' at the temple",
+                        "pairs": {
+                            "Fever": "Back of hand on forehead",
+                            "Medicine": "Mouth pill drop motion"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I have fever'.",
+                            "correct_sequence": [
+                                "FEVER",
+                                "I",
+                                "HAVE"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m7_t1",
+                        "description": "Vector visual illustration card for Health and Name of Diseases.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Health and Name of Diseases in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 26,
+                    "module_id": 7,
+                    "topic_code": "7.2",
+                    "lesson_title": "Lesson 7.2: Job and Professions",
+                    "category": "Module 7: Travel, Careers & Health",
+                    "video_url": "https://www.youtube.com/watch?v=higjcR7-1dg&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=26",
+                    "embed_url": "https://www.youtube.com/embed/higjcR7-1dg?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=25",
+                    "theory": "Occupation signs depict the dominant tool or task associated with the career. 'Tailor' mimics stitching with a needle; 'Police' represents saluting near the forehead or touching a shoulder badge.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Police' by performing a crisp, smart military-style salute near your temple.",
+                        "Step 2: Sign 'Farmer' by mimicking digging the ground or harvesting crops.",
+                        "Step 3: Mimic steering a wheel to represent 'Driver'."
+                    ],
+                    "vocabulary": [
+                        "Teacher",
+                        "Doctor",
+                        "Engineer",
+                        "Police",
+                        "Farmer",
+                        "Driver"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What physical gesture defines the sign for 'Police' in Indian Sign Language?",
+                        "options": [
+                            "Waving a flag",
+                            "A military-style salute at the temple or touching a shoulder badge",
+                            "Pointing to the shoes",
+                            "Shaking fists at the chest"
+                        ],
+                        "correct_answer": "A military-style salute at the temple or touching a shoulder badge",
+                        "pairs": {
+                            "Driver": "Steering wheel motion",
+                            "Tailor": "Sewing needle mimicry"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'My father is a doctor'.",
+                            "correct_sequence": [
+                                "MY",
+                                "FATHER",
+                                "DOCTOR"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m7_t2",
+                        "description": "Vector visual illustration card for Job and Professions.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Job and Professions in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 27,
+                    "module_id": 7,
+                    "topic_code": "7.3",
+                    "lesson_title": "Lesson 7.3: Means of Transportation",
+                    "category": "Module 7: Travel, Careers & Health",
+                    "video_url": "https://www.youtube.com/watch?v=1oOYUsdBOO4&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=27",
+                    "embed_url": "https://www.youtube.com/embed/1oOYUsdBOO4?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=26",
+                    "theory": "Transit terminology mimics steering or track boundaries. 'Motorcycle' represents twisting imaginary handlebar throttles; 'Car' represents holding and turning a steering wheel; 'Train' represents rotating wheels alongside track outlines.",
+                    "practical_instructions": [
+                        "Step 1: Mimic holding a circular steering wheel and turning it to sign 'Car'.",
+                        "Step 2: Twist your dominant wrist forward while holding imaginary bars to sign 'Motorcycle'.",
+                        "Step 3: Fly your flat palm upward with a sweeping motion to sign 'Aeroplane'."
+                    ],
+                    "vocabulary": [
+                        "Car",
+                        "Bus",
+                        "Train",
+                        "Bicycle",
+                        "Aeroplane",
+                        "Boat"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is 'Motorcycle' or 'Bike' represented physically in ISL?",
+                        "options": [
+                            "By drawing a wheel in the air",
+                            "By twisting both wrists forward to mimic handlebar throttles",
+                            "By sweeping flat hands down on your hips",
+                            "By spelling M-O-T-O-R"
+                        ],
+                        "correct_answer": "By twisting both wrists forward to mimic handlebar throttles",
+                        "pairs": {
+                            "Aeroplane": "Flat-palm flight upward",
+                            "Train": "Chugging wheels beside body"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I go by bus'.",
+                            "correct_sequence": [
+                                "BUS",
+                                "I",
+                                "GO"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m7_t3",
+                        "description": "Vector visual illustration card for Means of Transportation.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Means of Transportation in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 28,
+                    "module_id": 7,
+                    "topic_code": "7.4",
+                    "lesson_title": "Quiz 7.4: Module 7: Travel, Careers & Health - Practice & Assessment",
+                    "category": "Module 7: Travel, Careers & Health Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=28",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=27",
+                    "theory": "This is the dedicated assessment unit for Module 7: Travel, Careers & Health. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 7: Travel, Careers & Health review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m7_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 8,
+            "module_name": "Module 8: Culture, Festivals & Geography",
+            "short_name": "culture-and-geography",
+            "description": "Learn Indian festivals, regional monuments, national signs, and geography.",
+            "lessons": [
+                {
+                    "video_number": 29,
+                    "module_id": 8,
+                    "topic_code": "8.1",
+                    "lesson_title": "Lesson 8.1: Festivals and Celebrations",
+                    "category": "Module 8: Culture, Festivals & Geography",
+                    "video_url": "https://www.youtube.com/watch?v=gXFdLnaDJ-I&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=29",
+                    "embed_url": "https://www.youtube.com/embed/gXFdLnaDJ-I?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=28",
+                    "theory": "Festivals mimic cultural rituals or visual decorations. 'Diwali' is signed by mimicking lighting small clay lamps (diyas) in a row; 'Holi' represents sweeping hands in front of your face as if throwing vibrant color powders.",
+                    "practical_instructions": [
+                        "Step 1: Move your index finger and thumb in small flicking motions to sign 'Diwali' (lighting diyas).",
+                        "Step 2: Sweep both palms near your cheeks and face to sign 'Holi' (throwing colors).",
+                        "Step 3: Clasp your hands together and smile joyfully to sign 'Celebrate'."
+                    ],
+                    "vocabulary": [
+                        "Diwali",
+                        "Holi",
+                        "Eid",
+                        "Christmas",
+                        "Festival",
+                        "Celebrate"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What physical ritual is mimicked to sign 'Diwali' in ISL?",
+                        "options": [
+                            "Eating sweets",
+                            "Mimicking lighting rows of small clay lamps (diyas)",
+                            "Throwing color powder in the air",
+                            "Ringing a large bell"
+                        ],
+                        "correct_answer": "Mimicking lighting rows of small clay lamps (diyas)",
+                        "pairs": {
+                            "Diwali": "Lighting lamp flicks",
+                            "Holi": "Color throwing palm sweep"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I celebrate Diwali'.",
+                            "correct_sequence": [
+                                "DIWALI",
+                                "I",
+                                "CELEBRATE"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m8_t1",
+                        "description": "Vector visual illustration card for Festivals and Celebrations.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Festivals and Celebrations in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 30,
+                    "module_id": 8,
+                    "topic_code": "8.2",
+                    "lesson_title": "Lesson 8.2: Famous Places",
+                    "category": "Module 8: Culture, Festivals & Geography",
+                    "video_url": "https://www.youtube.com/watch?v=sh0SflLmdXw&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=30",
+                    "embed_url": "https://www.youtube.com/embed/sh0SflLmdXw?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=29",
+                    "theory": "Historical places are signed using prominent architectural details. For example, 'Taj Mahal' combines the sign for 'Beautiful' with drawing the curved domes and tall pillars of the monument in the air.",
+                    "practical_instructions": [
+                        "Step 1: Outline a large dome shape in the air with both index fingers.",
+                        "Step 2: Draw tall vertical columns to represent pillars.",
+                        "Step 3: Sign 'Beautiful' (sweeping fingers around your face into a neat pinch) to finish 'Taj Mahal'."
+                    ],
+                    "vocabulary": [
+                        "Taj Mahal",
+                        "India Gate",
+                        "Red Fort",
+                        "Temple",
+                        "Church",
+                        "Mosque"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is a monument like the 'Taj Mahal' signed architecturally in ISL?",
+                        "options": [
+                            "By spelling T-A-J",
+                            "By combining the sign for 'Beautiful' with drawing curved domes and vertical pillars in the air",
+                            "By clapping both hands together thrice",
+                            "By pointing to the ground"
+                        ],
+                        "correct_answer": "By combining the sign for 'Beautiful' with drawing curved domes and vertical pillars in the air",
+                        "pairs": {
+                            "Taj Mahal": "Beautiful + dome outline",
+                            "Temple": "Folded hands near chest"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Taj Mahal is beautiful'.",
+                            "correct_sequence": [
+                                "TAJ_MAHAL",
+                                "BEAUTIFUL"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m8_t2",
+                        "description": "Vector visual illustration card for Famous Places.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Famous Places in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 31,
+                    "module_id": 8,
+                    "topic_code": "8.3",
+                    "lesson_title": "Lesson 8.3: Country and State of India",
+                    "category": "Module 8: Culture, Festivals & Geography",
+                    "video_url": "https://www.youtube.com/watch?v=sh0SflLmdXw&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=31",
+                    "embed_url": "https://www.youtube.com/embed/sh0SflLmdXw?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=30",
+                    "theory": "National signs use cultural traits. The sign for 'India' references the traditional bindi on the forehead. Indian states represent geographical shapes or local linguistic words.",
+                    "practical_instructions": [
+                        "Step 1: Touch your forehead between your eyebrows with your dominant index finger to sign 'India'.",
+                        "Step 2: Sign 'Delhi' by fingerspelling 'D' followed by a sweep near the chest.",
+                        "Step 3: Practice the specific regional signs for Kolkata or Mumbai."
+                    ],
+                    "vocabulary": [
+                        "India",
+                        "Delhi",
+                        "Mumbai",
+                        "Kolkata",
+                        "State",
+                        "City"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the physical hand placement for signing the country 'India' in ISL?",
+                        "options": [
+                            "Touching the chest with flat hand",
+                            "Touching your forehead between your eyebrows with your index finger",
+                            "Waving hand above shoulder",
+                            "Fingerspelling I-N-D-I-A"
+                        ],
+                        "correct_answer": "Touching your forehead between your eyebrows with your index finger",
+                        "pairs": {
+                            "India": "Forehead index touch",
+                            "Delhi": "Letter D near central chest"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I live in India'.",
+                            "correct_sequence": [
+                                "INDIA",
+                                "I",
+                                "LIVE"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m8_t3",
+                        "description": "Vector visual illustration card for Country and State of India.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Country and State of India in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 32,
+                    "module_id": 8,
+                    "topic_code": "8.4",
+                    "lesson_title": "Quiz 8.4: Module 8: Culture, Festivals & Geography - Practice & Assessment",
+                    "category": "Module 8: Culture, Festivals & Geography Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=32",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=31",
+                    "theory": "This is the dedicated assessment unit for Module 8: Culture, Festivals & Geography. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 8: Culture, Festivals & Geography review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m8_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 9,
+            "module_name": "Module 9: Sports, Weather & Actions",
+            "short_name": "sports-and-actions",
+            "description": "Learn sports equipment signs, weather diagnostics, and daily active verbs.",
+            "lessons": [
+                {
+                    "video_number": 33,
+                    "module_id": 9,
+                    "topic_code": "9.1",
+                    "lesson_title": "Lesson 9.1: Games and Sports",
+                    "category": "Module 9: Sports, Weather & Actions",
+                    "video_url": "https://www.youtube.com/watch?v=9dJYYP95Qf8&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=33",
+                    "embed_url": "https://www.youtube.com/embed/9dJYYP95Qf8?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=32",
+                    "theory": "Sports signs capture the physical gear or action of the game. 'Cricket' mimics swinging a heavy bat; 'Football' represents kicking an imaginary ball with your fingers or feet; 'Badminton' represents holding and swinging a light racket.",
+                    "practical_instructions": [
+                        "Step 1: Clasp your fists together and swing sideways like a batsman hitting a ball to sign 'Cricket'.",
+                        "Step 2: Flick your dominant foot forward slightly to sign 'Football'.",
+                        "Step 3: Shake both hands with index fingers extended near the chest to sign 'Play'."
+                    ],
+                    "vocabulary": [
+                        "Cricket",
+                        "Football",
+                        "Play",
+                        "Win",
+                        "Lose",
+                        "Game"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is 'Cricket' signed physically in Indian Sign Language?",
+                        "options": [
+                            "By spelling C-R-I-C-K-E-T",
+                            "By mimicking the double-handed batting swing of a cricket bat",
+                            "By catching an imaginary ball",
+                            "By throwing a ball in the air"
+                        ],
+                        "correct_answer": "By mimicking the double-handed batting swing of a cricket bat",
+                        "pairs": {
+                            "Cricket": "Double-handed bat swing",
+                            "Play": "Shaking hands near chest"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs to translate: 'We play cricket'.",
+                            "correct_sequence": [
+                                "CRICKET",
+                                "WE",
+                                "PLAY"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m9_t1",
+                        "description": "Vector visual illustration card for Games and Sports.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Games and Sports in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 34,
+                    "module_id": 9,
+                    "topic_code": "9.2",
+                    "lesson_title": "Lesson 9.2: Weather and Climate",
+                    "category": "Module 9: Sports, Weather & Actions",
+                    "video_url": "https://www.youtube.com/watch?v=1oOYUsdBOO4&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=34",
+                    "embed_url": "https://www.youtube.com/embed/1oOYUsdBOO4?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=33",
+                    "theory": "Weather signs reflect environmental sensations. 'Hot' uses a hand wiping sweat off the forehead; 'Cold' is represented by shivering with arms crossed; 'Rain' uses fingers wiggling downward from above shoulder height.",
+                    "practical_instructions": [
+                        "Step 1: Cross your arms over your chest and shiver slightly to sign 'Cold'.",
+                        "Step 2: Wipe imaginary sweat off your forehead with your dominant index finger to sign 'Hot'.",
+                        "Step 3: Move both hands from head height down to your chest while wiggling your fingers to represent 'Rain'."
+                    ],
+                    "vocabulary": [
+                        "Hot",
+                        "Cold",
+                        "Rain",
+                        "Sun",
+                        "Wind",
+                        "Weather"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What physical gesture represents 'Rain' in ISL?",
+                        "options": [
+                            "Drawing a cloud in the air",
+                            "Wiggling your fingers downward from above shoulder height",
+                            "Wiping your forehead with a hand",
+                            "Blowing air out of your mouth"
+                        ],
+                        "correct_answer": "Wiggling your fingers downward from above shoulder height",
+                        "pairs": {
+                            "Cold": "Shivering with crossed arms",
+                            "Hot": "Sweat wipe off forehead"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'Today is cold'.",
+                            "correct_sequence": [
+                                "TODAY",
+                                "COLD"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m9_t2",
+                        "description": "Vector visual illustration card for Weather and Climate.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Weather and Climate in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 35,
+                    "module_id": 9,
+                    "topic_code": "9.3",
+                    "lesson_title": "Lesson 9.3: Action Words (Verbs)",
+                    "category": "Module 9: Sports, Weather & Actions",
+                    "video_url": "https://www.youtube.com/watch?v=MC1FmDwm3Cw&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=35",
+                    "embed_url": "https://www.youtube.com/embed/MC1FmDwm3Cw?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=34",
+                    "theory": "Verbs are the active engines of ISL sentences. Action verbs are represented iconically. 'Write' represents scribbling on a flat base palm; 'Read' represents moving index and middle fingers (eyes) down an open palm book.",
+                    "practical_instructions": [
+                        "Step 1: Move your dominant index and middle fingers down your non-dominant flat hand to represent 'Read' (eyes scanning a page).",
+                        "Step 2: Mimic holding a pen and scribbling across your flat hand to represent 'Write'.",
+                        "Step 3: Walk your index and middle fingers forward in the air to sign 'Walk'."
+                    ],
+                    "vocabulary": [
+                        "Read",
+                        "Write",
+                        "Walk",
+                        "Run",
+                        "Stand",
+                        "Sit"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is 'Read' signed structurally using the two hands in ISL?",
+                        "options": [
+                            "By clapping both hands together",
+                            "By moving two extended fingers of your dominant hand down your flat non-dominant palm",
+                            "By touching your forehead repeatedly",
+                            "By spelling R-E-A-D"
+                        ],
+                        "correct_answer": "By moving two extended fingers of your dominant hand down your flat non-dominant palm",
+                        "pairs": {
+                            "Read": "Two fingers scanning flat palm",
+                            "Write": "Fingertip scribbling on base palm"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the signs for: 'I write my name'.",
+                            "correct_sequence": [
+                                "MY",
+                                "NAME",
+                                "I",
+                                "WRITE"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m9_t3",
+                        "description": "Vector visual illustration card for Action Words (Verbs).",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Action Words (Verbs) in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 36,
+                    "module_id": 9,
+                    "topic_code": "9.4",
+                    "lesson_title": "Quiz 9.4: Module 9: Sports, Weather & Actions - Practice & Assessment",
+                    "category": "Module 9: Sports, Weather & Actions Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=36",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=35",
+                    "theory": "This is the dedicated assessment unit for Module 9: Sports, Weather & Actions. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 9: Sports, Weather & Actions review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m9_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 10,
+            "module_name": "Module 10: Situational Conversations",
+            "short_name": "situational-conversations",
+            "description": "Combine vocabulary, grammar, and expressions into full fluent dialogues in realistic situations.",
+            "lessons": [
+                {
+                    "video_number": 37,
+                    "module_id": 10,
+                    "topic_code": "10.1",
+                    "lesson_title": "Lesson 10.1: Conversation Between Mother and Daughter",
+                    "category": "Module 10: Situational Conversations",
+                    "video_url": "https://www.youtube.com/watch?v=xyfCxBxtkNg&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=37",
+                    "embed_url": "https://www.youtube.com/embed/xyfCxBxtkNg?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=36",
+                    "theory": "In domestic conversations, turn-taking is established visually. The mother and daughter use rapid face shifts, close-range signing heights, and personal pronouns. Sentences use SOV word order (e.g., 'FOOD READY' followed by 'I EAT').",
+                    "practical_instructions": [
+                        "Step 1: Practice turn-taking. Pause after signing your sentence to allow the other person to respond.",
+                        "Step 2: Sign 'Wash hands' by rubbing your hands together in washing motions before signing 'Eat'.",
+                        "Step 3: Nod or shake your head fully to indicate agreement ('Yes' or 'No')."
+                    ],
+                    "vocabulary": [
+                        "Mother",
+                        "Daughter",
+                        "Hungry",
+                        "Food ready",
+                        "Yes",
+                        "Wash hands"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How is turn-taking structured grammatically in a visual dialogue in ISL?",
+                        "options": [
+                            "By interrupting and waving hands",
+                            "By ending a sign sequence, returning hands to a neutral resting position, and making direct eye contact",
+                            "By clapping once when finished signing",
+                            "By closing your eyes when finished"
+                        ],
+                        "correct_answer": "By ending a sign sequence, returning hands to a neutral resting position, and making direct eye contact",
+                        "pairs": {
+                            "Yes": "Nodding fist up and down",
+                            "Hungry": "Rubbing stomach vertically"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the dialogue order: 'Mother, I am hungry'.",
+                            "correct_sequence": [
+                                "MOTHER",
+                                "I",
+                                "HUNGRY"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m10_t1",
+                        "description": "Vector visual illustration card for Conversation Between Mother and Daughter.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Conversation Between Mother and Daughter in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 38,
+                    "module_id": 10,
+                    "topic_code": "10.2",
+                    "lesson_title": "Lesson 10.2: Conversation Between Teacher and Student",
+                    "category": "Module 10: Situational Conversations",
+                    "video_url": "https://www.youtube.com/watch?v=jD6x6mp8y3Q&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=38",
+                    "embed_url": "https://www.youtube.com/embed/jD6x6mp8y3Q?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=37",
+                    "theory": "Classroom conversations use structured requesting and respectful postures. A student raises their hand to seek attention before signing; questions are ended with head tilts and raised eyebrows to await teacher responses.",
+                    "practical_instructions": [
+                        "Step 1: Sign 'Question' by forming a question mark shape in the air with your index finger.",
+                        "Step 2: Raise your hand to seek permission before signing a doubt.",
+                        "Step 3: Touch your forehead and nod to show you 'Understand' the explanation."
+                    ],
+                    "vocabulary": [
+                        "Teacher",
+                        "Student",
+                        "May I ask",
+                        "Question",
+                        "Understand",
+                        "Doubt"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the respectful etiquette for a student seeking attention to ask a question in a Deaf classroom?",
+                        "options": [
+                            "Tapping the desk loudly",
+                            "Raising a flat hand cleanly in the teacher's line of sight",
+                            "Waving both hands above the shoulders",
+                            "Interrupting immediately"
+                        ],
+                        "correct_answer": "Raising a flat hand cleanly in the teacher's line of sight",
+                        "pairs": {
+                            "Understand": "Nodding with forehead touch",
+                            "Doubt": "Crooked index scratching chin"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the student's request: 'Teacher, I have a question'.",
+                            "correct_sequence": [
+                                "TEACHER",
+                                "I",
+                                "QUESTION"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m10_t2",
+                        "description": "Vector visual illustration card for Conversation Between Teacher and Student.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Conversation Between Teacher and Student in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 39,
+                    "module_id": 10,
+                    "topic_code": "10.3",
+                    "lesson_title": "Lesson 10.3: Conversation Between Doctor and Patient",
+                    "category": "Module 10: Situational Conversations",
+                    "video_url": "https://www.youtube.com/watch?v=FUE2HWmUIS8&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=39",
+                    "embed_url": "https://www.youtube.com/embed/FUE2HWmUIS8?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=38",
+                    "theory": "Medical consultations require descriptive localized pain signing. The patient points to the specific throat or stomach location where discomfort resides, and the doctor signs instructions for taking medicine and taking rest.",
+                    "practical_instructions": [
+                        "Step 1: Point to your chest or throat while showing a concerned look to indicate pain.",
+                        "Step 2: Sign 'Rest' by crossing your arms over your chest and relaxing your head sideways.",
+                        "Step 3: Practice the sign for 'Sickness' by touching your forehead and chest in sequence with a weakened posture."
+                    ],
+                    "vocabulary": [
+                        "Doctor",
+                        "Patient",
+                        "Sickness",
+                        "Pain location",
+                        "Medicine time",
+                        "Rest"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "How does a patient describe the severity of physical pain to a doctor in ISL?",
+                        "options": [
+                            "By fingerspelling pain level digits",
+                            "By using intense facial markers (grimacing or squinting) alongside the localized 'Pain' sign",
+                            "By clapping loudly",
+                            "By signing very slowly"
+                        ],
+                        "correct_answer": "By using intense facial markers (grimacing or squinting) alongside the localized 'Pain' sign",
+                        "pairs": {
+                            "Rest": "Arms crossed over chest with head tilt",
+                            "Sickness": "Weakened posture + forehead chest touch"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Arrange the patient's statement: 'Doctor, my stomach is in pain'.",
+                            "correct_sequence": [
+                                "DOCTOR",
+                                "MY",
+                                "STOMACH",
+                                "PAIN"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m10_t3",
+                        "description": "Vector visual illustration card for Conversation Between Doctor and Patient.",
+                        "visual_prompt": "Minimalist modern flat vector illustration showing human hands forming the distinct sign gesture for Conversation Between Doctor and Patient in Indian Sign Language, clean lines, high-contrast, blue and white palette, educational app style."
+                    }
+                },
+                {
+                    "video_number": 40,
+                    "module_id": 10,
+                    "topic_code": "10.4",
+                    "lesson_title": "Quiz 10.4: Module 10: Situational Conversations - Practice & Assessment",
+                    "category": "Module 10: Situational Conversations Quiz",
+                    "video_url": "https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=40",
+                    "embed_url": "https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=39",
+                    "theory": "This is the dedicated assessment unit for Module 10: Situational Conversations. It reviews the cumulative parameters including active/base hand shapes, facial grammar markers, and SOV sentence ordering rules.",
+                    "practical_instructions": [
+                        "Drill 1: Load the assessment video and watch the quick sentence examples.",
+                        "Drill 2: Practice translating each phrase without looking at the text captions.",
+                        "Step 3: Self-evaluate your signing space coordinates to confirm your signs stay inside the chest boundary."
+                    ],
+                    "vocabulary": [
+                        "Review",
+                        "Practice",
+                        "Assessment",
+                        "Quiz",
+                        "Linguistic check"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "What is the core learning objective of the Module 10: Situational Conversations review session?",
+                        "options": [
+                            "To learn a set of entirely new words",
+                            "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                            "To memorize English translation spellings",
+                            "To practice sleeping hand gestures"
+                        ],
+                        "correct_answer": "To assess and consolidate fingerspelling, vocabulary, and grammar rules from the module into cohesive communication",
+                        "pairs": {
+                            "Review": "Reflect on signs",
+                            "Quiz": "Interactive test challenge"
+                        },
+                        "sentence_challenge": {
+                            "prompt": "Construct the review query sign order: 'Did you understand?'.",
+                            "correct_sequence": [
+                                "YOU",
+                                "UNDERSTAND",
+                                "DOUBT_WHAT"
+                            ]
+                        }
+                    },
+                    "image_spec": {
+                        "image_id": "img_islrtc_m10_quiz",
+                        "description": "Module assessment badge vector artwork.",
+                        "visual_prompt": "A shiny flat golden trophy icon with sign language hands celebrating on the front, clean modern mobile game app UI aesthetic, white background."
+                    }
+                }
+            ]
         }
     ]
 }

@@ -26,19 +26,22 @@ const SYSTEM_PROMPT_HIN = `
 `;
 
 export async function sendChatMessage(userPrompt, isHindi = false, conversationHistory = []) {
-  const cleanPrompt = userPrompt ? userPrompt.trim() : '';
+  const cleanPrompt = userPrompt ? String(userPrompt).trim() : '';
   if (!cleanPrompt) return '';
 
   const systemPrompt = isHindi ? SYSTEM_PROMPT_HIN : SYSTEM_PROMPT_ENG;
-  const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'mixtral-8x7b-32768'];
+  const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
   const apiKey = getGroqKey();
 
   const apiMessages = [
     { role: 'system', content: systemPrompt },
-    ...conversationHistory.map((m) => ({
-      role: m.sender === 'user' ? 'user' : 'assistant',
-      content: m.text
-    })),
+    ...conversationHistory
+      .filter((m) => m && (m.text || m.content))
+      .map((m) => ({
+        role: m.sender === 'user' || m.role === 'user' ? 'user' : 'assistant',
+        content: String(m.text || m.content || '').trim()
+      }))
+      .filter((m) => m.content.length > 0),
     { role: 'user', content: cleanPrompt }
   ];
 
