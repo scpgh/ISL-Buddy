@@ -16,7 +16,8 @@ export default function QuizEngine({ phrase, userProgress, onUpdateProgress, onC
   }, []);
 
   const lessonNumber = phrase.levelNumber || 1;
-  const embedUrl = phrase.videoUrlEnglish || `https://www.youtube.com/embed?listType=playlist&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=${lessonNumber}`;
+  const rawEmbed = phrase.videoUrlEnglish || `https://www.youtube-nocookie.com/embed?listType=playlist&list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6&index=${lessonNumber}`;
+  const embedUrl = rawEmbed.replace('youtube.com', 'youtube-nocookie.com');
   const watchUrl = phrase.sourceUrl || `https://www.youtube.com/playlist?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6`;
 
   const handleComplete = () => {

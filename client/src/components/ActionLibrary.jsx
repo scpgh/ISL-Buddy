@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Play, Volume2, Sparkles, CheckCircle2, ChevronRight, X, ExternalLink, Filter, Film } from 'lucide-react';
+import { Search, Play, Volume2, Sparkles, CheckCircle2, ChevronRight, X, ExternalLink, Filter, Film, AlertCircle } from 'lucide-react';
 
 export const ACTION_SIGNS_DATA = [
   {
@@ -9,7 +9,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "खाना (Eat)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=0",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=0&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Form a loose fist with active hand and move fingertips toward mouth repeatedly.",
     descriptionHindi: "मुख्य हाथ से ढीली मुट्ठी बनाएं और उंगलियों के सिरों को बार-बार मुंह की ओर लाएं।",
@@ -23,7 +23,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "पीना (Drink)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=1",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=1&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Curve active hand into a C-shape glass and tilt toward mouth.",
     descriptionHindi: "सक्रिय हाथ को C-आकार के ग्लास में मोड़ें और मुंह की ओर झुकाएं।",
@@ -37,7 +37,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "सोना (Sleep)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=2",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=2&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Place flat palms together under cheek and tilt head sideways.",
     descriptionHindi: "गाल के नीचे दोनों सीधी हथेलियों को एक साथ रखें और सिर को बगल में झुकाएं।",
@@ -51,7 +51,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "पढ़ना (Read)",
     category: "Work & Study",
     categoryHindi: "कार्य एवं अध्ययन",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=3",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=3&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Move extended index and middle fingers down flat non-dominant palm.",
     descriptionHindi: "गैर-सक्रिय हथेली पर सक्रिय तर्जनी और मध्यमा उंगली को नीचे की ओर घुमाएं।",
@@ -65,7 +65,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "लिखना (Write)",
     category: "Work & Study",
     categoryHindi: "कार्य एवं अध्ययन",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=4",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=4&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Pinch thumb and index finger together and scribble across flat base palm.",
     descriptionHindi: "अंगूठे और तर्जनी को मिलाएं और सीधी हथेली पर लिखने का नाटक करें।",
@@ -79,7 +79,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "दौड़ना (Run)",
     category: "Motion & Movements",
     categoryHindi: "गति और चाल",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=5",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=5&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Hook index fingers of both hands and pump arms in rapid jogging motion.",
     descriptionHindi: "दोनों हाथों की तर्जनी उंगलियों को मोड़ें और तेजी से दौड़ने की मुद्रा बनाएं।",
@@ -93,7 +93,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "चलना (Walk)",
     category: "Motion & Movements",
     categoryHindi: "गति और चाल",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=6",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=6&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Point index and middle fingers downward and alternate them forward like legs.",
     descriptionHindi: "तर्जनी और मध्यमा उंगलियों को नीचे करें और पैरों की तरह आगे-पीछे चलाएं।",
@@ -107,7 +107,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "खड़े होना (Stand)",
     category: "Motion & Movements",
     categoryHindi: "गति और चाल",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=7",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=7&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Place inverted V-shape fingers upright on flat base palm.",
     descriptionHindi: "उलटे V-आकार की उंगलियों को सीधी हथेली पर सीधा खड़ा रखें।",
@@ -121,7 +121,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "बैठना (Sit)",
     category: "Motion & Movements",
     categoryHindi: "गति और चाल",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=8",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=8&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Hook bent index and middle fingers over non-dominant index and middle fingers.",
     descriptionHindi: "मुड़ी हुई उंगलियों को दूसरी हथेली की उंगलियों के ऊपर बैठाएं।",
@@ -135,7 +135,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "मदद (Help)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=9",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=9&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Place dominant thumbs-up fist on flat non-dominant palm and lift upward together.",
     descriptionHindi: "सीधी हथेली पर अंगूठा ऊपर करके मुट्ठी रखें और दोनों को ऊपर उठाएं।",
@@ -149,7 +149,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "प्यार (Love)",
     category: "Emotions & Expressions",
     categoryHindi: "भावनाएं एवं अभिव्यक्ति",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=10",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=10&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Cross both arms over chest with fists closed and press inward warmly.",
     descriptionHindi: "दोनों हाथों को छाती पर क्रॉस करें और गर्मजोशी से अंदर दबाएं।",
@@ -163,7 +163,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "रुकना (Stop)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=11",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=11&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Chop edge of open flat active palm firmly into open base palm.",
     descriptionHindi: "सक्रिय हथेली के किनारे को दूसरी हथेली पर मजबूती से मारें।",
@@ -177,7 +177,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "खेलना (Play)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=12",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=12&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Extend thumb and pinky (Y-shape) of both hands and twist wrists rapidly near chest.",
     descriptionHindi: "दोनों हाथों के अंगूठे और कनिष्ठा को खोलें (Y-आकार) और कलाइयों को घुमाएं।",
@@ -191,7 +191,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "धोना (Wash)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=13",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=13&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Rub fists together in circular scrubbing motion in front of chest.",
     descriptionHindi: "छाती के सामने मुट्ठियों को गोलाकार गति में आपस में रगड़ें।",
@@ -205,7 +205,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "खाना पकाना (Cook)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=14",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=14&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Flip flat active hand over and back onto non-dominant base palm like cooking roti.",
     descriptionHindi: "सक्रिय हथेली को दूसरी हथेली पर रोटी पकाने की तरह उलटें-पलटें।",
@@ -219,7 +219,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "गाड़ी चलाना (Drive)",
     category: "Motion & Movements",
     categoryHindi: "गति और चाल",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=15",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=15&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Hold imaginary steering wheel with both fists and turn gently side-to-side.",
     descriptionHindi: "दोनों मुट्ठियों से काल्पनिक स्टीयरिंग व्हील पकड़ें और घुमाएं।",
@@ -233,7 +233,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "सुनना (Listen)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=16",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=16&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Cup active hand behind ear and tilt head slightly towards sound source.",
     descriptionHindi: "सक्रिय हाथ को कान के पीछे कप की तरह रखें और सिर को थोड़ा झुकाएं।",
@@ -247,7 +247,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "देखना (Look)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=17",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=17&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Point V-shape index and middle fingers from eyes outward toward target.",
     descriptionHindi: "V-आकार की उंगलियों को अपनी आंखों से बाहर लक्ष्य की ओर इशारा करें।",
@@ -261,7 +261,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "बोलना (Speak)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=18",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=18&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Move index finger forward repeatedly from lips in small rolling arcs.",
     descriptionHindi: "तर्जनी उंगली को होठों के पास से आगे की ओर बार-बार घुमाएं।",
@@ -275,7 +275,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "खोलना (Open)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=19",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=19&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Start with palms together and swing them apart outwards like door hinges.",
     descriptionHindi: "जुड़ी हथेलियों से शुरू करें और उन्हें दरवाजे की तरह बाहर की ओर खोलें।",
@@ -289,7 +289,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "बंद करना (Close)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=20",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=20&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Start with open palms apart and bring them together flat in front of chest.",
     descriptionHindi: "अलग-अलग हथेलियों से शुरू करें और उन्हें छाती के सामने एक साथ लाएं।",
@@ -303,7 +303,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "खरीदना (Buy)",
     category: "Work & Study",
     categoryHindi: "कार्य एवं अध्ययन",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=21",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=21&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Place active pinched hand onto non-dominant base palm and move outward as if handing money.",
     descriptionHindi: "अंगूठे-उंगली से चुटकी बनाकर हथेली पर रखें और पैसे देने की तरह आगे बढ़ाएं।",
@@ -317,7 +317,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "बेचना (Sell)",
     category: "Work & Study",
     categoryHindi: "कार्य एवं अध्ययन",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=22",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=22&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Hold both hands in loose fists near shoulders and flick fingers forward repeatedly.",
     descriptionHindi: "कंधों के पास ढीली मुट्ठियां रखें और उंगलियों को बार-बार आगे झटका दें।",
@@ -331,7 +331,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "देना (Give)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=23",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=23&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Hold flat palms facing upward near chest and extend forward toward receiver.",
     descriptionHindi: "छाती के पास ऊपर की ओर खुली हथेलियां रखें और लेने वाले की तरफ बढ़ाएं।",
@@ -345,7 +345,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "लेना (Take)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=24",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=24&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Extend open hands outward, grab into fists, and pull back towards chest.",
     descriptionHindi: "खुले हाथों को आगे बढ़ाएं, मुट्ठी में पकड़ें और अपनी छाती की ओर वापस खींचें।",
@@ -359,7 +359,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "सोचना (Think)",
     category: "Emotions & Expressions",
     categoryHindi: "भावनाएं एवं अभिव्यक्ति",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=25",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=25&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Tap active index finger on side of forehead repeatedly.",
     descriptionHindi: "माथे की तरफ अपनी सक्रिय तर्जनी उंगली से बार-बार स्पर्श करें।",
@@ -373,7 +373,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "समझना (Understand)",
     category: "Emotions & Expressions",
     categoryHindi: "भावनाएं एवं अभिव्यक्ति",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=26",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=26&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Flick index finger upward near temple like a lightbulb turning on.",
     descriptionHindi: "कनपटी के पास तर्जनी उंगली को ऊपर की ओर झटकें जैसे दिमाग की बत्ती जली हो।",
@@ -387,7 +387,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "मुस्कुराना (Smile)",
     category: "Emotions & Expressions",
     categoryHindi: "भावनाएं एवं अभिव्यक्ति",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=27",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=27&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Trace index fingers from corners of mouth outward and upward along cheeks.",
     descriptionHindi: "मुंह के कोनों से गालों के ऊपर तक दोनों तर्जनी उंगलियों से रेखा खींचें।",
@@ -401,7 +401,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "हंसना (Laugh)",
     category: "Emotions & Expressions",
     categoryHindi: "भावनाएं एवं अभिव्यक्ति",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=28",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=28&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Pat chest lightly with open curved fingers while showing joyful laughing expression.",
     descriptionHindi: "छाती को मुड़ी उंगलियों से थपथपाएं और चेहरे पर खुशी की हंसी लाएं।",
@@ -415,7 +415,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "रोना (Cry)",
     category: "Emotions & Expressions",
     categoryHindi: "भावनाएं एवं अभिव्यक्ति",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=29",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=29&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Alternate index fingers moving down cheeks from eyes like falling teardrops.",
     descriptionHindi: "आंखों से गालों के नीचे आंसू गिरने की तरह बारी-बारी उंगलियां चलाएं।",
@@ -429,7 +429,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "बुलाना (Call)",
     category: "Communication",
     categoryHindi: "संवाद और बातचीत",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=30",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=30&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Form phone receiver with thumb and pinky near ear, or wave flat hand inward to summon.",
     descriptionHindi: "अंगूठे और कनिष्ठा से फोन बनाएं या हाथ से अपनी तरफ आने का इशारा करें।",
@@ -443,7 +443,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "नाचना (Dance)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=31",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=31&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Swing inverted V-shape fingers of active hand back and forth over flat base palm.",
     descriptionHindi: "उलटे V-आकार की उंगलियों को दूसरी हथेली पर नृत्य की तरह आगे-पीछे घुमाएं।",
@@ -457,7 +457,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "गाना (Sing)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=32",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=32&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Wave curved open palm rhythmically back and forth in front of mouth.",
     descriptionHindi: "मुंह के सामने हथेली को लयात्मक रूप से आगे-पीछे लहराएं।",
@@ -471,7 +471,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "काम करना (Work)",
     category: "Work & Study",
     categoryHindi: "कार्य एवं अध्ययन",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=33",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=33&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Tap wrist of dominant fist onto wrist of non-dominant fist repeatedly.",
     descriptionHindi: "एक मुट्ठी की कलाई को दूसरी मुट्ठी की कलाई पर बार-बार थपथपाएं।",
@@ -485,7 +485,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "अध्ययन (Study)",
     category: "Work & Study",
     categoryHindi: "कार्य एवं अध्ययन",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=34",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=34&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Flutter fingertips of active hand toward flat non-dominant palm repeatedly.",
     descriptionHindi: "सीधी हथेली की तरफ सक्रिय हाथ की उंगलियों को बार-बार फड़फड़ाएं।",
@@ -499,7 +499,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "प्रार्थना (Pray)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=35",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=35&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Press both flat palms together upright at chest height in traditional Namaste pose.",
     descriptionHindi: "छाती की ऊंचाई पर दोनों सीधी हथेलियों को नम्रता से जोड़ें।",
@@ -513,7 +513,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "सफ़ाई (Clean)",
     category: "Daily Actions",
     categoryHindi: "दैनिक क्रियाएं",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=36",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=36&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Sweep active flat palm across non-dominant base palm outward from wrist to fingertips.",
     descriptionHindi: "सक्रिय हथेली को दूसरी हथेली पर कलाई से उंगलियों तक बाहर की तरफ झाड़ें।",
@@ -527,7 +527,7 @@ export const ACTION_SIGNS_DATA = [
     titleHindi: "कूदना (Jump)",
     category: "Motion & Movements",
     categoryHindi: "गति और चाल",
-    videoUrl: "https://www.youtube.com/embed/videoseries?list=PLHhpObfAQ1ss&index=37",
+    videoUrl: "https://www.youtube-nocookie.com/embed/videoseries?list=PLHhpObfAQ1ss&index=37&rel=0&modestbranding=1",
     playlistUrl: "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
     description: "Place inverted V-shape fingers on palm and spring them upward into the air.",
     descriptionHindi: "उलटे V-आकार की उंगलियों को हथेली पर रखें और हवा में ऊपर की तरफ उछालें।",
@@ -735,7 +735,7 @@ export default function ActionLibrary({ userProgress }) {
           <div className="bg-white dark:bg-[#18252b] border-2 border-[#e5e5e5] dark:border-[#37464f] rounded-[28px] max-w-2xl w-full p-5 sm:p-6 shadow-2xl relative overflow-hidden">
             
             {/* Header */}
-            <div className="flex items-center justify-between pb-4 mb-4 border-b border-[#e5e5e5] dark:border-[#37464f]">
+            <div className="flex items-center justify-between pb-4 mb-3 border-b border-[#e5e5e5] dark:border-[#37464f]">
               <div>
                 <span className="text-[10px] font-black text-[#1cb0f6] uppercase tracking-wider">
                   ACTION SIGN #{activeVideoItem.videoIndex} OF 38
@@ -752,7 +752,23 @@ export default function ActionLibrary({ userProgress }) {
               </button>
             </div>
 
-            {/* Embed Video */}
+            {/* AdBlocker / Browser Extension Safety Hint */}
+            <div className="mb-3 p-2.5 bg-[#ff9600]/10 border border-[#ff9600]/30 rounded-xl flex items-center justify-between gap-2 text-xs font-bold text-[#ff9600]">
+              <div className="flex items-center gap-2">
+                <AlertCircle className="w-4 h-4 shrink-0 text-[#ff9600]" />
+                <span>{isHindi ? 'यदि एडब्लॉकर वीडियो को ब्लॉक करे तो यूट्यूब पर खोलें:' : 'Having AdBlocker issues? Direct link:'}</span>
+              </div>
+              <a
+                href={activeVideoItem.playlistUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-2.5 py-1 bg-[#ff9600] text-white rounded-lg font-black text-[10px] uppercase tracking-wider hover:bg-[#e08400] transition-colors shrink-0 flex items-center gap-1"
+              >
+                YouTube ↗
+              </a>
+            </div>
+
+            {/* Privacy-Enhanced Embed Video Player */}
             <div className="relative aspect-video rounded-2xl overflow-hidden bg-black mb-4 border-2 border-[#37464f]">
               <iframe
                 src={activeVideoItem.videoUrl}
@@ -777,7 +793,7 @@ export default function ActionLibrary({ userProgress }) {
             <div className="mt-5 pt-4 border-t border-[#e5e5e5] dark:border-[#37464f] flex justify-end">
               <button
                 onClick={() => setActiveVideoItem(null)}
-                className="py-2.5 px-5 rounded-xl bg-[#58cc02] text-white font-black text-xs uppercase tracking-wider"
+                className="py-2.5 px-5 rounded-xl bg-[#58cc02] text-white font-black text-xs uppercase tracking-wider cursor-pointer"
               >
                 {isHindi ? 'बंद करें' : 'Close Video'}
               </button>
