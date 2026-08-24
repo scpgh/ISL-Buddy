@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import fs from 'node:fs';
+
+const roadmapCode = `import React, { useState } from 'react';
 import { Check, Lock, Star, ChevronLeft, ChevronRight, Dumbbell, Gift, Trophy } from 'lucide-react';
 import { ISL_UNITS, ISL_PHRASES } from '../data/islData';
 
@@ -81,12 +83,13 @@ export default function Roadmap({ userProgress, onStartLesson }) {
 
           const offsetPx = triangularOffsets[pIdx % triangularOffsets.length];
           const nodeType = pIdx % 4;
+          const lessonNumber = phraseGlobalIndex + 1;
 
           return (
             <div
               key={phrase.id}
               className="flex flex-col items-center relative z-10 w-full transition-transform duration-300"
-              style={{ transform: `translateX(${offsetPx}px)` }}
+              style={{ transform: \`translateX(\${offsetPx}px)\` }}
             >
               
               {/* Node Container */}
@@ -103,13 +106,13 @@ export default function Roadmap({ userProgress, onStartLesson }) {
                 {/* Node Button */}
                 <button
                   onClick={() => onStartLesson(phrase)}
-                  className={`w-18 h-18 sm:w-20 sm:h-20 rounded-full flex items-center justify-center relative transition-all duration-200 active:scale-95 shadow-lg cursor-pointer ${
+                  className={\`w-18 h-18 sm:w-20 sm:h-20 rounded-full flex items-center justify-center relative transition-all duration-200 active:scale-95 shadow-lg cursor-pointer \${
                     isCompleted
                       ? 'bg-[#ffc800] border-b-6 border-[#e5b200] text-[#4b4b4b]'
                       : isActive
                       ? 'bg-[#58cc02] border-b-6 border-[#46a302] text-white ring-8 ring-[#58cc02]/30 animate-bounce'
                       : 'bg-[#58cc02]/80 border-b-6 border-[#46a302]/80 text-white'
-                  }`}
+                  }\`}
                 >
                   {isCompleted ? (
                     <Check className="w-9 h-9 stroke-[3]" />
@@ -125,9 +128,9 @@ export default function Roadmap({ userProgress, onStartLesson }) {
                 </button>
 
                 {/* Lesson Label */}
-                <div className="mt-2 bg-white dark:bg-[#18252b] border-2 border-[#e5e5e5] dark:border-[#37464f] px-3 py-1 rounded-xl shadow-xs text-center max-w-[160px]">
+                <div className="mt-2 bg-white dark:bg-[#18252b] border-2 border-[#e5e5e5] dark:border-[#37464f] px-3 py-1 rounded-xl shadow-xs text-center max-w-[150px]">
                   <span className="text-[11px] font-black text-[#4b4b4b] dark:text-white uppercase tracking-wider block truncate">
-                    {phrase.topicCode ? `Lesson ${phrase.topicCode}` : `Lesson ${phrase.levelNumber}`}
+                    Lesson {lessonNumber}
                   </span>
                 </div>
 
@@ -142,3 +145,11 @@ export default function Roadmap({ userProgress, onStartLesson }) {
     </div>
   );
 }
+`;
+
+['e:/ISL_project/client/src/components/Roadmap.jsx', 'e:/ISL_project/src/components/Roadmap.jsx'].forEach(f => {
+  if (fs.existsSync(f)) {
+    fs.writeFileSync(f, roadmapCode, 'utf8');
+    console.log('Restored Roadmap to original smooth version:', f);
+  }
+});

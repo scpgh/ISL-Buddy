@@ -29,17 +29,6 @@ export default function Roadmap({ userProgress, onStartLesson }) {
   const unitCompletedCount = unitPhrases.filter((p) => completedPhrases.includes(p.id)).length;
   const unitTotalCount = unitPhrases.length;
 
-  // Check if a unit is locked (must complete all previous unit phrases)
-  const isUnitLocked = (unitIndex) => {
-    if (unitIndex <= 0) return false;
-    for (let i = 0; i < unitIndex; i++) {
-      const phrases = unitsWithPhrases[i].phrases;
-      const allDone = phrases.every((p) => completedPhrases.includes(p.id));
-      if (!allDone) return true;
-    }
-    return false;
-  };
-
   // Distinct triangular / zigzag offsets (Center ➔ Right ➔ Center ➔ Left)
   const triangularOffsets = [0, 75, 0, -75];
 
@@ -71,14 +60,7 @@ export default function Roadmap({ userProgress, onStartLesson }) {
         </div>
 
         <button
-          onClick={() => {
-            const nextIdx = selectedUnitIndex + 1;
-            if (isUnitLocked(nextIdx)) {
-              alert(isHindi ? `कृपया मॉड्यूल ${nextIdx + 1} को अनलॉक करने के लिए पिछला मॉड्यूल पूरा करें!` : `Please complete Module ${selectedUnitIndex + 1} first to unlock Module ${nextIdx + 1}!`);
-              return;
-            }
-            setSelectedUnitIndex(nextIdx);
-          }}
+          onClick={() => setSelectedUnitIndex((prev) => Math.min(unitsWithPhrases.length - 1, prev + 1))}
           disabled={selectedUnitIndex === unitsWithPhrases.length - 1}
           className="p-2 rounded-2xl bg-white/20 hover:bg-white/30 disabled:opacity-30 disabled:hover:bg-white/20 text-white transition-colors shrink-0 cursor-pointer"
           title="Next Unit"
@@ -96,11 +78,9 @@ export default function Roadmap({ userProgress, onStartLesson }) {
           
           const isCompleted = completedPhrases.includes(phrase.id);
           const isActive = phraseGlobalIndex === currentGlobalActiveIndex;
-          const isLocked = phraseGlobalIndex > currentGlobalActiveIndex;
 
           const offsetPx = triangularOffsets[pIdx % triangularOffsets.length];
           const nodeType = pIdx % 4;
-          const lessonNumber = phraseGlobalIndex + 1;
 
           return (
             <div
@@ -122,19 +102,13 @@ export default function Roadmap({ userProgress, onStartLesson }) {
 
                 {/* Node Button */}
                 <button
-                  onClick={() => {
-                    if (isLocked) {
-                      alert(isHindi ? `पाठ ${lessonNumber} लॉक है! इसे अनलॉक करने के लिए कृपया पिछला पाठ पूरा करें।` : `Lesson ${lessonNumber} is locked! Please complete Lesson ${currentGlobalActiveIndex + 1} first to unlock.`);
-                      return;
-                    }
-                    onStartLesson(phrase);
-                  }}
-                  className={`w-18 h-18 sm:w-20 sm:h-20 rounded-full flex items-center justify-center relative transition-all duration-200 shadow-lg ${
+                  onClick={() => onStartLesson(phrase)}
+                  className={`w-18 h-18 sm:w-20 sm:h-20 rounded-full flex items-center justify-center relative transition-all duration-200 active:scale-95 shadow-lg cursor-pointer ${
                     isCompleted
-                      ? 'bg-[#ffc800] border-b-6 border-[#e5b200] text-[#4b4b4b] cursor-pointer active:scale-95'
+                      ? 'bg-[#ffc800] border-b-6 border-[#e5b200] text-[#4b4b4b]'
                       : isActive
-                      ? 'bg-[#58cc02] border-b-6 border-[#46a302] text-white ring-8 ring-[#58cc02]/30 animate-bounce cursor-pointer active:scale-95'
-                      : 'bg-[#e5e5e5] dark:bg-[#202f36] border-b-6 border-[#cecece] dark:border-[#131f24] text-[#afafaf] dark:text-[#52656d] cursor-not-allowed opacity-75'
+                      ? 'bg-[#58cc02] border-b-6 border-[#46a302] text-white ring-8 ring-[#58cc02]/30 animate-bounce'
+                      : 'bg-[#58cc02]/80 border-b-6 border-[#46a302]/80 text-white'
                   }`}
                 >
                   {isCompleted ? (
@@ -142,18 +116,18 @@ export default function Roadmap({ userProgress, onStartLesson }) {
                   ) : isActive ? (
                     <Star className="w-9 h-9 fill-white stroke-none animate-spin-slow" />
                   ) : nodeType === 3 ? (
-                    <Trophy className="w-8 h-8 opacity-60" />
+                    <Trophy className="w-8 h-8 opacity-90" />
                   ) : nodeType === 1 ? (
-                    <Dumbbell className="w-8 h-8 opacity-60" />
+                    <Dumbbell className="w-8 h-8 opacity-90" />
                   ) : (
-                    <Lock className="w-8 h-8 stroke-[2.5]" />
+                    <Star className="w-8 h-8 opacity-90" />
                   )}
                 </button>
 
                 {/* Lesson Label */}
-                <div className="mt-2 bg-white dark:bg-[#18252b] border-2 border-[#e5e5e5] dark:border-[#37464f] px-3 py-1 rounded-xl shadow-xs text-center max-w-[150px]">
+                <div className="mt-2 bg-white dark:bg-[#18252b] border-2 border-[#e5e5e5] dark:border-[#37464f] px-3 py-1 rounded-xl shadow-xs text-center max-w-[160px]">
                   <span className="text-[11px] font-black text-[#4b4b4b] dark:text-white uppercase tracking-wider block truncate">
-                    Lesson {lessonNumber}
+                    {phrase.topicCode ? `Lesson ${phrase.topicCode}` : `Lesson ${phrase.levelNumber}`}
                   </span>
                 </div>
 
