@@ -20,7 +20,7 @@ export default function Navigation({ activeTab, setActiveTab, userProgress }) {
             }}
           />
           <div className="flex flex-col">
-            <span className="font-black text-lg sm:text-xl tracking-tight text-[#58cc02] leading-none">
+            <span className="font-black text-lg sm:text-xl tracking-tight text-[#58cc02] leading-snug py-0.5">
               SmartSign ISL
             </span>
             <span className="text-[10px] font-black text-[#ffc800] uppercase tracking-wider">

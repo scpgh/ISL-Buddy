@@ -29,7 +29,7 @@ export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
               alt="SmartSign ISL" 
               className="w-10 h-10 object-contain group-hover:scale-105 transition-transform drop-shadow-md shrink-0"
             />
-            <span className="font-black text-xl tracking-tight text-[#58cc02] leading-none truncate">
+            <span className="font-black text-xl tracking-tight text-[#58cc02] leading-snug py-0.5 truncate">
               SmartSign ISL
             </span>
           </div>

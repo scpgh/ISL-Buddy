@@ -21,7 +21,7 @@ export default function DesktopSidebar({ activeTab, setActiveTab, userProgress, 
             className="w-11 h-11 object-contain drop-shadow-md shrink-0"
           />
           <div>
-            <h1 className="font-black text-xl text-[#4b4b4b] dark:text-white tracking-tight flex items-center gap-1.5 leading-none">
+            <h1 className="font-black text-xl text-[#4b4b4b] dark:text-white tracking-tight flex items-center gap-1.5 leading-snug py-0.5">
               Mudra <span className="text-xs px-2 py-0.5 rounded-full bg-[#58cc02]/15 text-[#58cc02] font-black border border-[#58cc02]/30 uppercase">Learn</span>
             </h1>
             <p className="text-[10px] text-[#afafaf] dark:text-[#52656d] font-bold mt-1">Indian Sign Language</p>

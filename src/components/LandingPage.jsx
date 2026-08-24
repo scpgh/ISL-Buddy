@@ -22,7 +22,7 @@ export default function LandingPage({ onOpenAuth, onOpenContact }) {
               alt="SmartSign ISL" 
               className="w-8 h-8 sm:w-10 sm:h-10 object-contain drop-shadow-md"
             />
-            <span className="font-black text-lg sm:text-2xl tracking-tight text-[#58cc02] leading-none">
+            <span className="font-black text-lg sm:text-2xl tracking-tight text-[#58cc02] leading-snug py-0.5">
               SmartSign ISL
             </span>
           </div>
