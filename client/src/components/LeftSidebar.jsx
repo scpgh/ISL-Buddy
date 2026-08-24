@@ -1,5 +1,5 @@
 import React from 'react';
-import { Map, Bot, User, Trophy, ShieldAlert, Sparkles, Flame } from 'lucide-react';
+import { Map, Bot, User, Trophy, ShieldAlert, Sparkles, Flame, Film } from 'lucide-react';
 
 export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
   const isHindi = userProgress?.appLanguage === 'hindi';
@@ -7,6 +7,7 @@ export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
 
   const navItems = [
     { id: 'roadmap', label: isHindi ? 'सीखें' : 'LEARN', icon: Map },
+    { id: 'actions', label: isHindi ? 'एक्शन लाइब्रेरी' : 'ACTION SIGNS', icon: Film },
     { id: 'leaderboard', label: isHindi ? 'लीडरबोर्ड' : 'LEADERBOARDS', icon: Trophy },
     { id: 'ai-tutor', label: isHindi ? 'AI शिक्षक' : 'AI TUTOR', icon: Bot },
     { id: 'profile', label: isHindi ? 'प्रोफ़ाइल' : 'PROFILE', icon: User },

@@ -1,24 +1,22 @@
 import React from 'react';
-import { Map, Bot, Trophy, User, ShieldAlert, Sparkles, Flame, BookOpen, Camera } from 'lucide-react';
+import { Map, Bot, User, Trophy, ShieldAlert, Sparkles, Flame, Film } from 'lucide-react';
 
 export default function LeftSidebar({ activeTab, setActiveTab, userProgress }) {
   const isHindi = userProgress?.appLanguage === 'hindi';
-
   const streakCount = userProgress?.streakDays || 1;
 
   const navItems = [
-    { id: 'roadmap', label: isHindi ? 'सीखने का मार्ग' : 'Learn Path', icon: Map },
-    { id: 'dictionary', label: isHindi ? 'ISL शब्दकोश' : 'ISL Dictionary', icon: BookOpen },
-    { id: 'camera', label: isHindi ? 'कैमरा अभ्यास' : 'Camera Practice', icon: Camera },
-    { id: 'deaf-assistant', label: isHindi ? 'AI शिक्षक' : 'AI Tutor', icon: Bot },
-    { id: 'leaderboard', label: isHindi ? 'लीडरबोर्ड' : 'Leaderboard', icon: Trophy },
-    { id: 'profile', label: isHindi ? 'प्रोफ़ाइल' : 'Profile', icon: User }
+    { id: 'roadmap', label: isHindi ? 'सीखें' : 'LEARN', icon: Map },
+    { id: 'actions', label: isHindi ? 'एक्शन लाइब्रेरी' : 'ACTION SIGNS', icon: Film },
+    { id: 'leaderboard', label: isHindi ? 'लीडरबोर्ड' : 'LEADERBOARDS', icon: Trophy },
+    { id: 'ai-tutor', label: isHindi ? 'AI शिक्षक' : 'AI TUTOR', icon: Bot },
+    { id: 'profile', label: isHindi ? 'प्रोफ़ाइल' : 'PROFILE', icon: User },
   ];
 
   return (
     <aside className="hidden md:flex flex-col w-60 lg:w-64 xl:w-72 h-screen sticky top-0 border-r-2 border-[#e5e5e5] dark:border-[#37464f] p-5 bg-white dark:bg-[#18252b] justify-between shrink-0 z-40 transition-colors">
       
-      {/* Brand Header & Streak Counter */}
+      {/* Top Logo & Brand with LeetCode Fire Streak Badge */}
       <div>
         <div className="flex items-center justify-between gap-2 mb-8">
           

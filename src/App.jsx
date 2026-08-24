@@ -3,6 +3,7 @@ import LeftSidebar from './components/LeftSidebar';
 import Navigation from './components/Navigation';
 import BottomNav from './components/BottomNav';
 import Roadmap from './components/Roadmap';
+import ActionLibrary from './components/ActionLibrary';
 import Leaderboard from './components/Leaderboard';
 import DeafAssistant from './components/DeafAssistant';
 import SOSPage from './components/SOSPage';
@@ -136,6 +137,12 @@ export default function App() {
             <Roadmap 
               userProgress={userProgress} 
               onStartLesson={(phrase) => setActiveLesson(phrase)} 
+            />
+          )}
+
+          {activeTab === 'actions' && (
+            <ActionLibrary 
+              userProgress={userProgress}
             />
           )}
 
