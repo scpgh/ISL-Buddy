@@ -6,7 +6,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 1,
     "videoIndex": 1,
     "title": "Hello / Namaste",
-    "titleHindi": "नमस्ते / हैलो (Hello)",
+    "titleHindi": "नमस्ते / हैलो",
     "category": "Greetings",
     "categoryHindi": "अभिवादन",
     "embedUrl": "https://www.youtube.com/embed/LiPWrTmc3TA",
@@ -22,7 +22,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 2,
     "videoIndex": 2,
     "title": "Nice To Meet You",
-    "titleHindi": "आपसे मिलकर खुशी हुई (Nice to meet you)",
+    "titleHindi": "आपसे मिलकर खुशी हुई",
     "category": "Greetings",
     "categoryHindi": "अभिवादन",
     "embedUrl": "https://www.youtube.com/embed/1oQ_G15gcXw",
@@ -38,7 +38,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 3,
     "videoIndex": 3,
     "title": "See You Later",
-    "titleHindi": "फिर मिलेंगे (See you later)",
+    "titleHindi": "फिर मिलेंगे",
     "category": "Greetings",
     "categoryHindi": "अभिवादन",
     "embedUrl": "https://www.youtube.com/embed/PFsE-_Af6RY",
@@ -54,7 +54,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 4,
     "videoIndex": 4,
     "title": "I Am Fine",
-    "titleHindi": "मैं ठीक हूँ (I am fine)",
+    "titleHindi": "मैं ठीक हूँ",
     "category": "Communication",
     "categoryHindi": "संवाद",
     "embedUrl": "https://www.youtube.com/embed/Mm7cNf0CUjE",
@@ -70,7 +70,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 5,
     "videoIndex": 5,
     "title": "How Are You?",
-    "titleHindi": "आप कैसे हैं? (How are you?)",
+    "titleHindi": "आप कैसे हैं?",
     "category": "Communication",
     "categoryHindi": "संवाद",
     "embedUrl": "https://www.youtube.com/embed/ll7PGaH_sxM",
@@ -86,7 +86,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 6,
     "videoIndex": 6,
     "title": "Please",
-    "titleHindi": "कृपया (Please)",
+    "titleHindi": "कृपया",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/kdtPvF06MKY",
@@ -102,7 +102,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 7,
     "videoIndex": 7,
     "title": "Good Bye",
-    "titleHindi": "अलविदा / बाय (Good bye)",
+    "titleHindi": "अलविदा / बाय",
     "category": "Greetings",
     "categoryHindi": "अभिवादन",
     "embedUrl": "https://www.youtube.com/embed/NE00N_TrLdM",
@@ -118,7 +118,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 8,
     "videoIndex": 8,
     "title": "Good Day",
-    "titleHindi": "आपका दिन शुभ हो (Good day)",
+    "titleHindi": "आपका दिन शुभ हो",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/EOz2hgv3E9I",
@@ -134,7 +134,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 9,
     "videoIndex": 9,
     "title": "Good Evening",
-    "titleHindi": "शुभ संध्या (Good evening)",
+    "titleHindi": "शुभ संध्या",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/c_R3Ykqd9B4",
@@ -150,7 +150,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 10,
     "videoIndex": 10,
     "title": "Good Afternoon",
-    "titleHindi": "शुभ दोपहर (Good afternoon)",
+    "titleHindi": "शुभ दोपहर",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/wcmaX9bHCCM",
@@ -166,7 +166,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 11,
     "videoIndex": 11,
     "title": "Good Morning",
-    "titleHindi": "सुप्रभात (Good morning)",
+    "titleHindi": "सुप्रभात",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/yiiDMg2kBhQ",
@@ -182,7 +182,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 12,
     "videoIndex": 12,
     "title": "Thank You",
-    "titleHindi": "धन्यवाद / शुक्रिया (Thank you)",
+    "titleHindi": "धन्यवाद / शुक्रिया",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/6u9MmfUMsSM",
@@ -198,7 +198,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 13,
     "videoIndex": 13,
     "title": "Welcome",
-    "titleHindi": "स्वागत है (Welcome)",
+    "titleHindi": "स्वागत है",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/uIE3I3Ps3tA",
@@ -214,7 +214,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 14,
     "videoIndex": 14,
     "title": "Water",
-    "titleHindi": "पानी (Water)",
+    "titleHindi": "पानी",
     "category": "Daily Needs",
     "categoryHindi": "दैनिक आवश्यकताएं",
     "embedUrl": "https://www.youtube.com/embed/uIE3I3Ps3tA",
@@ -230,7 +230,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 15,
     "videoIndex": 15,
     "title": "Food",
-    "titleHindi": "खाना / भोजन (Food)",
+    "titleHindi": "खाना / भोजन",
     "category": "Daily Needs",
     "categoryHindi": "दैनिक आवश्यकताएं",
     "embedUrl": "https://www.youtube.com/embed/tRKV-0R5HvY",
@@ -246,7 +246,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 16,
     "videoIndex": 16,
     "title": "Eat",
-    "titleHindi": "खाना खाना (Eat)",
+    "titleHindi": "खाना खाना",
     "category": "Daily Actions",
     "categoryHindi": "दैनिक क्रियाएं",
     "embedUrl": "https://www.youtube.com/embed/-X8olJ26FJg",
@@ -262,7 +262,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 17,
     "videoIndex": 17,
     "title": "Toilet",
-    "titleHindi": "शौचालय (Toilet)",
+    "titleHindi": "शौचालय",
     "category": "Daily Needs",
     "categoryHindi": "दैनिक आवश्यकताएं",
     "embedUrl": "https://www.youtube.com/embed/1QSOOO4DY84",
@@ -278,7 +278,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 18,
     "videoIndex": 18,
     "title": "Help Me",
-    "titleHindi": "मेरी मदद करें (Help me)",
+    "titleHindi": "मेरी मदद करें",
     "category": "Emergencies",
     "categoryHindi": "आपातकालीन",
     "embedUrl": "https://www.youtube.com/embed/yw9cXrPKSrI",
@@ -294,7 +294,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 19,
     "videoIndex": 19,
     "title": "I Am Hungry",
-    "titleHindi": "मुझे भूख लगी है (I am hungry)",
+    "titleHindi": "मुझे भूख लगी है",
     "category": "Daily Needs",
     "categoryHindi": "दैनिक आवश्यकताएं",
     "embedUrl": "https://www.youtube.com/embed/OxdBMdHFFR8",
@@ -310,7 +310,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 20,
     "videoIndex": 20,
     "title": "Stop",
-    "titleHindi": "रुको / बंद करो (Stop)",
+    "titleHindi": "रुको / बंद करो",
     "category": "Commands",
     "categoryHindi": "आदेश",
     "embedUrl": "https://www.youtube.com/embed/GlwDspr6hjE",
@@ -326,7 +326,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 21,
     "videoIndex": 21,
     "title": "Call A Doctor",
-    "titleHindi": "डॉक्टर को बुलाओ (Call a doctor)",
+    "titleHindi": "डॉक्टर को बुलाओ",
     "category": "Emergencies",
     "categoryHindi": "आपातकालीन",
     "embedUrl": "https://www.youtube.com/embed/XpFq2dXjW3A",
@@ -342,7 +342,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 22,
     "videoIndex": 22,
     "title": "I Need Help",
-    "titleHindi": "मुझे मदद चाहिए (I need help)",
+    "titleHindi": "मुझे मदद चाहिए",
     "category": "Emergencies",
     "categoryHindi": "आपातकालीन",
     "embedUrl": "https://www.youtube.com/embed/tAXD7vPYV4E",
@@ -358,7 +358,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 23,
     "videoIndex": 23,
     "title": "Sad",
-    "titleHindi": "दुखी (Sad)",
+    "titleHindi": "दुखी",
     "category": "Emotions",
     "categoryHindi": "भावनाएं",
     "embedUrl": "https://www.youtube.com/embed/trw3_nVXKf4",
@@ -374,7 +374,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 24,
     "videoIndex": 24,
     "title": "Sorry",
-    "titleHindi": "माफ़ कीजिए (Sorry)",
+    "titleHindi": "माफ़ कीजिए",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/g9egZJa36o0",
@@ -390,7 +390,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 25,
     "videoIndex": 25,
     "title": "Excuse Me",
-    "titleHindi": "सुनिए / क्षमा करें (Excuse me)",
+    "titleHindi": "सुनिए / क्षमा करें",
     "category": "Polite Phrases",
     "categoryHindi": "विनम्रता",
     "embedUrl": "https://www.youtube.com/embed/EMZqnryIV_o",
@@ -406,7 +406,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 26,
     "videoIndex": 26,
     "title": "Yes",
-    "titleHindi": "हाँ (Yes)",
+    "titleHindi": "हाँ",
     "category": "Responses",
     "categoryHindi": "प्रतिक्रियाएं",
     "embedUrl": "https://www.youtube.com/embed/Yy2fdzxf3mw",
@@ -422,7 +422,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 27,
     "videoIndex": 27,
     "title": "Happy",
-    "titleHindi": "खुश (Happy)",
+    "titleHindi": "खुश",
     "category": "Emotions",
     "categoryHindi": "भावनाएं",
     "embedUrl": "https://www.youtube.com/embed/eucWQUbRv8Y",
@@ -438,7 +438,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 28,
     "videoIndex": 28,
     "title": "No",
-    "titleHindi": "नहीं (No)",
+    "titleHindi": "नहीं",
     "category": "Responses",
     "categoryHindi": "प्रतिक्रियाएं",
     "embedUrl": "https://www.youtube.com/embed/66pzv28KIZU",
@@ -454,7 +454,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 29,
     "videoIndex": 29,
     "title": "Father",
-    "titleHindi": "पिता (Father)",
+    "titleHindi": "पिता",
     "category": "Family",
     "categoryHindi": "परिवार",
     "embedUrl": "https://www.youtube.com/embed/_zw68ve0nQ0",
@@ -470,7 +470,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 30,
     "videoIndex": 30,
     "title": "Mother",
-    "titleHindi": "माता (Mother)",
+    "titleHindi": "माता",
     "category": "Family",
     "categoryHindi": "परिवार",
     "embedUrl": "https://www.youtube.com/embed/rPtwfn7lbg0",
@@ -486,7 +486,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 31,
     "videoIndex": 31,
     "title": "My Name Is Saanvi",
-    "titleHindi": "मेरा नाम सान्वी है (My name is Saanvi)",
+    "titleHindi": "मेरा नाम सान्वी है",
     "category": "Introductions",
     "categoryHindi": "परिचय",
     "embedUrl": "https://www.youtube.com/embed/rFeLX2tYags",
@@ -502,7 +502,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 32,
     "videoIndex": 32,
     "title": "What Is Your Name?",
-    "titleHindi": "आपका नाम क्या है? (What is your name?)",
+    "titleHindi": "आपका नाम क्या है?",
     "category": "Introductions",
     "categoryHindi": "परिचय",
     "embedUrl": "https://www.youtube.com/embed/qyFLX20D3L8",
@@ -518,7 +518,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 33,
     "videoIndex": 33,
     "title": "I Am A Student",
-    "titleHindi": "मैं एक छात्र हूँ (I am a student)",
+    "titleHindi": "मैं एक छात्र हूँ",
     "category": "Introductions",
     "categoryHindi": "परिचय",
     "embedUrl": "https://www.youtube.com/embed/UiZ_cKm-Obs",
@@ -534,7 +534,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 34,
     "videoIndex": 34,
     "title": "I Am From India",
-    "titleHindi": "मैं भारत से हूँ (I am from India)",
+    "titleHindi": "मैं भारत से हूँ",
     "category": "Introductions",
     "categoryHindi": "परिचय",
     "embedUrl": "https://www.youtube.com/embed/bBzAAw5iQn8",
@@ -550,7 +550,7 @@ export const ACTION_SIGNS_DATA = [
     "id": 35,
     "videoIndex": 35,
     "title": "I Don't Understand",
-    "titleHindi": "मुझे समझ नहीं आया (I don't understand)",
+    "titleHindi": "मुझे समझ नहीं आया",
     "category": "Communication",
     "categoryHindi": "संवाद",
     "embedUrl": "https://www.youtube.com/embed/3oxwv7luE-E",
@@ -564,7 +564,8 @@ export const ACTION_SIGNS_DATA = [
   }
 ];
 
-export default function ActionLibrary() {
+export default function ActionLibrary({ userProgress }) {
+  const isHindi = userProgress?.appLanguage === 'hindi';
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
   const [activeItemModal, setActiveItemModal] = useState(null);
@@ -632,20 +633,17 @@ export default function ActionLibrary() {
             <div>
               <div className="flex items-center justify-between mb-3">
                 <span className="text-[10px] font-black text-[#1cb0f6] bg-[#1cb0f6]/15 px-2.5 py-0.5 rounded-full border border-[#1cb0f6]/30 uppercase tracking-wider">
-                  {item.category}
+                  {isHindi ? (item.categoryHindi || item.category) : item.category}
                 </span>
-                <span className="text-[11px] font-mono font-bold text-[#afafaf]">
-                  #{item.id} of {ACTION_SIGNS_DATA.length}
-                </span>
+                
               </div>
 
-              <h3 className="font-black text-xl text-[#4b4b4b] dark:text-white group-hover:text-[#1cb0f6] transition-colors mb-1">
-                {item.title}
+              <h3 className="font-black text-xl text-[#4b4b4b] dark:text-white group-hover:text-[#1cb0f6] transition-colors mb-2">
+                {isHindi ? item.titleHindi : item.title}
               </h3>
-              <p className="text-xs font-black text-[#ffc800] mb-3">{item.titleHindi}</p>
               
               <p className="text-xs text-[#777] dark:text-[#a0a0a0] font-medium line-clamp-2 mb-4">
-                {item.description}
+                {isHindi ? item.descriptionHindi : item.description}
               </p>
             </div>
 
@@ -655,7 +653,7 @@ export default function ActionLibrary() {
               className="w-full py-3 rounded-2xl bg-[#1cb0f6] hover:bg-[#1899d6] active:scale-95 text-white font-black text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-xs transition-all border-b-4 border-[#1479ab]"
             >
               <Video className="w-4 h-4 fill-white shrink-0" />
-              <span>Details & Video</span>
+              <span>{isHindi ? 'विवरण और वीडियो' : 'Details & Video'}</span>
             </button>
           </div>
         ))}
@@ -670,12 +668,11 @@ export default function ActionLibrary() {
             <div className="flex items-start justify-between mb-4 pb-3 border-b-2 border-[#e5e5e5] dark:border-[#37464f]">
               <div>
                 <span className="text-[10px] font-black text-[#1cb0f6] uppercase tracking-wider">
-                  ACTION SIGN #{activeItemModal.id} OF {ACTION_SIGNS_DATA.length} • {activeItemModal.category}
+                  {isHindi ? (activeItemModal.categoryHindi || activeItemModal.category) : activeItemModal.category}
                 </span>
                 <h2 className="font-black text-2xl text-[#4b4b4b] dark:text-white mt-0.5 flex items-center gap-2">
-                  {activeItemModal.title}
+                  {isHindi ? activeItemModal.titleHindi : activeItemModal.title}
                 </h2>
-                <p className="text-xs font-black text-[#ffc800]">{activeItemModal.titleHindi}</p>
               </div>
 
               <button
@@ -705,7 +702,7 @@ export default function ActionLibrary() {
               className="w-full py-3 px-4 mb-5 rounded-2xl bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white font-black text-sm flex items-center justify-center gap-2 transition-all shadow-md active:scale-[0.98]"
             >
               <Play className="w-4 h-4 fill-white" />
-              <span>▶ Watch "${activeItemModal.title}" Video on YouTube</span>
+              <span>{isHindi ? '▶ यूट्यूब पर वीडियो देखें' : `▶ Watch "${activeItemModal.title}" on YouTube`}</span>
               <ExternalLink className="w-4 h-4 ml-auto opacity-80" />
             </a>
 
@@ -732,20 +729,17 @@ export default function ActionLibrary() {
               {/* Description */}
               <div className="bg-[#f7f7f7] dark:bg-[#131f24] p-4 rounded-2xl border-2 border-[#e5e5e5] dark:border-[#37464f]">
                 <h4 className="text-xs font-black text-[#4b4b4b] dark:text-white uppercase tracking-wider mb-1">
-                  📝 Description / विवरण:
+                  {isHindi ? '📝 विवरण:' : '📝 Description:'}
                 </h4>
-                <p className="text-xs font-bold text-[#4b4b4b] dark:text-white leading-relaxed mb-1">
-                  {activeItemModal.description}
-                </p>
-                <p className="text-xs font-bold text-[#ffc800]">
-                  {activeItemModal.descriptionHindi}
+                <p className="text-xs font-bold text-[#4b4b4b] dark:text-white leading-relaxed">
+                  {isHindi ? activeItemModal.descriptionHindi : activeItemModal.description}
                 </p>
               </div>
 
               {/* Gesture Tip */}
               <div className="bg-[#58cc02]/10 border-2 border-[#58cc02]/40 p-4 rounded-2xl">
                 <h4 className="text-xs font-black text-[#58cc02] uppercase tracking-wider flex items-center gap-1.5 mb-1">
-                  <Sparkles className="w-4 h-4" /> Gesture Execution Tip:
+                  <Sparkles className="w-4 h-4" /> {isHindi ? '✨ गेस्चर निष्पादन टिप:' : '✨ Gesture Execution Tip:'}
                 </h4>
                 <p className="text-xs font-bold text-[#4b4b4b] dark:text-white">
                   {activeItemModal.gestureTip}
@@ -755,7 +749,7 @@ export default function ActionLibrary() {
               {/* SOV Context */}
               <div className="bg-[#ffc800]/10 border-2 border-[#ffc800]/40 p-4 rounded-2xl">
                 <h4 className="text-xs font-black text-[#ffc800] uppercase tracking-wider flex items-center gap-1.5 mb-1">
-                  <CheckCircle2 className="w-4 h-4" /> ISL Grammar & SOV Context:
+                  <CheckCircle2 className="w-4 h-4" /> {isHindi ? '✅ आईएसएल व्याकरण और संदर्भ:' : '✅ ISL Grammar & SOV Context:'}
                 </h4>
                 <p className="text-xs font-bold text-[#4b4b4b] dark:text-white">
                   {activeItemModal.sovContext}
@@ -770,7 +764,7 @@ export default function ActionLibrary() {
                 onClick={() => setActiveItemModal(null)}
                 className="px-6 py-2.5 rounded-xl bg-[#e5e5e5] dark:bg-[#37464f] hover:opacity-80 text-[#4b4b4b] dark:text-white font-black text-xs uppercase"
               >
-                Close Details
+                {isHindi ? 'विवरण बंद करें' : 'Close Details'}
               </button>
             </div>
 
