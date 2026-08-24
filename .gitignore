@@ -37,6 +37,8 @@ client/build/
 .env.production.local
 server/.env
 client/.env
+server/data/
+server/data/*.json
 *.pem
 
 # OS Temporary Files

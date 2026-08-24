@@ -18,7 +18,7 @@ const getEnvVar = (key, fallback) => {
 };
 
 const firebaseConfig = {
-  apiKey: getEnvVar('VITE_FIREBASE_API_KEY', 'AIzaSyBoKDwQa0GQYnX7k7VNxCOZg2doZmVDtk8'),
+  apiKey: getEnvVar('VITE_FIREBASE_API_KEY', ''),
   authDomain: getEnvVar('VITE_FIREBASE_AUTH_DOMAIN', 'mudralearn.firebaseapp.com'),
   projectId: getEnvVar('VITE_FIREBASE_PROJECT_ID', 'mudralearn'),
   storageBucket: getEnvVar('VITE_FIREBASE_STORAGE_BUCKET', 'mudralearn.firebasestorage.app'),
