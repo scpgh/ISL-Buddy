@@ -1,6 +1,6 @@
-import courseDataV8 from './isl-course-data-v8.json';
+import courseDataV8 from '../../../server/isl-course-data-v10 (1).json';
 
-const PLAYLIST_ID = "PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6";
+const PLAYLIST_ID = "PLHhpObfAQ1ss";
 
 // Module Hindi Translations Map
 const MODULE_HINDI_MAP = {
@@ -130,20 +130,8 @@ courseDataV8.modules.forEach((m) => {
     m.lessons.forEach((l) => {
       const num = l.video_number;
 
-      let embedUrl = l.embed_url;
-      let watchUrl = l.video_url;
-
-      // Lesson 1.1: Exact playlist index 2 (Video ID: n42ohSmbAFI)
-      if (l.topic_code === "1.1" || num === 1) {
-        embedUrl = `https://www.youtube.com/embed/n42ohSmbAFI?list=${PLAYLIST_ID}`;
-        watchUrl = `https://www.youtube.com/watch?v=n42ohSmbAFI&list=${PLAYLIST_ID}&index=2`;
-      } else if (l.topic_code === "1.2" || num === 2) {
-        embedUrl = `https://www.youtube.com/embed/LiPWrTmc3TA`;
-        watchUrl = `https://www.youtube.com/shorts/LiPWrTmc3TA`;
-      } else if (l.topic_code === "1.4" || num === 4) {
-        embedUrl = `https://www.youtube.com/embed/s-4jpblFYQk?list=${PLAYLIST_ID}`;
-        watchUrl = `https://www.youtube.com/watch?v=s-4jpblFYQk&list=${PLAYLIST_ID}&index=5`;
-      }
+      let embedUrl = l.embed_url || `https://www.youtube.com/embed?listType=playlist&list=${PLAYLIST_ID}&index=${num - 1}`;
+      let watchUrl = l.video_url || `https://www.youtube.com/watch?list=${PLAYLIST_ID}&index=${num}`;
 
       const cleanEngTitle = l.lesson_title ? l.lesson_title.replace(/^Lesson \d+(\.\d+)?:\s*/, '') : `Lesson ${num}`;
       const hindiTitle = `पाठ ${l.topic_code || num}: ${cleanEngTitle}`;
@@ -163,8 +151,8 @@ courseDataV8.modules.forEach((m) => {
         hindi: hindiTitle,
         category: m.module_name,
         categoryHindi: MODULE_HINDI_MAP[m.module_id]?.title || m.module_name,
-        videoUrlEnglish: embedUrl || `https://www.youtube.com/embed?listType=playlist&list=${PLAYLIST_ID}&index=${num + 1}`,
-        sourceUrl: watchUrl || `https://www.youtube.com/watch?list=${PLAYLIST_ID}&index=${num + 1}`,
+        videoUrlEnglish: embedUrl || `https://www.youtube.com/embed?listType=playlist&list=${PLAYLIST_ID}&index=${num - 1}`,
+        sourceUrl: watchUrl || `https://www.youtube.com/watch?list=${PLAYLIST_ID}&index=${num}`,
         islSyntax: `ISLRTC LESSON ${l.topic_code || num} • ${m.module_name.toUpperCase()}`,
         explanation: l.theory || `Lesson ${l.topic_code || num} of the official ISLRTC ISL Course. Watch the video demonstration carefully.`,
         theory: l.theory,

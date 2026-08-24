@@ -137,9 +137,11 @@ export default function Dictionary() {
             {/* Video Player */}
             <div className="rounded-[18px] overflow-hidden border-2 border-[#e5e5e5] dark:border-[#37464f] bg-black aspect-video relative shadow-inner">
               <iframe
-                src={item.videoUrl}
+                src={item.videoUrlEnglish || item.videoUrl}
                 title={item.english}
-                className="w-full h-full object-cover"
+                className="w-full h-full border-0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
               ></iframe>
             </div>
 

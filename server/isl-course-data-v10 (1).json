@@ -1,0 +1,2612 @@
+{
+    "course_metadata": {
+        "title": "NIOS Indian Sign Language (ISL) Interactive Course Database",
+        "total_playlist_videos": 38,
+        "total_modules": 6,
+        "playlist_url": "https://www.youtube.com/playlist?list=PLHhpObfAQ1ss",
+        "accreditation": "National Institute of Open Schooling (NIOS), Govt of India",
+        "format_compatibility": "Duolingo-Style Gamified Learning Interface",
+        "curriculum_version": "5.0",
+        "developer_note": "A highly detailed, production-ready curriculum database mapping all 38 NIOS ISL videos sequentially with unique visual prompts, practice instructions, deep linguistics theories, and 3 custom gamified questions for each video."
+    },
+    "modules": [
+        {
+            "module_id": 1,
+            "module_name": "Module 1: Foundations, Manners & Letters",
+            "short_name": "foundations-manners-letters",
+            "description": "Learn the manual alphabet, basic introductions, polite manners, and conversational etiquette in NIOS Indian Sign Language.",
+            "lessons": [
+                {
+                    "video_number": 1,
+                    "lesson_id": "lesson-1",
+                    "lesson_title": "Lesson 1: Introduction to NIOS ISL & Signing Space",
+                    "category": "Foundations of ISL",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=1",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=0",
+                    "theory": "Indian Sign Language (ISL) is a full visual-spatial language with its own grammar, syntax, and morphology, completely separate from spoken English or Hindi. This lesson introduces the 3D signing space (extending from the top of the head to the waist and shoulder-to-shoulder). Standard signs must be made within this box for clear visual reception.",
+                    "practical_instructions": [
+                        "Position yourself in front of a mirror or camera with back straight and relaxed shoulders.",
+                        "Identify your signing space boundary by framing a box from your waist to the top of your head.",
+                        "Practice centering your hands in the mid-torso area and maintaining direct eye contact rather than looking down at your fingers."
+                    ],
+                    "vocabulary_terms": [
+                        "Indian Sign Language (भारतीय सांकेतिक भाषा)",
+                        "Signing Space (सांकेतिक स्थान)",
+                        "Visual Grammar (दृश्य व्याकरण)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 1, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "A 3D coordinate box from waist to head height",
+                            "Only above your shoulders",
+                            "Strictly near your ears",
+                            "Behind your back"
+                        ],
+                        "correct_answer": "A 3D coordinate box from waist to head height",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 1?",
+                                "options": [
+                                    "A 3D coordinate box from waist to head height",
+                                    "Only above your shoulders",
+                                    "Strictly near your ears",
+                                    "Behind your back"
+                                ],
+                                "correct_answer": "A 3D coordinate box from waist to head height"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "ISL": "Sign Language",
+                                    "Space": "Signing Box",
+                                    "Eye Contact": "Direct Gaze"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I LEARN ISL'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "LEARN",
+                                    "ISL"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_1_lesson-1-introduction-to-nios-isl-and-signing-space",
+                        "description": "Visual illustration representing Lesson 1: Introduction to NIOS ISL & Signing Space.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 1: Introduction to NIOS ISL & Signing Space, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 2,
+                    "lesson_id": "lesson-2",
+                    "lesson_title": "Lesson 2: Manual Alphabet - Two-Handed Letters (A to M)",
+                    "category": "Alphabets & Fingerspelling",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=2",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=1",
+                    "theory": "Fingerspelling in ISL is primarily a two-handed manual system. Your dominant hand acts as the 'active' hand (moving, pointing, tracing), while your non-dominant hand behaves as the 'base' hand (static platform). This lesson covers shapes and transitions from A to M.",
+                    "practical_instructions": [
+                        "Keep your base hand completely flat and stable at chest level.",
+                        "Use your active dominant hand to touch or tap on the base hand to execute letters A, B, and C.",
+                        "Practice fingerspelling short letter sequences (e.g., 'CAB', 'BAG') smoothly, focusing on uniform heights."
+                    ],
+                    "vocabulary_terms": [
+                        "Alphabet A-M (वर्णमाला A-M)",
+                        "Dominant Hand (सक्रिय हाथ)",
+                        "Base Hand (आधार हाथ)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 2, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "The dominant hand",
+                            "The non-dominant hand",
+                            "Both hands move equally",
+                            "The left hand always"
+                        ],
+                        "correct_answer": "The dominant hand",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 2?",
+                                "options": [
+                                    "The dominant hand",
+                                    "The non-dominant hand",
+                                    "Both hands move equally",
+                                    "The left hand always"
+                                ],
+                                "correct_answer": "The dominant hand"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Active": "Dominant Hand",
+                                    "Base": "Non-Dominant Hand",
+                                    "Alphabet": "Manual Letters"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'A B C'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "A",
+                                    "B",
+                                    "C"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_2_lesson-2-manual-alphabet---two-handed-letters-a-to-m",
+                        "description": "Visual illustration representing Lesson 2: Manual Alphabet - Two-Handed Letters (A to M).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 2: Manual Alphabet - Two-Handed Letters (A to M), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 3,
+                    "lesson_id": "lesson-3",
+                    "lesson_title": "Lesson 3: Manual Alphabet - Two-Handed Letters (N to Z)",
+                    "category": "Alphabets & Fingerspelling",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=3",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=2",
+                    "theory": "Building on letters A-M, this lesson completes the manual alphabet from N to Z. Smooth transitions are achieved through finger joint relaxation and wrist stability. Avoid bounding your arm or moving the static base hand during changes.",
+                    "practical_instructions": [
+                        "Warm up finger joints with brief opening and closing movements.",
+                        "Trace and form letters N through Z sequentially, paying close attention to clean finger configurations.",
+                        "Fingerspell common names like 'RAVI' and 'SITA', keeping the pacing and tempo completely steady."
+                    ],
+                    "vocabulary_terms": [
+                        "Alphabet N-Z (वर्णमाला N-Z)",
+                        "Smooth Transitions (सुचारू परिवर्तन)",
+                        "Fingerspelling Names (नाम हिज्जे करना)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 3, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Arm bouncing during transitions",
+                            "Keeping the wrist stable",
+                            "Keeping the base hand flat",
+                            "Steady fingerspelling pace"
+                        ],
+                        "correct_answer": "Arm bouncing during transitions",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 3?",
+                                "options": [
+                                    "Arm bouncing during transitions",
+                                    "Keeping the wrist stable",
+                                    "Keeping the base hand flat",
+                                    "Steady fingerspelling pace"
+                                ],
+                                "correct_answer": "Arm bouncing during transitions"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "N to Z": "Fingerspelling Part 2",
+                                    "Rhythm": "Steady Tempo",
+                                    "Wrist": "Stable Joint"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'N O P'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "N",
+                                    "O",
+                                    "P"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_3_lesson-3-manual-alphabet---two-handed-letters-n-to-z",
+                        "description": "Visual illustration representing Lesson 3: Manual Alphabet - Two-Handed Letters (N to Z).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 3: Manual Alphabet - Two-Handed Letters (N to Z), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 4,
+                    "lesson_id": "lesson-4",
+                    "lesson_title": "Lesson 4: Polite Manners, Greetings & Etiquette",
+                    "category": "Polite Phrases",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=4",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=3",
+                    "theory": "Manners are crucial in Deaf culture. Greetings and polite words like 'Please', 'Thank You', 'Welcome', and 'Namaste' are signed with distinct hand movements and soft, respectful facial expressions. A deadpan face while signing 'Thank You' is grammatically incorrect.",
+                    "practical_instructions": [
+                        "For 'Namaste', join both palms at chest level and bow your head slightly.",
+                        "For 'Please', place your dominant flat palm on your chest and move it in a circular motion.",
+                        "Coordinate your hand shape with a gentle, polite smile to convey genuine respect."
+                    ],
+                    "vocabulary_terms": [
+                        "Namaste (नमस्ते)",
+                        "Please (कृपया)",
+                        "Thank You (धन्यवाद)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 4, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "With a deadpan face",
+                            "With a respectful facial expression and head bow",
+                            "By shouting out loud",
+                            "Only using one finger"
+                        ],
+                        "correct_answer": "With a respectful facial expression and head bow",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 4?",
+                                "options": [
+                                    "With a deadpan face",
+                                    "With a respectful facial expression and head bow",
+                                    "By shouting out loud",
+                                    "Only using one finger"
+                                ],
+                                "correct_answer": "With a respectful facial expression and head bow"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Please": "Palm chest circle",
+                                    "Namaste": "Palms joined",
+                                    "Thank You": "Fingertips flat from chin forward"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'YOU WELCOME SAY'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "YOU",
+                                    "WELCOME",
+                                    "SAY"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_4_lesson-4-polite-manners,-greetings-and-etiquette",
+                        "description": "Visual illustration representing Lesson 4: Polite Manners, Greetings & Etiquette.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 4: Polite Manners, Greetings & Etiquette, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 5,
+                    "lesson_id": "lesson-5",
+                    "lesson_title": "Lesson 5: Initiating Conversation & Core Phrases",
+                    "category": "Polite Phrases",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=5",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=4",
+                    "theory": "To initiate a conversation in ISL, users learn basic communicative phrases like 'Hello, how are you?', 'I am fine', and 'What is your name?'. Attracting attention respectfully (using a light shoulder tap or a small hand wave) is a core cultural etiquette taught in this video.",
+                    "practical_instructions": [
+                        "Perform a clean flat-palm wave at shoulder height to say 'Hello'.",
+                        "Practice the light, non-intrusive hand wave used to attract a Deaf person's attention.",
+                        "Practice spelling out 'MY NAME [Name]' using manual alphabet finger movements."
+                    ],
+                    "vocabulary_terms": [
+                        "Hello (हैलो)",
+                        "How are you? (आप कैसे हैं?)",
+                        "My name is... (मेरा नाम ... है)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 5, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Light shoulder tap or small wave",
+                            "Throwing objects",
+                            "Snapping fingers close to their face",
+                            "Stomping loudly"
+                        ],
+                        "correct_answer": "Light shoulder tap or small wave",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 5?",
+                                "options": [
+                                    "Light shoulder tap or small wave",
+                                    "Throwing objects",
+                                    "Snapping fingers close to their face",
+                                    "Stomping loudly"
+                                ],
+                                "correct_answer": "Light shoulder tap or small wave"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Hello": "Flat-palm wave",
+                                    "My Name": "Point chest then spell",
+                                    "Fine": "Thumbs-up chest tap"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'YOUR NAME WHAT'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "YOUR",
+                                    "NAME",
+                                    "WHAT"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_5_lesson-5-initiating-conversation-and-core-phrases",
+                        "description": "Visual illustration representing Lesson 5: Initiating Conversation & Core Phrases.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 5: Initiating Conversation & Core Phrases, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 6,
+                    "lesson_id": "lesson-6",
+                    "lesson_title": "Lesson 6: Core Adjectives & Action Modifiers",
+                    "category": "Vocabulary Modifiers",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=6",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=5",
+                    "theory": "Modifiers are signed to express quality, scale, or intensity. Basic modifiers like 'Good', 'Bad', 'Big', and 'Small' require matching non-manual facial cues. For 'Big', the eyes are widened and cheeks puffed, whereas for 'Small', eyes are squinted and cheeks pinched.",
+                    "practical_instructions": [
+                        "For 'Good', perform a crisp chest-height thumbs-up motion.",
+                        "For 'Big', spread both hands wide apart in front of your chest while widening your eyes.",
+                        "Drill 'Good' vs 'Bad' and 'Big' vs 'Small' transitions rapidly to build muscle memory."
+                    ],
+                    "vocabulary_terms": [
+                        "Good (अच्छा)",
+                        "Bad (बुरा)",
+                        "Big (बड़ा)",
+                        "Small (छोटा)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 6, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Squinting eyes and pinching cheeks",
+                            "Widening eyes and puffing cheeks",
+                            "Shaking hands quickly",
+                            "Pointing to the forehead"
+                        ],
+                        "correct_answer": "Widening eyes and puffing cheeks",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 6?",
+                                "options": [
+                                    "Squinting eyes and pinching cheeks",
+                                    "Widening eyes and puffing cheeks",
+                                    "Shaking hands quickly",
+                                    "Pointing to the forehead"
+                                ],
+                                "correct_answer": "Widening eyes and puffing cheeks"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Good": "Thumbs up",
+                                    "Bad": "Pinky finger up/down flick",
+                                    "Big": "Hands spread wide apart"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'HOUSE BIG IS'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "HOUSE",
+                                    "BIG",
+                                    "IS"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_6_lesson-6-core-adjectives-and-action-modifiers",
+                        "description": "Visual illustration representing Lesson 6: Core Adjectives & Action Modifiers.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 6: Core Adjectives & Action Modifiers, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 2,
+            "module_name": "Module 2: People, Kinship & Family Relations",
+            "short_name": "people-kinship-family",
+            "description": "Master kinship terms (mother, father, grandparents) and describing relations using spatial zones.",
+            "lessons": [
+                {
+                    "video_number": 7,
+                    "lesson_id": "lesson-7",
+                    "lesson_title": "Lesson 7: Family & Nuclear Kinship Signs (Part 1)",
+                    "category": "Family & Kinship",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=7",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=6",
+                    "theory": "Nuclear family signs include 'Father', 'Mother', 'Brother', and 'Sister'. ISL utilizes gender-coded quadrants in the signing space: male signs are typically signed higher near the forehead/mustache region, while female signs reside lower near the chin/cheek or earlobe region.",
+                    "practical_instructions": [
+                        "For 'Father', trace your dominant index finger horizontally across your upper lip (representing a mustache).",
+                        "For 'Mother', touch your cheek or point to your nose/earlobe to mark the female quadrant.",
+                        "Ensure your hand placements are precise to avoid confusing gender indicators."
+                    ],
+                    "vocabulary_terms": [
+                        "Mother (माता)",
+                        "Father (पिता)",
+                        "Brother (भाई)",
+                        "Sister (बहन)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 7, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Near the upper lip/forehead",
+                            "Near the chin/cheek",
+                            "Near the elbow",
+                            "Behind the shoulders"
+                        ],
+                        "correct_answer": "Near the upper lip/forehead",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 7?",
+                                "options": [
+                                    "Near the upper lip/forehead",
+                                    "Near the chin/cheek",
+                                    "Near the elbow",
+                                    "Behind the shoulders"
+                                ],
+                                "correct_answer": "Near the upper lip/forehead"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Father": "Mustache zone trace",
+                                    "Mother": "Cheek nose tap",
+                                    "Brother": "Forehead zone index link"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'MY MOTHER LOVE'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "MY",
+                                    "MOTHER",
+                                    "LOVE"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_7_lesson-7-family-and-nuclear-kinship-signs-part-1",
+                        "description": "Visual illustration representing Lesson 7: Family & Nuclear Kinship Signs (Part 1).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 7: Family & Nuclear Kinship Signs (Part 1), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 8,
+                    "lesson_id": "lesson-8",
+                    "lesson_title": "Lesson 8: Extended Family & Kinship Signs (Part 2)",
+                    "category": "Family & Kinship",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=8",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=7",
+                    "theory": "Extended family signs cover 'Grandfather', 'Grandmother', 'Uncle', and 'Aunt'. These are compound signs, combining the base quadrant gender sign with the modifier 'Old' (mimicking a physical beard or bent posture) to denote older generations.",
+                    "practical_instructions": [
+                        "To sign 'Grandfather', first trace the male mustache zone, then bring your hand down from your chin mimicking a long beard.",
+                        "Practice the compound transition smoothly without a long pause between the gender sign and the age modifier.",
+                        "Sign 'Grandmother' by combining the female chin/cheek tap with the old beard/bent-posture sign."
+                    ],
+                    "vocabulary_terms": [
+                        "Grandfather (दादा/नाना)",
+                        "Grandmother (दादी/नानी)",
+                        "Uncle (चाचा/ममा)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 8, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Combine gender sign with the 'Old' modifier",
+                            "By pointing to the sky",
+                            "By snapping both hands twice",
+                            "Only spelling their names"
+                        ],
+                        "correct_answer": "Combine gender sign with the 'Old' modifier",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 8?",
+                                "options": [
+                                    "Combine gender sign with the 'Old' modifier",
+                                    "By pointing to the sky",
+                                    "By snapping both hands twice",
+                                    "Only spelling their names"
+                                ],
+                                "correct_answer": "Combine gender sign with the 'Old' modifier"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Grandfather": "Father + Old",
+                                    "Grandmother": "Mother + Old",
+                                    "Uncle": "Mustache + side cheek tap"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'MY GRANDFATHER OLD'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "MY",
+                                    "GRANDFATHER",
+                                    "OLD"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_8_lesson-8-extended-family-and-kinship-signs-part-2",
+                        "description": "Visual illustration representing Lesson 8: Extended Family & Kinship Signs (Part 2).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 8: Extended Family & Kinship Signs (Part 2), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 9,
+                    "lesson_id": "lesson-9",
+                    "lesson_title": "Lesson 9: Personal Pronouns & Indexical Pointers",
+                    "category": "Pronouns & Directing",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=9",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=8",
+                    "theory": "Pronouns ('I', 'You', 'He', 'She', 'We', 'They') are represented indexically in ISL through pointing (indexing). Directing your index finger towards yourself establishes 'I', pointing forward is 'You', and pointing to set lateral spots establishes third-party pronouns.",
+                    "practical_instructions": [
+                        "Point your dominant index finger directly to your chest center to sign 'I'.",
+                        "Point directly forward to an imaginary viewer to sign 'You'.",
+                        "Point to your right or left lateral boundary to establish 'He' or 'She' in the 3D space."
+                    ],
+                    "vocabulary_terms": [
+                        "I (मैं)",
+                        "You (आप/तुम)",
+                        "He/She (वह)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 9, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Pointing (indexing) with your index finger",
+                            "Shaking your palms forward",
+                            "Spelling the words letter-by-letter",
+                            "Waving your hands"
+                        ],
+                        "correct_answer": "Pointing (indexing) with your index finger",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 9?",
+                                "options": [
+                                    "Pointing (indexing) with your index finger",
+                                    "Shaking your palms forward",
+                                    "Spelling the words letter-by-letter",
+                                    "Waving your hands"
+                                ],
+                                "correct_answer": "Pointing (indexing) with your index finger"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "I": "Point to chest center",
+                                    "You": "Point forward",
+                                    "They": "Point in an arc laterally"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I YOU HELP'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "YOU",
+                                    "HELP"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_9_lesson-9-personal-pronouns-and-indexical-pointers",
+                        "description": "Visual illustration representing Lesson 9: Personal Pronouns & Indexical Pointers.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 9: Personal Pronouns & Indexical Pointers, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 10,
+                    "lesson_id": "lesson-10",
+                    "lesson_title": "Lesson 10: Plural Pronouns & Group Reference",
+                    "category": "Pronouns & Directing",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=10",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=9",
+                    "theory": "Plural pronouns like 'We' and 'They' expand on basic pointing. Instead of a single static point, plural reference involves moving your index finger in a horizontal sweep or circular arc to encompass multiple imaginary positions in the 3D space.",
+                    "practical_instructions": [
+                        "To sign 'We', point to your right chest, sweep the index finger outward in a front-circle, and tap your left chest.",
+                        "To sign 'They', point to a lateral space and sweep your finger in a smooth, continuous horizontal arc.",
+                        "Keep the sweep flat and stable at chest level to ensure readability."
+                    ],
+                    "vocabulary_terms": [
+                        "We (हम)",
+                        "They (वे)",
+                        "Our (हमारा)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 10, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "A horizontal sweep or circular arc pointing motion",
+                            "Nodding your head three times",
+                            "Clapping hands together",
+                            "Pointing straight up"
+                        ],
+                        "correct_answer": "A horizontal sweep or circular arc pointing motion",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 10?",
+                                "options": [
+                                    "A horizontal sweep or circular arc pointing motion",
+                                    "Nodding your head three times",
+                                    "Clapping hands together",
+                                    "Pointing straight up"
+                                ],
+                                "correct_answer": "A horizontal sweep or circular arc pointing motion"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "We": "Chest arc tap",
+                                    "They": "Lateral sweeping pointer",
+                                    "Us": "Group circle sweep"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'WE ISL KNOW'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "WE",
+                                    "ISL",
+                                    "KNOW"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_10_lesson-10-plural-pronouns-and-group-reference",
+                        "description": "Visual illustration representing Lesson 10: Plural Pronouns & Group Reference.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 10: Plural Pronouns & Group Reference, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 11,
+                    "lesson_id": "lesson-11",
+                    "lesson_title": "Lesson 11: Possessive Pronouns & Ownership",
+                    "category": "Pronouns & Directing",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=11",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=10",
+                    "theory": "Possessive pronouns ('My', 'Your', 'His', 'Her') use a flat handshape (open palm) instead of an index finger pointer. The open flat palm represents possession and respect, signed towards the chest for 'My' or pushed forward for 'Your'.",
+                    "practical_instructions": [
+                        "Place your open flat dominant palm firmly on your chest to sign 'My' (मेरा).",
+                        "Push your open flat palm forward with fingers pointing upward towards the viewer to sign 'Your' (आपका).",
+                        "Maintain a stable hand shape and use a clean, controlled movement forward."
+                    ],
+                    "vocabulary_terms": [
+                        "My (मेरा)",
+                        "Your (आपका)",
+                        "His/Her (उसका)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 11, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Flat open palm instead of pointing finger",
+                            "Closed fist touching your chin",
+                            "Waving fingers quickly",
+                            "Thumbs-up gesture"
+                        ],
+                        "correct_answer": "Flat open palm instead of pointing finger",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 11?",
+                                "options": [
+                                    "Flat open palm instead of pointing finger",
+                                    "Closed fist touching your chin",
+                                    "Waving fingers quickly",
+                                    "Thumbs-up gesture"
+                                ],
+                                "correct_answer": "Flat open palm instead of pointing finger"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "My": "Flat palm on chest",
+                                    "Your": "Flat palm pushed forward",
+                                    "His": "Flat palm pushed laterally"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'MY BOOK THIS'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "MY",
+                                    "BOOK",
+                                    "THIS"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_11_lesson-11-possessive-pronouns-and-ownership",
+                        "description": "Visual illustration representing Lesson 11: Possessive Pronouns & Ownership.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 11: Possessive Pronouns & Ownership, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 12,
+                    "lesson_id": "lesson-12",
+                    "lesson_title": "Lesson 12: Describing Relations & Friendships",
+                    "category": "Social Relations",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=12",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=11",
+                    "theory": "Signing basic social connections like 'Friend', 'Neighbor', and 'Colleague' relies on interactive manual movements. For 'Friend', users clasp both hands together in a gentle shake, symbolizing mutual support and structural partnership.",
+                    "practical_instructions": [
+                        "Clasp both hands together, interlocking fingers in front of your chest to sign 'Friend' (मित्र).",
+                        "Drill transition sequences: 'MY' (flat palm) -> 'FRIEND' (clasped hands) -> 'GOOD' (thumbs up).",
+                        "Practice releasing the clasp cleanly, keeping your hand transitions relaxed."
+                    ],
+                    "vocabulary_terms": [
+                        "Friend (मित्र)",
+                        "Neighbor (पड़ोसी)",
+                        "Colleague (सहकर्मी)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 12, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Clasping and interlocking both hands together",
+                            "Pointing to opposite shoulders",
+                            "Holding both ears",
+                            "Snapping fingers on both sides"
+                        ],
+                        "correct_answer": "Clasping and interlocking both hands together",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 12?",
+                                "options": [
+                                    "Clasping and interlocking both hands together",
+                                    "Pointing to opposite shoulders",
+                                    "Holding both ears",
+                                    "Snapping fingers on both sides"
+                                ],
+                                "correct_answer": "Clasping and interlocking both hands together"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Friend": "Clasp hands shake",
+                                    "Neighbor": "House + Side-pointing pointer",
+                                    "My Friend": "Palm-chest + Clasp"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'HE MY FRIEND'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "HE",
+                                    "MY",
+                                    "FRIEND"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_12_lesson-12-describing-relations-and-friendships",
+                        "description": "Visual illustration representing Lesson 12: Describing Relations & Friendships.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 12: Describing Relations & Friendships, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 3,
+            "module_name": "Module 3: Material World & Things Around Us",
+            "short_name": "material-world-objects",
+            "description": "Identify common household objects, structural terms, and personal items in your immediate environment.",
+            "lessons": [
+                {
+                    "video_number": 13,
+                    "lesson_id": "lesson-13",
+                    "lesson_title": "Lesson 13: Household Objects & Furniture (Part 1)",
+                    "category": "Things Around Us",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=13",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=12",
+                    "theory": "Household objects like 'Chair', 'Table', and 'Bed' are signed by replicating their functional forms or spatial outlines. 'Chair' simulates sitting down with hooked fingers, while 'Table' draws a flat horizontal surface in the air.",
+                    "practical_instructions": [
+                        "To sign 'Table', hold both flat hands parallel at chest level, then move them apart horizontally and down to draw the legs.",
+                        "For 'Chair', hook your dominant index and middle fingers and tap them on top of the non-dominant index/middle fingers (representing legs on a seat).",
+                        "Keep your shapes rigid and clean to outline the objects clearly."
+                    ],
+                    "vocabulary_terms": [
+                        "Chair (कुर्सी)",
+                        "Table (मेज)",
+                        "Bed (बिस्तर)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 13, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Simulates hooked fingers sitting on a base hand",
+                            "Draws a flat horizontal line in the air",
+                            "Pointing to the floor",
+                            "Waving your hands down"
+                        ],
+                        "correct_answer": "Simulates hooked fingers sitting on a base hand",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 13?",
+                                "options": [
+                                    "Simulates hooked fingers sitting on a base hand",
+                                    "Draws a flat horizontal line in the air",
+                                    "Pointing to the floor",
+                                    "Waving your hands down"
+                                ],
+                                "correct_answer": "Simulates hooked fingers sitting on a base hand"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Chair": "Hooked fingers tap",
+                                    "Table": "Flat horizontal outline",
+                                    "Bed": "Flat palms on cheek side"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'CHAIR SMALL IS'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "CHAIR",
+                                    "SMALL",
+                                    "IS"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_13_lesson-13-household-objects-and-furniture-part-1",
+                        "description": "Visual illustration representing Lesson 13: Household Objects & Furniture (Part 1).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 13: Household Objects & Furniture (Part 1), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 14,
+                    "lesson_id": "lesson-14",
+                    "lesson_title": "Lesson 14: Household Appliances & Electronics (Part 2)",
+                    "category": "Things Around Us",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=14",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=13",
+                    "theory": "Electronics like 'Television', 'Fan', and 'Light' are signed using movement mechanics that mimic their physical features. 'Television' draws a rectangular screen with index fingers, and 'Fan' replicates a rotating blade motion above your shoulder.",
+                    "practical_instructions": [
+                        "To sign 'Television', trace a clean rectangle in the air using both index fingers.",
+                        "For 'Fan', hold your dominant hand above shoulder height with index pointing up, and rotate your wrist in circular loops.",
+                        "Make sure your TV rectangle trace starts and ends at the exact same physical coordinates."
+                    ],
+                    "vocabulary_terms": [
+                        "Television (टेलीविजन)",
+                        "Fan (पंखा)",
+                        "Light (बिजली/बत्ती)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 14, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Wrist circular rotation above shoulder height",
+                            "Opening and closing palm at eye level",
+                            "Tapping your shoulders twice",
+                            "Drawing a large circle"
+                        ],
+                        "correct_answer": "Wrist circular rotation above shoulder height",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 14?",
+                                "options": [
+                                    "Wrist circular rotation above shoulder height",
+                                    "Opening and closing palm at eye level",
+                                    "Tapping your shoulders twice",
+                                    "Drawing a large circle"
+                                ],
+                                "correct_answer": "Wrist circular rotation above shoulder height"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Television": "Rectangular finger trace",
+                                    "Fan": "Wrist circular loop overhead",
+                                    "Light": "Fingers burst open down"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'LIGHT ON DO'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "LIGHT",
+                                    "ON",
+                                    "DO"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_14_lesson-14-household-appliances-and-electronics-part-2",
+                        "description": "Visual illustration representing Lesson 14: Household Appliances & Electronics (Part 2).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 14: Household Appliances & Electronics (Part 2), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 15,
+                    "lesson_id": "lesson-15",
+                    "lesson_title": "Lesson 15: Domestic Structure & Structural Lines",
+                    "category": "Things Around Us",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=15",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=14",
+                    "theory": "Structural elements like 'Door', 'Window', and 'Wall' utilize flat palms (B-handshapes) as boundaries. 'Door' simulates opening/closing hinges with swinging palms, and 'Window' slides palms vertically or horizontally to mimic glass panels.",
+                    "practical_instructions": [
+                        "For 'Door', hold both flat palms parallel, then swing your dominant palm outward from the static non-dominant palm.",
+                        "For 'Window', place both palms facing in, and move your dominant hand up and down to show sliding panels.",
+                        "Perform these movements cleanly, without shifting your elbows excessively."
+                    ],
+                    "vocabulary_terms": [
+                        "Door (दरवाजा)",
+                        "Window (खिड़की)",
+                        "Wall (दीवार)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 15, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Swing your dominant flat palm outward like a hinge",
+                            "Tap both wrists together",
+                            "Clasp fingers tightly",
+                            "Wave your flat palms side-to-side"
+                        ],
+                        "correct_answer": "Swing your dominant flat palm outward like a hinge",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 15?",
+                                "options": [
+                                    "Swing your dominant flat palm outward like a hinge",
+                                    "Tap both wrists together",
+                                    "Clasp fingers tightly",
+                                    "Wave your flat palms side-to-side"
+                                ],
+                                "correct_answer": "Swing your dominant flat palm outward like a hinge"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Door": "Hinged palm swing",
+                                    "Window": "Parallel sliding palms",
+                                    "Wall": "Flat palms sideways push"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'WINDOW CLOSE DO'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "WINDOW",
+                                    "CLOSE",
+                                    "DO"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_15_lesson-15-domestic-structure-and-structural-lines",
+                        "description": "Visual illustration representing Lesson 15: Domestic Structure & Structural Lines.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 15: Domestic Structure & Structural Lines, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 16,
+                    "lesson_id": "lesson-16",
+                    "lesson_title": "Lesson 16: Personal Possessions & Handheld Items (Part 1)",
+                    "category": "Things Around Us",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=16",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=15",
+                    "theory": "Personal items like 'Keys', 'Wallet', and 'Money' are signed through direct physical mimicry. 'Keys' simulates twisting a lock with an imaginary key, while 'Wallet' utilizes folded hands mimicking leather flaps.",
+                    "practical_instructions": [
+                        "For 'Keys', squeeze your dominant index and thumb, and make a twisting turning motion against your flat non-dominant palm.",
+                        "For 'Money', rub your dominant index and middle fingers against your thumb in a quick sliding motion.",
+                        "Make your key twist crisp and firm to make the sign recognizable."
+                    ],
+                    "vocabulary_terms": [
+                        "Keys (चाबी)",
+                        "Wallet (बटुआ)",
+                        "Money (पैसा)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 16, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Rub index and middle fingers against the thumb",
+                            "Clasping hands together tightly",
+                            "Twisting index finger near ear",
+                            "Tapping your pocket twice"
+                        ],
+                        "correct_answer": "Rub index and middle fingers against the thumb",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 16?",
+                                "options": [
+                                    "Rub index and middle fingers against the thumb",
+                                    "Clasping hands together tightly",
+                                    "Twisting index finger near ear",
+                                    "Tapping your pocket twice"
+                                ],
+                                "correct_answer": "Rub index and middle fingers against the thumb"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Keys": "Twisting key turn motion",
+                                    "Money": "Fingers thumb rub sliding",
+                                    "Wallet": "Flat palms hinge opening"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'MY KEYS LOST'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "MY",
+                                    "KEYS",
+                                    "LOST"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_16_lesson-16-personal-possessions-and-handheld-items-part-1",
+                        "description": "Visual illustration representing Lesson 16: Personal Possessions & Handheld Items (Part 1).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 16: Personal Possessions & Handheld Items (Part 1), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 17,
+                    "lesson_id": "lesson-17",
+                    "lesson_title": "Lesson 17: Personal Belongings & Daily Carry (Part 2)",
+                    "category": "Things Around Us",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=17",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=16",
+                    "theory": "Handheld items like 'Umbrella', 'Watch', and 'Water Bottle' are signed by simulating their practical use. 'Umbrella' mimics gripping and popping open a canopy vertically, and 'Watch' points directly to the non-dominant wrist track.",
+                    "practical_instructions": [
+                        "For 'Umbrella', stack both closed fists vertically and push the upper fist upward cleanly (representing popping the canopy open).",
+                        "For 'Watch', point your dominant index finger to your non-dominant wrist wristband spot.",
+                        "Ensure the canopy popping motion is vertical and aligned with your neck midline."
+                    ],
+                    "vocabulary_terms": [
+                        "Umbrella (छाता)",
+                        "Watch (घड़ी)",
+                        "Bottle (बोतल)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 17, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Stack both fists vertically and slide the top one up",
+                            "Draw a large dome in the air",
+                            "Hold index finger to chin",
+                            "Wave hands above head"
+                        ],
+                        "correct_answer": "Stack both fists vertically and slide the top one up",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 17?",
+                                "options": [
+                                    "Stack both fists vertically and slide the top one up",
+                                    "Draw a large dome in the air",
+                                    "Hold index finger to chin",
+                                    "Wave hands above head"
+                                ],
+                                "correct_answer": "Stack both fists vertically and slide the top one up"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Umbrella": "Vertical stacked fist slide",
+                                    "Watch": "Index pointer to wrist",
+                                    "Bottle": "C-grip cylinder lift"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'UMBRELLA OPEN DO'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "UMBRELLA",
+                                    "OPEN",
+                                    "DO"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_17_lesson-17-personal-belongings-and-daily-carry-part-2",
+                        "description": "Visual illustration representing Lesson 17: Personal Belongings & Daily Carry (Part 2).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 17: Personal Belongings & Daily Carry (Part 2), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 18,
+                    "lesson_id": "lesson-18",
+                    "lesson_title": "Lesson 18: Identifying Stationery & Writing Tools",
+                    "category": "Things Around Us",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=18",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=17",
+                    "theory": "Stationery like 'Pen', 'Book', and 'Paper' use highly intuitive, tactile movements. 'Book' mimics opening and closing bound pages with flat palms joined at the pinky edge, while 'Pen' mimics writing on your flat hand.",
+                    "practical_instructions": [
+                        "For 'Book', join both flat palms facing up at the pinky edges, then open and close them like a book spine.",
+                        "For 'Pen', squeeze your dominant hand as if holding a pen, and trace writing lines across your flat non-dominant palm.",
+                        "Ensure your page opening motion is flat and horizontal at chest height."
+                    ],
+                    "vocabulary_terms": [
+                        "Pen (कलम)",
+                        "Book (पुस्तक)",
+                        "Paper (कागज)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 18, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Join flat palms at pinky edges and open them up",
+                            "Tap both thumbs together",
+                            "Draw a line down your chest",
+                            "Clasp fingers tightly"
+                        ],
+                        "correct_answer": "Join flat palms at pinky edges and open them up",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 18?",
+                                "options": [
+                                    "Join flat palms at pinky edges and open them up",
+                                    "Tap both thumbs together",
+                                    "Draw a line down your chest",
+                                    "Clasp fingers tightly"
+                                ],
+                                "correct_answer": "Join flat palms at pinky edges and open them up"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Book": "Palms open flat",
+                                    "Pen": "Writing trace on palm",
+                                    "Paper": "Tap flat palms parallel flat"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I BOOK READ'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "BOOK",
+                                    "READ"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_18_lesson-18-identifying-stationery-and-writing-tools",
+                        "description": "Visual illustration representing Lesson 18: Identifying Stationery & Writing Tools.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 18: Identifying Stationery & Writing Tools, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 4,
+            "module_name": "Module 4: Places, Towns & Travel Logistics",
+            "short_name": "places-travel-logistics",
+            "description": "Navigate cities, locate public landmarks, identify transport modes, and sign geographical terms.",
+            "lessons": [
+                {
+                    "video_number": 19,
+                    "lesson_id": "lesson-19",
+                    "lesson_title": "Lesson 19: Core Places & Local Neighborhood Places",
+                    "category": "Places & Logistics",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=19",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=18",
+                    "theory": "Local places like 'House', 'School', and 'Shop' are signed using physical roofs or actions. 'House' uses both flat palms pointing together at an angle to outline a physical roof structure, while 'School' taps hands in an educational request.",
+                    "practical_instructions": [
+                        "For 'House' (घर), join both flat hands at the fingertips to form an inverted 'V' roof angle.",
+                        "Keep the roof peak aligned with your nose midline.",
+                        "Practice smooth transitions: 'MY' (flat palm) -> 'HOUSE' (roof shape) -> 'BIG' (hands apart)."
+                    ],
+                    "vocabulary_terms": [
+                        "House (घर)",
+                        "School (विद्यालय)",
+                        "Shop (दुकान)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 19, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Inverted 'V' roof shape with flat hands",
+                            "Drawing a large square",
+                            "Tapping shoulders thrice",
+                            "Waving hand forward"
+                        ],
+                        "correct_answer": "Inverted 'V' roof shape with flat hands",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 19?",
+                                "options": [
+                                    "Inverted 'V' roof shape with flat hands",
+                                    "Drawing a large square",
+                                    "Tapping shoulders thrice",
+                                    "Waving hand forward"
+                                ],
+                                "correct_answer": "Inverted 'V' roof shape with flat hands"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "House": "Inverted V roof",
+                                    "School": "Double hand-tap gesture",
+                                    "Shop": "Dipping hand scales"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'MY HOUSE NEAR'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "MY",
+                                    "HOUSE",
+                                    "NEAR"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_19_lesson-19-core-places-and-local-neighborhood-places",
+                        "description": "Visual illustration representing Lesson 19: Core Places & Local Neighborhood Places.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 19: Core Places & Local Neighborhood Places, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 20,
+                    "lesson_id": "lesson-20",
+                    "lesson_title": "Lesson 20: Public Buildings & Community Landmarks",
+                    "category": "Places & Logistics",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=20",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=19",
+                    "theory": "Landmarks like 'Hospital', 'Bank', and 'Office' are signed by combining the place roof sign with their associated actions. 'Hospital' combines 'House' with a red-cross sign, and 'Bank' combines 'House' with money/coins sliding.",
+                    "practical_instructions": [
+                        "To sign 'Hospital', first form the 'House' roof, then draw a cross on your arm or shoulder using your index finger.",
+                        "Ensure the cross drawing is clean, with the horizontal and vertical strokes being equal in length.",
+                        "Drill 'Hospital' vs 'Bank' to master compound sign combinations."
+                    ],
+                    "vocabulary_terms": [
+                        "Hospital (अस्पताल)",
+                        "Bank (बैंक)",
+                        "Office (कार्यालय)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 20, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Form 'House' roof then draw a cross on shoulder",
+                            "Shake both flat hands down",
+                            "Tap your head and chest",
+                            "Spell 'H' on flat palm"
+                        ],
+                        "correct_answer": "Form 'House' roof then draw a cross on shoulder",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 20?",
+                                "options": [
+                                    "Form 'House' roof then draw a cross on shoulder",
+                                    "Shake both flat hands down",
+                                    "Tap your head and chest",
+                                    "Spell 'H' on flat palm"
+                                ],
+                                "correct_answer": "Form 'House' roof then draw a cross on shoulder"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Hospital": "House + Cross draw",
+                                    "Bank": "House + Money rub",
+                                    "Office": "House + Typing trace"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'HE BANK GO'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "HE",
+                                    "BANK",
+                                    "GO"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_20_lesson-20-public-buildings-and-community-landmarks",
+                        "description": "Visual illustration representing Lesson 20: Public Buildings & Community Landmarks.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 20: Public Buildings & Community Landmarks, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 21,
+                    "lesson_id": "lesson-21",
+                    "lesson_title": "Lesson 21: Transit Modes & Vehicle Navigation (Part 1)",
+                    "category": "Places & Logistics",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=21",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=20",
+                    "theory": "Transit terms like 'Car', 'Bus', and 'Bicycle' replicate physical steering controls. 'Car' steering wheel control uses fists rotating left and right, and 'Bicycle' mimics vertical pedals rotating with closed fists.",
+                    "practical_instructions": [
+                        "For 'Car', grip an imaginary steering wheel with both fists in front of your chest and rotate them in tandem.",
+                        "For 'Bicycle', hold both fists at chest level and move them in alternating forward circular loops (pedaling).",
+                        "Ensure your Car wheel rotation is firm and does not wobble vertically."
+                    ],
+                    "vocabulary_terms": [
+                        "Car (कार)",
+                        "Bus (बस)",
+                        "Bicycle (साइकिल)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 21, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Grip imaginary wheel and rotate fists in tandem",
+                            "Slide one flat palm over another",
+                            "Alternating vertical loop overhead",
+                            "Make a horn honking wave"
+                        ],
+                        "correct_answer": "Grip imaginary wheel and rotate fists in tandem",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 21?",
+                                "options": [
+                                    "Grip imaginary wheel and rotate fists in tandem",
+                                    "Slide one flat palm over another",
+                                    "Alternating vertical loop overhead",
+                                    "Make a horn honking wave"
+                                ],
+                                "correct_answer": "Grip imaginary wheel and rotate fists in tandem"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Car": "Fists rotating wheel",
+                                    "Bicycle": "Alternating fists pedaling",
+                                    "Bus": "Big steering wheel sweep"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I BICYCLE RIDE'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "BICYCLE",
+                                    "RIDE"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_21_lesson-21-transit-modes-and-vehicle-navigation-part-1",
+                        "description": "Visual illustration representing Lesson 21: Transit Modes & Vehicle Navigation (Part 1).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 21: Transit Modes & Vehicle Navigation (Part 1), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 22,
+                    "lesson_id": "lesson-22",
+                    "lesson_title": "Lesson 22: Commercial Vehicles & Rail Transit (Part 2)",
+                    "category": "Places & Logistics",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=22",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=21",
+                    "theory": "Transit terms like 'Train', 'Aeroplane', and 'Auto Rickshaw' are highly graphic. 'Aeroplane' uses a Y-handshape gliding diagonally upward, while 'Train' mimics rotating wheel links or dual tracks.",
+                    "practical_instructions": [
+                        "For 'Aeroplane', extend your thumb and pinky (Y-shape) while keeping middle fingers flat, and glide your hand upward.",
+                        "For 'Train', slide your dominant flat hand back and forth over your non-dominant flat hand horizontally.",
+                        "Keep the aeroplane glide smooth and diagonal to show steady flight."
+                    ],
+                    "vocabulary_terms": [
+                        "Train (रेलगाड़ी)",
+                        "Aeroplane (हवाई जहाज)",
+                        "Auto (ऑटो)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 22, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Y-handshape gliding diagonally upward",
+                            "Circular rotation above head",
+                            "Thumbs-up hand flick",
+                            "Trace a square flat"
+                        ],
+                        "correct_answer": "Y-handshape gliding diagonally upward",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 22?",
+                                "options": [
+                                    "Y-handshape gliding diagonally upward",
+                                    "Circular rotation above head",
+                                    "Thumbs-up hand flick",
+                                    "Trace a square flat"
+                                ],
+                                "correct_answer": "Y-handshape gliding diagonally upward"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Aeroplane": "Y-shape diagonal glide",
+                                    "Train": "Flat palms parallel slide",
+                                    "Auto": "Handlebar grip twist"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'AEROPLANE HIGH FLY'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "AEROPLANE",
+                                    "HIGH",
+                                    "FLY"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_22_lesson-22-commercial-vehicles-and-rail-transit-part-2",
+                        "description": "Visual illustration representing Lesson 22: Commercial Vehicles & Rail Transit (Part 2).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 22: Commercial Vehicles & Rail Transit (Part 2), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 23,
+                    "lesson_id": "lesson-23",
+                    "lesson_title": "Lesson 23: Directing Travel, City Navigation & Directions",
+                    "category": "Places & Logistics",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=23",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=22",
+                    "theory": "Directions ('Left', 'Right', 'Straight', 'Near', 'Far') are signed with physical spatial movements. 'Straight' moves a flat palm forward, while 'Far' moves a hand outward in an elongated path with matching focused facial cues.",
+                    "practical_instructions": [
+                        "For 'Straight', hold your flat dominant hand perpendicular to your chest and push it forward.",
+                        "For 'Far', push your hand forward in a long, slow wave while squinting your eyes slightly.",
+                        "Ensure your directions are signed relative to your body's midline."
+                    ],
+                    "vocabulary_terms": [
+                        "Left (बाएं)",
+                        "Right (दाएं)",
+                        "Straight (सीधा)",
+                        "Far (दूर)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 23, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Perpendicular flat hand pushed forward",
+                            "Index pointing to shoulder",
+                            "Forming roof shape",
+                            "Fingers clasping tightly"
+                        ],
+                        "correct_answer": "Perpendicular flat hand pushed forward",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 23?",
+                                "options": [
+                                    "Perpendicular flat hand pushed forward",
+                                    "Index pointing to shoulder",
+                                    "Forming roof shape",
+                                    "Fingers clasping tightly"
+                                ],
+                                "correct_answer": "Perpendicular flat hand pushed forward"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Straight": "Perpendicular forward push",
+                                    "Far": "Elongated hand push wave",
+                                    "Near": "Hands brought close together"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'OFFICE STRAIGHT GO'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "OFFICE",
+                                    "STRAIGHT",
+                                    "GO"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_23_lesson-23-directing-travel,-city-navigation-and-directions",
+                        "description": "Visual illustration representing Lesson 23: Directing Travel, City Navigation & Directions.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 23: Directing Travel, City Navigation & Directions, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 24,
+                    "lesson_id": "lesson-24",
+                    "lesson_title": "Lesson 24: Core Geographical Signs & National Geography",
+                    "category": "Places & Logistics",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=24",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=23",
+                    "theory": "Geographical signs like 'India', 'State', and 'City' capture native features. The sign for 'India' points directly to the center of the forehead (marking the traditional cultural bindi location), and 'City' outlines a cluster of small roofs.",
+                    "practical_instructions": [
+                        "For 'India' (भारत), touch your dominant index finger to your forehead center, exactly between your eyebrows.",
+                        "Keep your hand stable for a brief second to clearly show the bindi marker.",
+                        "Drill 'India' -> 'My' -> 'Country' sequentially."
+                    ],
+                    "vocabulary_terms": [
+                        "India (भारत)",
+                        "State (राज्य)",
+                        "City (शहर)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 24, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Pointing index finger to the forehead center",
+                            "Forming roof with angled hands",
+                            "Drawing horizontal wave",
+                            "thumbs up chest tap"
+                        ],
+                        "correct_answer": "Pointing index finger to the forehead center",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 24?",
+                                "options": [
+                                    "Pointing index finger to the forehead center",
+                                    "Forming roof with angled hands",
+                                    "Drawing horizontal wave",
+                                    "thumbs up chest tap"
+                                ],
+                                "correct_answer": "Pointing index finger to the forehead center"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "India": "Forehead center tap",
+                                    "City": "Cluster of small roof taps",
+                                    "State": "Flat boundary outline"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I INDIA LIVE'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "INDIA",
+                                    "LIVE"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_24_lesson-24-core-geographical-signs-and-national-geography",
+                        "description": "Visual illustration representing Lesson 24: Core Geographical Signs & National Geography.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 24: Core Geographical Signs & National Geography, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 5,
+            "module_name": "Module 5: Weather, Seasons & Temporal Concepts",
+            "short_name": "weather-seasons-time",
+            "description": "Sign climatic phenomena, annual calendar days, months, and master the past/present/future timeline tracks.",
+            "lessons": [
+                {
+                    "video_number": 25,
+                    "lesson_id": "lesson-25",
+                    "lesson_title": "Lesson 25: Seasonal Weather & Sky Terms (Part 1)",
+                    "category": "Weather & Climate",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=25",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=24",
+                    "theory": "Climatic concepts like 'Rain', 'Sun', and 'Wind' replicate natural forces. 'Rain' uses downward wiggling fingers, while 'Sun' draws a circle in the upper corner of the signing space and bursts the palm open to represent rays.",
+                    "practical_instructions": [
+                        "For 'Rain' (बारिश), raise both hands to forehead height with palms down, and move them down while wiggling all fingers.",
+                        "For 'Sun' (सूरज), trace a circle overhead, then open your closed hand into a wide-open palm (sun rays).",
+                        "Ensure your rain fingers wiggle loosely and smoothly to represent continuous rainfall."
+                    ],
+                    "vocabulary_terms": [
+                        "Rain (बारिश)",
+                        "Sun (सूरज)",
+                        "Wind (हवा)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 25, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Downward moving hands with wiggling fingers",
+                            "Waving flat palms overhead",
+                            "Clasping both fists at chin",
+                            "Point index straight up"
+                        ],
+                        "correct_answer": "Downward moving hands with wiggling fingers",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 25?",
+                                "options": [
+                                    "Downward moving hands with wiggling fingers",
+                                    "Waving flat palms overhead",
+                                    "Clasping both fists at chin",
+                                    "Point index straight up"
+                                ],
+                                "correct_answer": "Downward moving hands with wiggling fingers"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Rain": "Wiggling fingers down",
+                                    "Sun": "Circle + palm ray burst",
+                                    "Wind": "Flat hands waving sideways"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'RAIN COMING IS'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "RAIN",
+                                    "COMING",
+                                    "IS"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_25_lesson-25-seasonal-weather-and-sky-terms-part-1",
+                        "description": "Visual illustration representing Lesson 25: Seasonal Weather & Sky Terms (Part 1).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 25: Seasonal Weather & Sky Terms (Part 1), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 26,
+                    "lesson_id": "lesson-26",
+                    "lesson_title": "Lesson 26: Climate Sensations & Physical Comfort (Part 2)",
+                    "category": "Weather & Climate",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=26",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=25",
+                    "theory": "Climate sensations like 'Hot', 'Cold', and 'Sweat' rely heavily on somatic responses. 'Cold' mimics a freezing shiver with closed fists, and 'Hot' mimics fanning your face with an open palm accompanied by an open mouth.",
+                    "practical_instructions": [
+                        "For 'Cold', pull both elbows tight against your ribs, hold closed fists, and shake your shoulders.",
+                        "For 'Hot', hold an open flat hand near your cheek and wave it back and forth as if fanning, puffing air.",
+                        "Emphasize the physical shiver or fan on your face; deadpan execution is incorrect."
+                    ],
+                    "vocabulary_terms": [
+                        "Cold (ठंड)",
+                        "Hot (गर्मी)",
+                        "Sweat (पसीना)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 26, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Fists held tight against ribs with a shoulder shiver",
+                            "Waving flat palms down",
+                            "Thumbs up tapping head",
+                            "Pointing index forward"
+                        ],
+                        "correct_answer": "Fists held tight against ribs with a shoulder shiver",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 26?",
+                                "options": [
+                                    "Fists held tight against ribs with a shoulder shiver",
+                                    "Waving flat palms down",
+                                    "Thumbs up tapping head",
+                                    "Pointing index forward"
+                                ],
+                                "correct_answer": "Fists held tight against ribs with a shoulder shiver"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Cold": "Elbows tight shiver",
+                                    "Hot": "Palm fanning face",
+                                    "Sweat": "Index finger wiping forehead"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'TODAY COLD VERY'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "TODAY",
+                                    "COLD",
+                                    "VERY"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_26_lesson-26-climate-sensations-and-physical-comfort-part-2",
+                        "description": "Visual illustration representing Lesson 26: Climate Sensations & Physical Comfort (Part 2).",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 26: Climate Sensations & Physical Comfort (Part 2), flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 27,
+                    "lesson_id": "lesson-27",
+                    "lesson_title": "Lesson 27: Temporal Grammar & Past/Present Timeline",
+                    "category": "Temporal Concept",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=27",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=26",
+                    "theory": "Time grammar in ISL operates on a physical, linear timeline. The space directly in front of your chest represents the 'Present', moving your hands backward behind your shoulder indicates the 'Past', and moving forward indicates 'Future'.",
+                    "practical_instructions": [
+                        "For 'Yesterday' (past), point your thumb backward over your dominant shoulder.",
+                        "For 'Today' (present), hold both flat hands parallel at chest level and move them down slightly.",
+                        "Practice transition shifts: 'Yesterday' (back thumb) -> 'Today' (present level)."
+                    ],
+                    "vocabulary_terms": [
+                        "Today (आज)",
+                        "Yesterday (कल - बीता हुआ)",
+                        "Present (वर्तमान)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 27, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Point your thumb backward over your shoulder",
+                            "Push flat palm forward",
+                            "Tap your wrists together",
+                            "Form roof overhead"
+                        ],
+                        "correct_answer": "Point your thumb backward over your shoulder",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 27?",
+                                "options": [
+                                    "Point your thumb backward over your shoulder",
+                                    "Push flat palm forward",
+                                    "Tap your wrists together",
+                                    "Form roof overhead"
+                                ],
+                                "correct_answer": "Point your thumb backward over your shoulder"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Yesterday": "Backward thumb tap over shoulder",
+                                    "Today": "Parallel palms chest drop",
+                                    "Present": "Neutral chest zone space"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I YESTERDAY ARRIVED'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "YESTERDAY",
+                                    "ARRIVED"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_27_lesson-27-temporal-grammar-and-past-present-timeline",
+                        "description": "Visual illustration representing Lesson 27: Temporal Grammar & Past/Present Timeline.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 27: Temporal Grammar & Past/Present Timeline, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 28,
+                    "lesson_id": "lesson-28",
+                    "lesson_title": "Lesson 28: Temporal Grammar & Future Timeline Track",
+                    "category": "Temporal Concept",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=28",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=27",
+                    "theory": "Complementing Lesson 27, the future timeline track covers terms like 'Tomorrow' (कल - आने वाला) and 'Future'. Since the future lies ahead, signs move forward from your shoulder midline into the forward signing space.",
+                    "practical_instructions": [
+                        "To sign 'Tomorrow' (कल), hold your dominant hand near your shoulder with index finger extended, and flick it forward.",
+                        "Ensure the forward flick is clean, heading directly towards the imaginary viewer.",
+                        "Drill 'Yesterday' (back point) vs 'Tomorrow' (forward flick) to lock in the timeline rules."
+                    ],
+                    "vocabulary_terms": [
+                        "Tomorrow (कल - आने वाला)",
+                        "Future (भविष्य)",
+                        "Soon (शीघ्र)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 28, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Flick your hand forward from shoulder midline",
+                            "Point thumb backward",
+                            "Tap chin with closed fist",
+                            "Spread palms laterally"
+                        ],
+                        "correct_answer": "Flick your hand forward from shoulder midline",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 28?",
+                                "options": [
+                                    "Flick your hand forward from shoulder midline",
+                                    "Point thumb backward",
+                                    "Tap chin with closed fist",
+                                    "Spread palms laterally"
+                                ],
+                                "correct_answer": "Flick your hand forward from shoulder midline"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Tomorrow": "Forward index flick",
+                                    "Future": "Elongated forward hand drift",
+                                    "Soon": "Quick forward hand snap"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'TOMORROW SCHOOL OPEN'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "TOMORROW",
+                                    "SCHOOL",
+                                    "OPEN"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_28_lesson-28-temporal-grammar-and-future-timeline-track",
+                        "description": "Visual illustration representing Lesson 28: Temporal Grammar & Future Timeline Track.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 28: Temporal Grammar & Future Timeline Track, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 29,
+                    "lesson_id": "lesson-29",
+                    "lesson_title": "Lesson 29: Weekly Calendar - Days of the Week",
+                    "category": "Calendar & Days",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=29",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=28",
+                    "theory": "Calendar signs like 'Monday' through 'Sunday' are compact and signed close to the upper torso. Each day has a distinct letter-shape identifier or numerical sequence (e.g., Sunday uses a circular sun wave or resting palms).",
+                    "practical_instructions": [
+                        "To sign 'Monday', form an 'M' handshape (three fingers draped over your thumb) and tap it twice on your flat palm.",
+                        "To sign 'Sunday', join flat palms or trace a sun-like circle at cheek height to represent rest/holiday.",
+                        "Keep day signs stable and clean in front of your chest."
+                    ],
+                    "vocabulary_terms": [
+                        "Monday (सोमवार)",
+                        "Sunday (रविवार)",
+                        "Week (सप्ताह)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 29, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "M-handshape tapped twice on flat palm",
+                            "thumbs up on chest",
+                            "Drawing inverted V",
+                            "Pointing index to forehead"
+                        ],
+                        "correct_answer": "M-handshape tapped twice on flat palm",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 29?",
+                                "options": [
+                                    "M-handshape tapped twice on flat palm",
+                                    "thumbs up on chest",
+                                    "Drawing inverted V",
+                                    "Pointing index to forehead"
+                                ],
+                                "correct_answer": "M-handshape tapped twice on flat palm"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Monday": "M-shape double palm tap",
+                                    "Sunday": "Resting palms or circular sun wave",
+                                    "Week": "Index sliding horizontally across palm"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'SUNDAY HOLIDAY IS'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "SUNDAY",
+                                    "HOLIDAY",
+                                    "IS"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_29_lesson-29-weekly-calendar---days-of-the-week",
+                        "description": "Visual illustration representing Lesson 29: Weekly Calendar - Days of the Week.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 29: Weekly Calendar - Days of the Week, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 30,
+                    "lesson_id": "lesson-30",
+                    "lesson_title": "Lesson 30: Annual Calendar - Months of the Year",
+                    "category": "Calendar & Days",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=30",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=29",
+                    "theory": "Annual timeline concepts cover 'Month' and 'Year'. 'Month' is signed by sliding your index down the back of your opposite hand, while 'Year' revolves one closed fist around another to represent a planetary orbit.",
+                    "practical_instructions": [
+                        "To sign 'Year' (वर्ष), revolve your dominant closed fist in a full vertical circle around your static non-dominant fist, ending on top.",
+                        "Keep the circular path smooth, symbolizing a full orbit.",
+                        "Practice compound calendar drills: 'ONE' (number) -> 'YEAR' (orbit) -> 'PAST' (back thumb)."
+                    ],
+                    "vocabulary_terms": [
+                        "Month (महीना)",
+                        "Year (वर्ष)",
+                        "Calendar (कैलेंडर)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 30, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Revolve dominant fist in vertical orbit around static fist",
+                            "Tap flat palm twice on shoulder",
+                            "Point index finger down",
+                            "Form roof with angled hands"
+                        ],
+                        "correct_answer": "Revolve dominant fist in vertical orbit around static fist",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 30?",
+                                "options": [
+                                    "Revolve dominant fist in vertical orbit around static fist",
+                                    "Tap flat palm twice on shoulder",
+                                    "Point index finger down",
+                                    "Form roof with angled hands"
+                                ],
+                                "correct_answer": "Revolve dominant fist in vertical orbit around static fist"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Year": "Revolving fist orbit",
+                                    "Month": "Index slide down opposite hand back",
+                                    "Calendar": "Drawing square grid"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'ONE YEAR FINISHED'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "ONE",
+                                    "YEAR",
+                                    "FINISHED"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_30_lesson-30-annual-calendar---months-of-the-year",
+                        "description": "Visual illustration representing Lesson 30: Annual Calendar - Months of the Year.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 30: Annual Calendar - Months of the Year, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                }
+            ]
+        },
+        {
+            "module_id": 6,
+            "module_name": "Module 6: Educational Terms, Grammar & Sentences",
+            "short_name": "education-grammar-sentences",
+            "description": "Learn academic terms, classroom requests, and construct complex Subject-Object-Verb (SOV) conversational sentences.",
+            "lessons": [
+                {
+                    "video_number": 31,
+                    "lesson_id": "lesson-31",
+                    "lesson_title": "Lesson 31: Educational Terms & School Vocabulary",
+                    "category": "Academic Vocabulary",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=31",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=30",
+                    "theory": "NIOS ISL emphasizes educational terms like 'Class', 'Student', and 'Teacher'. These utilize compound signs combining the place markers with professional descriptors (e.g., 'Teacher' is 'School' + 'Teaching' write movement).",
+                    "practical_instructions": [
+                        "To sign 'Teacher' (शिक्षक), perform the 'School' hand-tap, then mimic writing or teaching gestures forward.",
+                        "Ensure your teaching sign is active, with hand movements directed towards the viewer.",
+                        "Drill: 'MY' (palm) -> 'TEACHER' (write) -> 'GOOD' (thumbs up)."
+                    ],
+                    "vocabulary_terms": [
+                        "Teacher (शिक्षक)",
+                        "Student (छात्र)",
+                        "Class (कक्षा)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 31, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "School hand-tap combined with writing trace",
+                            "Thumbs-up chest tap",
+                            "Interlocking both hands together",
+                            "Point index to chin"
+                        ],
+                        "correct_answer": "School hand-tap combined with writing trace",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 31?",
+                                "options": [
+                                    "School hand-tap combined with writing trace",
+                                    "Thumbs-up chest tap",
+                                    "Interlocking both hands together",
+                                    "Point index to chin"
+                                ],
+                                "correct_answer": "School hand-tap combined with writing trace"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Teacher": "School + write gesture",
+                                    "Student": "School + reading posture",
+                                    "Class": "Double palm circular sweep"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'TEACHER CLASS ENTER'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "TEACHER",
+                                    "CLASS",
+                                    "ENTER"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_31_lesson-31-educational-terms-and-school-vocabulary",
+                        "description": "Visual illustration representing Lesson 31: Educational Terms & School Vocabulary.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 31: Educational Terms & School Vocabulary, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 32,
+                    "lesson_id": "lesson-32",
+                    "lesson_title": "Lesson 32: Core Academic Subjects & Disciplines",
+                    "category": "Academic Vocabulary",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=32",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=31",
+                    "theory": "Academic disciplines like 'Mathematics', 'Science', and 'English' use functional, hands-on mimicry. 'Mathematics' replicates calculating on your fingers, while 'Science' mimics mixing chemicals with beakers.",
+                    "practical_instructions": [
+                        "For 'Science' (विज्ञान), hold both hands as if holding small test tubes and shake them in alternating vertical loops (mixing).",
+                        "For 'Mathematics' (गणित), perform a typing/computing finger wiggle or count knuckles sequentially.",
+                        "Keep your test tube mixing gesture centered near your chest."
+                    ],
+                    "vocabulary_terms": [
+                        "Mathematics (गणित)",
+                        "Science (विज्ञान)",
+                        "English (अंग्रेजी)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 32, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Hold imaginary tubes and wiggle them in alternating vertical loops",
+                            "Point thumb over shoulder",
+                            "Form roof with angled hands",
+                            "Tap flat palm on forehead"
+                        ],
+                        "correct_answer": "Hold imaginary tubes and wiggle them in alternating vertical loops",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 32?",
+                                "options": [
+                                    "Hold imaginary tubes and wiggle them in alternating vertical loops",
+                                    "Point thumb over shoulder",
+                                    "Form roof with angled hands",
+                                    "Tap flat palm on forehead"
+                                ],
+                                "correct_answer": "Hold imaginary tubes and wiggle them in alternating vertical loops"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Science": "Beaker mixing loops",
+                                    "Mathematics": "Calculating knuckles/finger wiggle",
+                                    "English": "Fingers spelling 'E' + point chin"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I MATHEMATICS LIKE'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "MATHEMATICS",
+                                    "LIKE"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_32_lesson-32-core-academic-subjects-and-disciplines",
+                        "description": "Visual illustration representing Lesson 32: Core Academic Subjects & Disciplines.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 32: Core Academic Subjects & Disciplines, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 33,
+                    "lesson_id": "lesson-33",
+                    "lesson_title": "Lesson 33: Classroom Requests & Commands",
+                    "category": "School Rules",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=33",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=32",
+                    "theory": "Common classroom demands like 'Sit down', 'Stand up', and 'Quiet please' are signed with direct, directional commands. 'Sit down' pushes flat palms down firmly, and 'Quiet please' places a vertical index finger on lips.",
+                    "practical_instructions": [
+                        "For 'Sit Down' (बैठो), hold both flat hands parallel at chest level and push them down in a crisp, firm motion.",
+                        "For 'Quiet Please' (शांत रहो), place your dominant index finger vertically against your lips with matching neutral facial cues.",
+                        "Ensure the downward push of 'Sit' is sharp and has a clean, definitive stop."
+                    ],
+                    "vocabulary_terms": [
+                        "Sit (बैठो)",
+                        "Stand (खड़े हो जाओ)",
+                        "Quiet (शांत)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 33, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Push both flat hands down in a firm, crisp motion",
+                            "Flick thumb backward twice",
+                            "Waving hands overhead",
+                            "Tapping shoulders thrice"
+                        ],
+                        "correct_answer": "Push both flat hands down in a firm, crisp motion",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 33?",
+                                "options": [
+                                    "Push both flat hands down in a firm, crisp motion",
+                                    "Flick thumb backward twice",
+                                    "Waving hands overhead",
+                                    "Tapping shoulders thrice"
+                                ],
+                                "correct_answer": "Push both flat hands down in a firm, crisp motion"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Sit": "Parallel palms push down",
+                                    "Quiet": "Index finger vertical on lips",
+                                    "Stand": "Two fingers standing on flat hand"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'CLASS QUIET BE'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "CLASS",
+                                    "QUIET",
+                                    "BE"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_33_lesson-33-classroom-requests-and-commands",
+                        "description": "Visual illustration representing Lesson 33: Classroom Requests & Commands.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 33: Classroom Requests & Commands, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 34,
+                    "lesson_id": "lesson-34",
+                    "lesson_title": "Lesson 34: Subject-Object-Verb (SOV) Sentence Syntax",
+                    "category": "Grammar & Sentences",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=34",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=33",
+                    "theory": "This lesson introduces ISL sentence structure. Unlike English (which uses SVO), ISL strictly follows a **Subject-Object-Verb (SOV)** syntax. For example, the sentence 'I see a dog' must be signed in the exact order: 'I' (Subject) -> 'DOG' (Object) -> 'SEE' (Verb).",
+                    "practical_instructions": [
+                        "Construct the sentence 'My sister reads a book'.",
+                        "Sign 'MY SISTER' (Subject) first, then 'BOOK' (Object), and end with 'READ' (Verb).",
+                        "Ensure there are no extra pauses between signs so the sentence flows naturally."
+                    ],
+                    "vocabulary_terms": [
+                        "SOV Syntax (SOV वाक्य विन्यास)",
+                        "Sentence Flow (वाक्य प्रवाह)",
+                        "Verb Terminal (क्रिया अंत में)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 34, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Subject-Object-Verb (SOV)",
+                            "Subject-Verb-Object (SVO)",
+                            "Verb-Subject-Object (VSO)",
+                            "Object-Verb-Subject (OVS)"
+                        ],
+                        "correct_answer": "Subject-Object-Verb (SOV)",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 34?",
+                                "options": [
+                                    "Subject-Object-Verb (SOV)",
+                                    "Subject-Verb-Object (SVO)",
+                                    "Verb-Subject-Object (VSO)",
+                                    "Object-Verb-Subject (OVS)"
+                                ],
+                                "correct_answer": "Subject-Object-Verb (SOV)"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "ISL Syntax": "Subject-Object-Verb (SOV)",
+                                    "English Syntax": "Subject-Verb-Object (SVO)",
+                                    "Verb Place": "Terminal placement"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I DOG SEE'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "DOG",
+                                    "SEE"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_34_lesson-34-subject-object-verb-sov-sentence-syntax",
+                        "description": "Visual illustration representing Lesson 34: Subject-Object-Verb (SOV) Sentence Syntax.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 34: Subject-Object-Verb (SOV) Sentence Syntax, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 35,
+                    "lesson_id": "lesson-35",
+                    "lesson_title": "Lesson 35: Interrogative Sentences & WH-Question Placement",
+                    "category": "Grammar & Sentences",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=35",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=34",
+                    "theory": "Interrogative sentences ('What', 'Why', 'Where', 'When') follow two strict grammatical rules: (1) The question word is always placed at the very end of the sentence (e.g. 'Your name what?'), and (2) You must furrow your eyebrows as a mandatory grammatical marker.",
+                    "practical_instructions": [
+                        "Sign the question: 'Where is your house?'.",
+                        "First sign 'YOUR' (flat palm), then 'HOUSE' (roof shape), and end with 'WHERE' (question pointer).",
+                        "Make sure to furrow your eyebrows while signing 'WHERE' at the end of the sentence."
+                    ],
+                    "vocabulary_terms": [
+                        "What (क्या)",
+                        "Why (क्यों)",
+                        "Where (कहाँ)",
+                        "Eyebrow Furrow (भौं सिकोड़ना)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 35, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Placed at the very end of the sentence",
+                            "Placed at the beginning of the sentence",
+                            "Placed right after the subject",
+                            "Question words are omitted"
+                        ],
+                        "correct_answer": "Placed at the very end of the sentence",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 35?",
+                                "options": [
+                                    "Placed at the very end of the sentence",
+                                    "Placed at the beginning of the sentence",
+                                    "Placed right after the subject",
+                                    "Question words are omitted"
+                                ],
+                                "correct_answer": "Placed at the very end of the sentence"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "WH Word": "Terminal sentence spot",
+                                    "Eyebrows": "Furrowed question marker",
+                                    "Where": "Hands face-up shaking"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'YOUR HOUSE WHERE'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "YOUR",
+                                    "HOUSE",
+                                    "WHERE"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_35_lesson-35-interrogative-sentences-and-wh-question-placement",
+                        "description": "Visual illustration representing Lesson 35: Interrogative Sentences & WH-Question Placement.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 35: Interrogative Sentences & WH-Question Placement, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 36,
+                    "lesson_id": "lesson-36",
+                    "lesson_title": "Lesson 36: Negatives, Rejection & Terminal Headshakes",
+                    "category": "Grammar & Sentences",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=36",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=35",
+                    "theory": "Negative sentences ('No', 'Not', 'Don't know') require terminal placement of the negative sign. A negative statement is accompanied by a headshake. This headshake is a linguistic marker, not just a physical gesture; signing 'NO' with a deadpan face is incorrect.",
+                    "practical_instructions": [
+                        "Sign the sentence: 'I do not understand'.",
+                        "Sign 'I' (Point chest), then 'UNDERSTAND' (flick forehead), and end with 'NOT/NO' accompanied by a headshake.",
+                        "Ensure the headshake perfectly overlaps with the terminal negative sign."
+                    ],
+                    "vocabulary_terms": [
+                        "No (नहीं)",
+                        "Don't know (पता नहीं है)",
+                        "Headshake (सिर हिलाना)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 36, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "A coordinated headshake",
+                            "A smile and head nod",
+                            "Clapping hands twice",
+                            "Pointing up to the sky"
+                        ],
+                        "correct_answer": "A coordinated headshake",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 36?",
+                                "options": [
+                                    "A coordinated headshake",
+                                    "A smile and head nod",
+                                    "Clapping hands twice",
+                                    "Pointing up to the sky"
+                                ],
+                                "correct_answer": "A coordinated headshake"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Negative Sign": "Terminal sentence placement",
+                                    "Headshake": "Linguistic marker",
+                                    "Not": "Flat palm swept forward shake"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I UNDERSTAND NOT'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "UNDERSTAND",
+                                    "NOT"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_36_lesson-36-negatives,-rejection-and-terminal-headshakes",
+                        "description": "Visual illustration representing Lesson 36: Negatives, Rejection & Terminal Headshakes.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 36: Negatives, Rejection & Terminal Headshakes, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 37,
+                    "lesson_id": "lesson-37",
+                    "lesson_title": "Lesson 37: Student-Teacher Conversational Dialogue",
+                    "category": "Conversational Dialogue",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=37",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=36",
+                    "theory": "This lesson demonstrates full conversation between a teacher and a student. It applies the rules of initiating conversation (Lesson 5), asking questions (Lesson 35), and polite manners (Lesson 4) in a structured, interactive format.",
+                    "practical_instructions": [
+                        "Roleplay the student: Sign 'NAMASTE' -> 'MY NAME [Name]' -> 'STUDENT I' sequentially.",
+                        "Roleplay the teacher: Sign 'WELCOME' -> 'YOU' -> 'STUDY' -> 'READY' -> 'WHAT'.",
+                        "Maintain natural pauses between speaker turns as shown in the video."
+                    ],
+                    "vocabulary_terms": [
+                        "Conversation (बातचीत)",
+                        "Dialogue (संवाद)",
+                        "Roleplay (अभिनय)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 37, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "SOV syntax, polite manners, and terminal question placement",
+                            "Fast letters spelling",
+                            "Avoiding face movements",
+                            "Shouting loudly"
+                        ],
+                        "correct_answer": "SOV syntax, polite manners, and terminal question placement",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 37?",
+                                "options": [
+                                    "SOV syntax, polite manners, and terminal question placement",
+                                    "Fast letters spelling",
+                                    "Avoiding face movements",
+                                    "Shouting loudly"
+                                ],
+                                "correct_answer": "SOV syntax, polite manners, and terminal question placement"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Student": "Initial namaste + spell",
+                                    "Teacher": "Polite welcome + WH-word",
+                                    "Dialogue": "Interactive turn-taking"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'TEACHER I RESPECT'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "TEACHER",
+                                    "I",
+                                    "RESPECT"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_37_lesson-37-student-teacher-conversational-dialogue",
+                        "description": "Visual illustration representing Lesson 37: Student-Teacher Conversational Dialogue.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 37: Student-Teacher Conversational Dialogue, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                },
+                {
+                    "video_number": 38,
+                    "lesson_id": "lesson-38",
+                    "lesson_title": "Lesson 38: Master Course Review & Assessment",
+                    "category": "Conversational Dialogue",
+                    "video_url": "https://www.youtube.com/watch?list=PLHhpObfAQ1ss&index=38",
+                    "embed_url": "https://www.youtube.com/embed?listType=playlist&list=PLHhpObfAQ1ss&index=37",
+                    "theory": "The final lesson reviews the entire NIOS 38-video curriculum. It covers fingerspelling mastery, household and nature vocabulary, timeline Tracks (past/present/future), and proper SOV grammatical structures, preparing you for real-world interactions.",
+                    "practical_instructions": [
+                        "Practice spelling the entire alphabet smoothly from A to Z.",
+                        "Construct and sign a complex sentence: 'Tomorrow, my grandfather is coming to my house.'",
+                        "In order: 'TOMORROW' -> 'MY GRANDFATHER' -> 'MY HOUSE' -> 'COME' (SOV timeline sequence)."
+                    ],
+                    "vocabulary_terms": [
+                        "Assessment (मूल्यांकन)",
+                        "Fluency (प्रवाह)",
+                        "Review (समीक्षा)"
+                    ],
+                    "duolingo_style_questions": {
+                        "question_type": "multiple_choice",
+                        "prompt": "Based on Lesson 38, what is the key concept or physical movement rule taught here?",
+                        "options": [
+                            "Steady two-handed finger transition speed and stable base hand",
+                            "Spelling letters as fast as possible",
+                            "Keeping wrists stiff",
+                            "Moving your arms up and down"
+                        ],
+                        "correct_answer": "Steady two-handed finger transition speed and stable base hand",
+                        "exercises": [
+                            {
+                                "type": "multiple_choice",
+                                "prompt": "What is the core physical rule for Lesson 38?",
+                                "options": [
+                                    "Steady two-handed finger transition speed and stable base hand",
+                                    "Spelling letters as fast as possible",
+                                    "Keeping wrists stiff",
+                                    "Moving your arms up and down"
+                                ],
+                                "correct_answer": "Steady two-handed finger transition speed and stable base hand"
+                            },
+                            {
+                                "type": "tap_pairs",
+                                "prompt": "Match these sign language vocabulary pairs:",
+                                "pairs": {
+                                    "Fingerspelling": "Steady transitions speed",
+                                    "Timeline": "Past/Present/Future tracks",
+                                    "Syntax": "Subject-Object-Verb (SOV)"
+                                }
+                            },
+                            {
+                                "type": "translate_sentence",
+                                "prompt": "Form the correct Indian Sign Language sign order for: 'I COURSE FINISHED'",
+                                "instruction": "Remember that ISL typically uses Subject-Object-Verb (SOV) order.",
+                                "correct_sequence": [
+                                    "I",
+                                    "COURSE",
+                                    "FINISHED"
+                                ]
+                            }
+                        ]
+                    },
+                    "image_spec": {
+                        "image_id": "img_lesson_38_lesson-38-master-course-review-and-assessment",
+                        "description": "Visual illustration representing Lesson 38: Master Course Review & Assessment.",
+                        "visual_prompt": "Minimalist clean vector card icon depicting fingerspelling or hand gestures representing Lesson 38: Master Course Review & Assessment, flat modern design, school blue and yellow theme, isolated white background."
+                    }
+                }
+            ]
+        }
+    ]
+}

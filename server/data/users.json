@@ -1,0 +1,45 @@
+{
+  "xrEEztqdfyWk69orujgZj6wZIuW2": {
+    "xp": 0,
+    "hearts": 5,
+    "maxHearts": 5,
+    "streakDays": 1,
+    "lastStreakDate": "2026-08-24",
+    "completedPhrases": [],
+    "completedUnits": [],
+    "soundEnabled": true,
+    "vibrationEnabled": true,
+    "dailyGoalXp": 30,
+    "todayXpEarned": 0,
+    "level": 1,
+    "title": "Beginner Signer",
+    "user": {
+      "uid": "xrEEztqdfyWk69orujgZj6wZIuW2",
+      "email": "admin@islbuddy.com",
+      "emailVerified": false,
+      "displayName": "chaitanya",
+      "isAnonymous": false,
+      "providerData": [
+        {
+          "providerId": "password",
+          "uid": "admin@islbuddy.com",
+          "displayName": "chaitanya",
+          "email": "admin@islbuddy.com",
+          "phoneNumber": null,
+          "photoURL": null
+        }
+      ],
+      "stsTokenManager": {
+        "refreshToken": "AMf-vBwIwhNRQGOwozvRvNUZ3XPLscY-6sUle8a3Ey0rI3hcUdl8ipN6EMuQvmYhrXZ241gu4zZxYYVTKvyBns3l7Dtv-yH5gGkwTHI6EHxtBTh8lowMdFN1IduHZiExiAvcJsWTPGXZydNUMW6BMOBbiiqJjPx82NCfSnm-RXvdmNGBfQOHRNCAc-XDqoTgxgZ5Xi8NUhh2fWzRtiscpwZS2_z_ikm3eA",
+        "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZhYzkwNDdmNjcxMmZjZDVjZjY3YTMzMDc5NDFkOWZhNDIyODM5NTUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiY2hhaXRhbnlhIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL211ZHJhbGVhcm4iLCJhdWQiOiJtdWRyYWxlYXJuIiwiYXV0aF90aW1lIjoxNzg2NjMxNzQxLCJ1c2VyX2lkIjoieHJFRXp0cWRmeVdrNjlvcnVqZ1pqNndaSXVXMiIsInN1YiI6InhyRUV6dHFkZnlXazY5b3J1amdaajZ3Wkl1VzIiLCJpYXQiOjE3ODc1Nzk3NTAsImV4cCI6MTc4NzU4MzM1MCwiZW1haWwiOiJhZG1pbkBpc2xidWRkeS5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYWRtaW5AaXNsYnVkZHkuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.Qn0ldGwXx7H1wVRPnqf13j18yqgQyamPUX-KCPjew_L5pAKGApa9NXJ-0ogxi9FefL3DzF60tffX4Ig_CORecibA0Z7Mhe5GimWPegIrUsm6IspPDP2PIWH6g06q9lZ-DxZ7eZemEBOCnlHzgb_L62peMI_SCzwcZYZKTKpvuQOWSPn6RgOsxxLP4MgyVzVtfzxc15PFMrd4Ubmq_MmzlIklCGoFn8X6H3VIRW54dRZ8f5SzuYWWnALIZEmJqfWmB5yHIcKh7SwYaj9NYcoP_DzvHCWmsFowus12SWIne7xVETgQg1MEI97rBN2AnXO0qC1ymp6pZ4Z-5--sSNJqfQ",
+        "expirationTime": 1787583350418
+      },
+      "createdAt": "1786631253570",
+      "lastLoginAt": "1786684179495",
+      "apiKey": "AIzaSyBoKDwQa0GQYnX7k7VNxCOZg2doZmVDtk8",
+      "appName": "[DEFAULT]"
+    },
+    "username": "chaitanya",
+    "appLanguage": "english"
+  }
+}
