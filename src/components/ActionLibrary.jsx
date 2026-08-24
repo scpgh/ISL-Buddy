@@ -840,7 +840,7 @@ export default function ActionLibrary({ userProgress }) {
             </div>
 
             {/* Embedded Responsive YouTube Video Player */}
-            <div className="relative aspect-video rounded-2xl overflow-hidden bg-black mb-4 border-2 border-[#37464f] shadow-inner">
+            <div className="relative aspect-video rounded-2xl overflow-hidden bg-black mb-3 border-2 border-[#37464f] shadow-inner">
               <iframe
                 src={activeItemModal.embedUrl}
                 title={`ISL Video Sign: ${activeItemModal.title}`}
@@ -849,6 +849,18 @@ export default function ActionLibrary({ userProgress }) {
                 allowFullScreen
               ></iframe>
             </div>
+
+            {/* Direct YouTube Video Watch Link Button */}
+            <a
+              href={activeItemModal.watchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-3 px-4 mb-5 rounded-2xl bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white font-black text-sm flex items-center justify-center gap-2 transition-all shadow-md active:scale-[0.98]"
+            >
+              <Play className="w-4 h-4 fill-white" />
+              <span>▶ Watch "{activeItemModal.title}" Video #{activeItemModal.videoIndex || 1} on YouTube</span>
+              <ExternalLink className="w-4 h-4 ml-auto opacity-80" />
+            </a>
 
             {/* Comprehensive Details Section */}
             <div className="space-y-3 mb-5">
